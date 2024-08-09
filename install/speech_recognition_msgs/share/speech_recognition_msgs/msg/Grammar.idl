@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from speech_recognition_msgs/msg/Grammar.msg
+// generated code does not contain a copyright notice
+
+#include "speech_recognition_msgs/msg/PhraseRule.idl"
+#include "speech_recognition_msgs/msg/Vocabulary.idl"
+
+module speech_recognition_msgs {
+  module msg {
+    struct Grammar {
+      @verbatim (language="comment", text=
+        "register this grammar with the name")
+      string name;
+
+      sequence<speech_recognition_msgs::msg::PhraseRule> rules;
+
+      sequence<string> categories;
+
+      sequence<speech_recognition_msgs::msg::Vocabulary> vocabularies;
+    };
+  };
+};

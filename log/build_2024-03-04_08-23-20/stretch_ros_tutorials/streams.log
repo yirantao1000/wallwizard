@@ -1,0 +1,109 @@
+[6.396s] Invoking command in '/home/hello-robot/ament_ws/src/stretch_tutorials': PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_ros_tutorials/prefix_override:/home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/stretch_ros_tutorials build --build-base /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build install --record /home/hello-robot/ament_ws/build/stretch_ros_tutorials/install.log --single-version-externally-managed
+[8.514s] /home/hello-robot/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:30: RuntimeWarning: 
+[8.514s] ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x
+[8.514s] 
+[8.514s] Your build configuration is incomplete and previously worked by accident!
+[8.514s] setuptools_scm requires setuptools>=61
+[8.514s] 
+[8.514s] Suggested workaround if applicable:
+[8.514s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[8.514s]    and using a pyproject.toml to declare build dependencies
+[8.515s]    which are reliably pre-installed before running the build tools
+[8.515s] 
+[8.515s]   warnings.warn(
+[8.649s] running egg_info
+[8.650s] creating ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info
+[8.651s] writing ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/PKG-INFO
+[8.651s] writing dependency_links to ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/dependency_links.txt
+[8.651s] writing entry points to ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/entry_points.txt
+[8.675s] writing requirements to ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/requires.txt
+[8.675s] writing top-level names to ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/top_level.txt
+[8.676s] writing manifest file '../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/SOURCES.txt'
+[10.011s] writing manifest file '../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/SOURCES.txt'
+[10.011s] running build
+[10.011s] running build_py
+[10.012s] creating /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build
+[10.012s] creating /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib
+[10.012s] creating /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.012s] copying stretch_ros_tutorials/tf_broadcaster.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.013s] copying stretch_ros_tutorials/multipoint_command.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.013s] copying stretch_ros_tutorials/capture_image.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.013s] copying stretch_ros_tutorials/__init__.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.014s] copying stretch_ros_tutorials/voice_teleoperation_base.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.014s] copying stretch_ros_tutorials/speech_text.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.015s] copying stretch_ros_tutorials/tf_listener.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.015s] copying stretch_ros_tutorials/marker.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.015s] copying stretch_ros_tutorials/aruco_tag_locator.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.018s] copying stretch_ros_tutorials/stow_command.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.027s] copying stretch_ros_tutorials/joint_state_printer.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.027s] copying stretch_ros_tutorials/edge_detection.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.028s] copying stretch_ros_tutorials/move.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.028s] copying stretch_ros_tutorials/led_color_change.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.028s] copying stretch_ros_tutorials/forward_kinematics.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.028s] copying stretch_ros_tutorials/fk_poe.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.028s] copying stretch_ros_tutorials/avoider.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.028s] copying stretch_ros_tutorials/scan_filter.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.028s] copying stretch_ros_tutorials/effort_sensing.py -> /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials
+[10.029s] running install
+[10.030s] running install_lib
+[10.032s] creating /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.032s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/tf_broadcaster.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.032s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/multipoint_command.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.033s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/capture_image.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.033s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/__init__.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.033s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/voice_teleoperation_base.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.033s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/speech_text.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.034s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/tf_listener.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.034s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/marker.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.035s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/aruco_tag_locator.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.035s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/stow_command.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.036s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/joint_state_printer.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.043s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/edge_detection.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.051s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/move.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.059s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/led_color_change.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.059s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/forward_kinematics.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.060s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/fk_poe.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.060s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/avoider.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.060s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/scan_filter.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.060s] copying /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build/lib/stretch_ros_tutorials/effort_sensing.py -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials
+[10.061s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/tf_broadcaster.py to tf_broadcaster.cpython-310.pyc
+[10.063s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/multipoint_command.py to multipoint_command.cpython-310.pyc
+[10.065s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/capture_image.py to capture_image.cpython-310.pyc
+[10.076s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/__init__.py to __init__.cpython-310.pyc
+[10.076s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/voice_teleoperation_base.py to voice_teleoperation_base.cpython-310.pyc
+[10.078s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/speech_text.py to speech_text.cpython-310.pyc
+[10.079s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/tf_listener.py to tf_listener.cpython-310.pyc
+[10.079s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/marker.py to marker.cpython-310.pyc
+[10.080s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/aruco_tag_locator.py to aruco_tag_locator.cpython-310.pyc
+[10.082s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/stow_command.py to stow_command.cpython-310.pyc
+[10.095s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/joint_state_printer.py to joint_state_printer.cpython-310.pyc
+[10.096s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/edge_detection.py to edge_detection.cpython-310.pyc
+[10.096s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/move.py to move.cpython-310.pyc
+[10.097s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/led_color_change.py to led_color_change.cpython-310.pyc
+[10.099s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/forward_kinematics.py to forward_kinematics.cpython-310.pyc
+[10.100s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/fk_poe.py to fk_poe.cpython-310.pyc
+[10.101s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/avoider.py to avoider.cpython-310.pyc
+[10.102s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/scan_filter.py to scan_filter.cpython-310.pyc
+[10.102s] byte-compiling /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials/effort_sensing.py to effort_sensing.cpython-310.pyc
+[10.122s] running install_data
+[10.124s] creating /home/hello-robot/ament_ws/install/stretch_ros_tutorials/share/ament_index
+[10.124s] creating /home/hello-robot/ament_ws/install/stretch_ros_tutorials/share/ament_index/resource_index
+[10.124s] creating /home/hello-robot/ament_ws/install/stretch_ros_tutorials/share/ament_index/resource_index/packages
+[10.124s] copying resource/stretch_ros_tutorials -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/share/ament_index/resource_index/packages
+[10.125s] copying package.xml -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/share/stretch_ros_tutorials
+[10.125s] creating /home/hello-robot/ament_ws/install/stretch_ros_tutorials/share/stretch_ros_tutorials/rviz
+[10.125s] copying rviz/perception_example.rviz -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/share/stretch_ros_tutorials/rviz
+[10.125s] copying rviz/aruco_detector_example.rviz -> /home/hello-robot/ament_ws/install/stretch_ros_tutorials/share/stretch_ros_tutorials/rviz
+[10.125s] running install_egg_info
+[10.127s] Copying ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials-0.0.0-py3.10.egg-info
+[10.128s] running install_scripts
+[10.226s] Installing avoider script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[10.226s] Installing marker script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[10.259s] Installing move script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[10.259s] Installing multipoint_command script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[10.260s] Installing scan_filter script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[10.260s] Installing stow_command script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[10.260s] Installing tf_broadcaster script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[10.260s] Installing tf_listener script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[10.262s] writing list of installed files to '/home/hello-robot/ament_ws/build/stretch_ros_tutorials/install.log'
+[10.589s] Invoked command in '/home/hello-robot/ament_ws/src/stretch_tutorials' returned '0': PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_ros_tutorials/prefix_override:/home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/stretch_ros_tutorials build --build-base /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build install --record /home/hello-robot/ament_ws/build/stretch_ros_tutorials/install.log --single-version-externally-managed

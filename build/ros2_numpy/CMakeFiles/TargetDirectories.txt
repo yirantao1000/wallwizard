@@ -1,0 +1,11 @@
+/home/hello-robot/ament_ws/build/ros2_numpy/CMakeFiles/uninstall.dir
+/home/hello-robot/ament_ws/build/ros2_numpy/CMakeFiles/ros2_numpy_uninstall.dir
+/home/hello-robot/ament_ws/build/ros2_numpy/CMakeFiles/ament_cmake_python_copy_ros2_numpy.dir
+/home/hello-robot/ament_ws/build/ros2_numpy/CMakeFiles/ament_cmake_python_build_ros2_numpy_egg.dir
+/home/hello-robot/ament_ws/build/ros2_numpy/CMakeFiles/test.dir
+/home/hello-robot/ament_ws/build/ros2_numpy/CMakeFiles/edit_cache.dir
+/home/hello-robot/ament_ws/build/ros2_numpy/CMakeFiles/rebuild_cache.dir
+/home/hello-robot/ament_ws/build/ros2_numpy/CMakeFiles/list_install_components.dir
+/home/hello-robot/ament_ws/build/ros2_numpy/CMakeFiles/install.dir
+/home/hello-robot/ament_ws/build/ros2_numpy/CMakeFiles/install/local.dir
+/home/hello-robot/ament_ws/build/ros2_numpy/CMakeFiles/install/strip.dir

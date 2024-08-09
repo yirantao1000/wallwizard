@@ -1,0 +1,599 @@
+[0.798s] Invoking command in '/home/hello-robot/ament_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake /home/hello-robot/ament_ws/src/sllidar_ros2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/sllidar_ros2
+[4.095s] -- The C compiler identification is GNU 11.4.0
+[4.095s] -- The CXX compiler identification is GNU 11.4.0
+[4.095s] -- Detecting C compiler ABI info
+[4.095s] -- Detecting C compiler ABI info - done
+[4.096s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.096s] -- Detecting C compile features
+[4.096s] -- Detecting C compile features - done
+[4.096s] -- Detecting CXX compiler ABI info
+[4.096s] -- Detecting CXX compiler ABI info - done
+[4.096s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.096s] -- Detecting CXX compile features
+[4.096s] -- Detecting CXX compile features - done
+[4.096s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.096s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.096s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[4.097s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.097s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.097s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.097s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.097s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.097s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.097s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.097s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.097s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.097s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.097s] -- Looking for pthread.h
+[4.097s] -- Looking for pthread.h - found
+[4.097s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.098s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.098s] -- Found Threads: TRUE  
+[4.098s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.098s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[4.098s] -- Configuring done
+[4.098s] -- Generating done
+[4.099s] -- Build files have been written to: /home/hello-robot/ament_ws/build/sllidar_ros2
+[4.110s] Invoked command in '/home/hello-robot/ament_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake /home/hello-robot/ament_ws/src/sllidar_ros2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/sllidar_ros2
+[4.110s] Invoking command in '/home/hello-robot/ament_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/sllidar_ros2 -- -j16 -l16
+[4.266s] [  5%] Building CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o
+[4.271s] [ 10%] Building CXX object CMakeFiles/sllidar_client.dir/src/sllidar_client.cpp.o
+[4.278s] [ 15%] Building CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o
+[4.291s] [ 20%] Building CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/timer.cpp.o
+[4.294s] [ 25%] Building CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o
+[4.339s] [ 30%] Building CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/dataunpacker.cpp.o
+[4.411s] [ 35%] Building CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o
+[4.429s] [ 40%] Building CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o
+[4.469s] [ 45%] Building CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o
+[4.488s] [ 50%] Building CXX object CMakeFiles/sllidar_node.dir/sdk/src/rplidar_driver.cpp.o
+[4.493s] [ 55%] Building CXX object CMakeFiles/sllidar_node.dir/sdk/src/hal/thread.cpp.o
+[4.509s] [ 60%] Building CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_async_transceiver.cpp.o
+[4.615s] [ 65%] Building CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidar_driver.cpp.o
+[4.620s] [ 70%] Building CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_crc.cpp.o
+[4.632s] [ 75%] Building CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidarprotocol_codec.cpp.o
+[4.656s] [ 80%] Building CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_serial_channel.cpp.o
+[4.681s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41,
+[4.681s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_crc.h:36,
+[4.681s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_crc.cpp:33:
+[4.681s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[4.681s]    66 |     sl_u8 data[0];
+[4.681s]       |                ^
+[4.688s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_crc.h:36,
+[4.688s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_crc.cpp:33:
+[4.688s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[4.688s]   324 |     sl_u8  payload[0];
+[4.688s]       |                    ^
+[4.912s] [ 85%] Building CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_tcp_channel.cpp.o
+[5.545s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[5.545s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[5.545s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[5.546s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:
+[5.546s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[5.546s]    66 |     sl_u8 data[0];
+[5.546s]       |                ^
+[5.546s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[5.546s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[5.546s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[5.546s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:
+[5.546s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[5.547s]   324 |     sl_u8  payload[0];
+[5.547s]       |                    ^
+[5.716s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[5.716s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[5.716s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[5.716s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41,
+[5.716s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39:
+[5.716s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[5.716s]    66 |     sl_u8 data[0];
+[5.716s]       |                ^
+[5.716s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[5.717s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[5.717s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[5.717s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41,
+[5.717s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39:
+[5.717s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[5.717s]   324 |     sl_u8  payload[0];
+[5.717s]       |                    ^
+[5.745s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41,
+[5.745s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,
+[5.746s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33:
+[5.746s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[5.746s]    66 |     sl_u8 data[0];
+[5.746s]       |                ^
+[5.752s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,
+[5.753s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33:
+[5.753s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[5.753s]   324 |     sl_u8  payload[0];
+[5.753s]       |                    ^
+[5.877s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41,
+[5.877s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,
+[5.878s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33:
+[5.878s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[5.878s]    66 |     sl_u8 data[0];
+[5.878s]       |                ^
+[5.878s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,
+[5.878s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33:
+[5.878s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[5.878s]   324 |     sl_u8  payload[0];
+[5.879s]       |                    ^
+[5.881s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[5.882s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[5.882s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[5.882s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunnpacker_commondef.h:41,
+[5.882s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:39:
+[5.882s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[5.882s]    66 |     sl_u8 data[0];
+[5.882s]       |                ^
+[5.882s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[5.882s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[5.882s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[5.883s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunnpacker_commondef.h:41,
+[5.883s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:39:
+[5.883s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[5.883s]   324 |     sl_u8  payload[0];
+[5.883s]       |                    ^
+[5.899s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp: In member function ‘void sl::TcpChannel::setStatus(_u32)’:
+[5.899s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:109:29: warning: unused parameter ‘flag’ [-Wunused-parameter]
+[5.899s]   109 |         void setStatus(_u32 flag){}
+[5.899s]       |                        ~~~~~^~~~
+[6.121s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[6.121s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[6.122s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49,
+[6.122s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33:
+[6.122s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[6.122s]    66 |     sl_u8 data[0];
+[6.122s]       |                ^
+[6.128s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[6.128s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[6.128s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49,
+[6.128s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33:
+[6.128s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[6.128s]   324 |     sl_u8  payload[0];
+[6.129s]       |                    ^
+[6.167s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[6.167s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[6.167s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[6.167s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:35:
+[6.168s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[6.168s]    66 |     sl_u8 data[0];
+[6.168s]       |                ^
+[6.168s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[6.168s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[6.168s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[6.168s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:35:
+[6.168s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[6.168s]   324 |     sl_u8  payload[0];
+[6.168s]       |                    ^
+[6.251s] [ 90%] Building CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o
+[6.254s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[6.254s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[6.254s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49,
+[6.254s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:35:
+[6.254s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[6.254s]    66 |     sl_u8 data[0];
+[6.255s]       |                ^
+[6.255s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[6.255s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[6.255s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49,
+[6.255s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:35:
+[6.255s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[6.255s]   324 |     sl_u8  payload[0];
+[6.255s]       |                    ^
+[6.404s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:43:
+[6.404s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp: In static member function ‘static rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)’:
+[6.404s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:52:57: warning: cast between incompatible function types from ‘thread_proc_t’ {aka ‘long unsigned int (*)(void*)’} to ‘void* (*)(void*)’ [-Wcast-function-type]
+[6.404s]    52 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))proc, data);
+[6.405s]       |                                                         ^~~~~~~~~~~~~~~~~~~~~~~~
+[6.421s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[6.422s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[6.422s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[6.422s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41,
+[6.422s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39:
+[6.422s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[6.422s]    66 |     sl_u8 data[0];
+[6.422s]       |                ^
+[6.422s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[6.422s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[6.422s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[6.423s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41,
+[6.423s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39:
+[6.423s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[6.423s]   324 |     sl_u8  payload[0];
+[6.423s]       |                    ^
+[6.425s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[6.425s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[6.425s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[6.425s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41,
+[6.425s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39:
+[6.425s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[6.425s]    66 |     sl_u8 data[0];
+[6.425s]       |                ^
+[6.426s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp: In member function ‘u_result rp::hal::Thread::join(long unsigned int)’:
+[6.427s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:176:37: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[6.427s]   176 | u_result Thread::join(unsigned long timeout)
+[6.427s]       |                       ~~~~~~~~~~~~~~^~~~~~~
+[6.448s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[6.449s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[6.449s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49,
+[6.449s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41,
+[6.449s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39:
+[6.449s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[6.449s]   324 |     sl_u8  payload[0];
+[6.449s]       |                    ^
+[6.566s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[6.567s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[6.567s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49,
+[6.567s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:35:
+[6.567s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[6.567s]    66 |     sl_u8 data[0];
+[6.567s]       |                ^
+[6.596s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[6.597s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[6.597s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49,
+[6.597s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:35:
+[6.597s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[6.597s]   324 |     sl_u8  payload[0];
+[6.597s]       |                    ^
+[6.615s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function ‘bool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)’:
+[6.616s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74: warning: unused parameter ‘flags’ [-Wunused-parameter]
+[6.616s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, uint32_t flags)
+[6.616s]       |                                                                 ~~~~~~~~~^~~~~
+[6.616s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function ‘virtual void rp::arch::net::raw_serial::flush(_u32)’:
+[6.616s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30: warning: unused parameter ‘flags’ [-Wunused-parameter]
+[6.617s]   281 | void raw_serial::flush( _u32 flags)
+[6.617s]       |                         ~~~~~^~~~~
+[6.617s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function ‘virtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)’:
+[6.617s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[6.617s]   286 | int raw_serial::waitforsent(_u32 timeout, size_t * returned_size)
+[6.617s]       |                             ~~~~~^~~~~~~
+[6.617s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function ‘virtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)’:
+[6.617s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[6.617s]   292 | int raw_serial::waitforrecv(_u32 timeout, size_t * returned_size)
+[6.617s]       |                             ~~~~~^~~~~~~
+[6.619s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function ‘virtual void rp::arch::net::raw_serial::cancelOperation()’:
+[6.619s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:427:5: warning: value computed is not used [-Wunused-value]
+[6.619s]   427 |     (int)::write(_selfpipe[1], "x", 1);
+[6.620s]       |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6.678s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:40:
+[6.679s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)’:
+[6.679s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[6.679s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[6.679s]       |                                                ~~~~^~~~~~~
+[6.685s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36,
+[6.686s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39,
+[6.686s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49,
+[6.686s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33:
+[6.686s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[6.686s]    66 |     sl_u8 data[0];
+[6.686s]       |                ^
+[6.686s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36,
+[6.686s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40,
+[6.686s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49,
+[6.686s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33:
+[6.687s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[6.687s]   324 |     sl_u8  payload[0];
+[6.687s]       |                    ^
+[6.696s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66: warning: unused parameter ‘customCode’ [-Wunused-parameter]
+[6.696s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[6.696s]       |                                                             ~~~~~^~~~~~~~~~
+[6.696s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90: warning: unused parameter ‘data’ [-Wunused-parameter]
+[6.696s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[6.696s]       |                                                                              ~~~~~~~~~~~~^~~~
+[6.696s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103: warning: unused parameter ‘size’ [-Wunused-parameter]
+[6.696s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[6.696s]       |                                                                                                ~~~~~~~^~~~
+[6.697s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)’:
+[6.697s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42: warning: unused parameter ‘errMsg’ [-Wunused-parameter]
+[6.697s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[6.697s]       |                                      ~~~~^~~~~~
+[6.697s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[6.697s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[6.697s]       |                                                  ~~~~^~~~~~~
+[6.697s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75: warning: unused parameter ‘payload’ [-Wunused-parameter]
+[6.697s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[6.697s]       |                                                               ~~~~~~~~~~~~^~~~~~~
+[6.697s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91: warning: unused parameter ‘size’ [-Wunused-parameter]
+[6.697s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[6.697s]       |                                                                                    ~~~~~~~^~~~
+[6.703s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp: In member function ‘virtual void sl::internal::unpacker::UnpackerHandler_HQNode::onUnpackerContextSet(sl::internal::LIDARSampleDataUnpacker::UnpackerContextType, const void*, size_t)’:
+[6.703s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:177:127: warning: unused parameter ‘size’ [-Wunused-parameter]
+[6.703s]   177 | void UnpackerHandler_HQNode::onUnpackerContextSet(LIDARSampleDataUnpacker::UnpackerContextType type, const void* data, size_t size)
+[6.703s]       |                                                                                                                        ~~~~~~~^~~~
+[6.723s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘u_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)’:
+[6.723s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:67:77: warning: unused parameter ‘flag’ [-Wunused-parameter]
+[6.723s]    67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, _u32 flag)
+[6.723s]       |                                                                        ~~~~~^~~~
+[6.756s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘u_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)’:
+[6.756s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:101:40: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[6.756s]   101 |     u_result RPlidarDriver::reset(_u32 timeout)
+[6.756s]       |                                   ~~~~~^~~~~~~
+[6.757s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘u_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)’:
+[6.757s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:91: warning: unused parameter ‘nodebuffer’ [-Wunused-parameter]
+[6.758s]   180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, size_t & count)
+[6.758s]       |                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[6.758s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:112: warning: unused parameter ‘count’ [-Wunused-parameter]
+[6.758s]   180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, size_t & count)
+[6.758s]       |                                                                                                       ~~~~~~~~~^~~~~
+[6.817s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:44:
+[6.817s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h: In member function ‘virtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)’:
+[6.817s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48: warning: unused parameter ‘errCode’ [-Wunused-parameter]
+[6.817s]    90 |         virtual void   onChannelError(u_result errCode) {}
+[6.817s]       |                                       ~~~~~~~~~^~~~~~~
+[6.857s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:40:
+[6.857s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)’:
+[6.857s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:52: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[6.857s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[6.857s]       |                                                ~~~~^~~~~~~
+[6.858s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:66: warning: unused parameter ‘customCode’ [-Wunused-parameter]
+[6.858s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[6.858s]       |                                                             ~~~~~^~~~~~~~~~
+[6.858s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:90: warning: unused parameter ‘data’ [-Wunused-parameter]
+[6.858s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[6.859s]       |                                                                              ~~~~~~~~~~~~^~~~
+[6.859s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:103: warning: unused parameter ‘size’ [-Wunused-parameter]
+[6.859s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[6.859s]       |                                                                                                ~~~~~~~^~~~
+[6.859s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)’:
+[6.859s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:42: warning: unused parameter ‘errMsg’ [-Wunused-parameter]
+[6.859s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[6.859s]       |                                      ~~~~^~~~~~
+[6.860s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:54: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[6.860s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[6.860s]       |                                                  ~~~~^~~~~~~
+[6.860s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:75: warning: unused parameter ‘payload’ [-Wunused-parameter]
+[6.860s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[6.860s]       |                                                               ~~~~~~~~~~~~^~~~~~~
+[6.860s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:91: warning: unused parameter ‘size’ [-Wunused-parameter]
+[6.860s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[6.860s]       |                                                                                    ~~~~~~~^~~~
+[6.981s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:427:17: warning: ignoring return value of ‘ssize_t write(int, const void*, size_t)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+[6.981s]   427 |     (int)::write(_selfpipe[1], "x", 1);
+[6.981s]       |          ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+[7.111s] In file included from /usr/include/string.h:535,
+[7.111s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/src/arch/linux/arch_linux.h:40,
+[7.112s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:35:
+[7.112s] In function ‘char* strncpy(char*, const char*, size_t)’,
+[7.112s]     inlined from ‘virtual bool rp::arch::net::raw_serial::bind(const char*, uint32_t, uint32_t)’ at /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:91:12:
+[7.112s] /usr/include/x86_64-linux-gnu/bits/string_fortified.h:95:34: warning: ‘char* __builtin_strncpy(char*, const char*, long unsigned int)’ specified bound 200 equals destination size [-Wstringop-truncation]
+[7.112s]    95 |   return __builtin___strncpy_chk (__dest, __src, __len,
+[7.112s]       |          ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+[7.112s]    96 |                                   __glibc_objsize (__dest));
+[7.112s]       |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~
+[7.451s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:40:
+[7.452s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)’:
+[7.452s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[7.452s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[7.452s]       |                                                ~~~~^~~~~~~
+[7.468s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66: warning: unused parameter ‘customCode’ [-Wunused-parameter]
+[7.468s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[7.468s]       |                                                             ~~~~~^~~~~~~~~~
+[7.468s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90: warning: unused parameter ‘data’ [-Wunused-parameter]
+[7.468s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[7.469s]       |                                                                              ~~~~~~~~~~~~^~~~
+[7.469s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103: warning: unused parameter ‘size’ [-Wunused-parameter]
+[7.469s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[7.469s]       |                                                                                                ~~~~~~~^~~~
+[7.469s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)’:
+[7.469s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42: warning: unused parameter ‘errMsg’ [-Wunused-parameter]
+[7.469s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[7.469s]       |                                      ~~~~^~~~~~
+[7.469s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[7.469s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[7.470s]       |                                                  ~~~~^~~~~~~
+[7.470s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75: warning: unused parameter ‘payload’ [-Wunused-parameter]
+[7.470s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[7.470s]       |                                                               ~~~~~~~~~~~~^~~~~~~
+[7.470s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91: warning: unused parameter ‘size’ [-Wunused-parameter]
+[7.470s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[7.470s]       |                                                                                    ~~~~~~~^~~~
+[7.493s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp: In member function ‘virtual void sl::internal::unpacker::UnpackerHandler_NormalNode::onUnpackerContextSet(sl::internal::LIDARSampleDataUnpacker::UnpackerContextType, const void*, size_t)’:
+[7.493s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:144:131: warning: unused parameter ‘size’ [-Wunused-parameter]
+[7.493s]   144 | void UnpackerHandler_NormalNode::onUnpackerContextSet(LIDARSampleDataUnpacker::UnpackerContextType type, const void* data, size_t size)
+[7.493s]       |                                                                                                                            ~~~~~~~^~~~
+[7.586s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:40:
+[7.586s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)’:
+[7.586s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[7.586s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[7.586s]       |                                                ~~~~^~~~~~~
+[7.612s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66: warning: unused parameter ‘customCode’ [-Wunused-parameter]
+[7.613s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[7.613s]       |                                                             ~~~~~^~~~~~~~~~
+[7.613s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90: warning: unused parameter ‘data’ [-Wunused-parameter]
+[7.613s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[7.613s]       |                                                                              ~~~~~~~~~~~~^~~~
+[7.613s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103: warning: unused parameter ‘size’ [-Wunused-parameter]
+[7.613s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[7.613s]       |                                                                                                ~~~~~~~^~~~
+[7.613s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)’:
+[7.615s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42: warning: unused parameter ‘errMsg’ [-Wunused-parameter]
+[7.615s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[7.615s]       |                                      ~~~~^~~~~~
+[7.615s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[7.616s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[7.616s]       |                                                  ~~~~^~~~~~~
+[7.616s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75: warning: unused parameter ‘payload’ [-Wunused-parameter]
+[7.616s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[7.616s]       |                                                               ~~~~~~~~~~~~^~~~~~~
+[7.616s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91: warning: unused parameter ‘size’ [-Wunused-parameter]
+[7.616s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[7.616s]       |                                                                                    ~~~~~~~^~~~
+[7.629s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp: In member function ‘virtual void sl::internal::unpacker::UnpackerHandler_CapsuleNode::onUnpackerContextSet(sl::internal::LIDARSampleDataUnpacker::UnpackerContextType, const void*, size_t)’:
+[7.629s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:93:132: warning: unused parameter ‘size’ [-Wunused-parameter]
+[7.629s]    93 | void UnpackerHandler_CapsuleNode::onUnpackerContextSet(LIDARSampleDataUnpacker::UnpackerContextType type, const void* data, size_t size)
+[7.630s]       |                                                                                                                             ~~~~~~~^~~~
+[7.648s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp: In member function ‘virtual void sl::internal::unpacker::UnpackerHandler_UltraCapsuleNode::onUnpackerContextSet(sl::internal::LIDARSampleDataUnpacker::UnpackerContextType, const void*, size_t)’:
+[7.648s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:310:137: warning: unused parameter ‘size’ [-Wunused-parameter]
+[7.648s]   310 | void UnpackerHandler_UltraCapsuleNode::onUnpackerContextSet(LIDARSampleDataUnpacker::UnpackerContextType type, const void* data, size_t size)
+[7.648s]       |                                                                                                                                  ~~~~~~~^~~~
+[7.660s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp: In member function ‘virtual void sl::internal::unpacker::UnpackerHandler_DenseCapsuleNode::onUnpackerContextSet(sl::internal::LIDARSampleDataUnpacker::UnpackerContextType, const void*, size_t)’:
+[7.661s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:624:137: warning: unused parameter ‘size’ [-Wunused-parameter]
+[7.661s]   624 | void UnpackerHandler_DenseCapsuleNode::onUnpackerContextSet(LIDARSampleDataUnpacker::UnpackerContextType type, const void* data, size_t size)
+[7.661s]       |                                                                                                                                  ~~~~~~~^~~~
+[7.661s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41,
+[7.661s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,
+[7.661s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33:
+[7.661s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[7.661s]    66 |     sl_u8 data[0];
+[7.662s]       |                ^
+[7.662s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,
+[7.662s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33:
+[7.662s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[7.662s]   324 |     sl_u8  payload[0];
+[7.662s]       |                    ^
+[7.681s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp: In member function ‘void sl::internal::unpacker::UnpackerHandler_DenseCapsuleNode::_onScanNodeDenseCapsuleData(rplidar_response_dense_capsule_measurement_nodes_t&, sl::internal::LIDARSampleDataUnpackerInner*)’:
+[7.681s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:763:30: warning: type qualifiers ignored on cast result type [-Wignored-qualifiers]
+[7.681s]   763 |             const int dist = static_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance);
+[7.681s]       |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[7.683s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp: In member function ‘virtual void sl::internal::unpacker::UnpackerHandler_UltraDenseCapsuleNode::onUnpackerContextSet(sl::internal::LIDARSampleDataUnpacker::UnpackerContextType, const void*, size_t)’:
+[7.683s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:838:142: warning: unused parameter ‘size’ [-Wunused-parameter]
+[7.683s]   838 | void UnpackerHandler_UltraDenseCapsuleNode::onUnpackerContextSet(LIDARSampleDataUnpacker::UnpackerContextType type, const void* data, size_t size)
+[7.683s]       |                                                                                                                                       ~~~~~~~^~~~
+[7.715s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp: In member function ‘void sl::UdpChannel::setStatus(_u32)’:
+[7.715s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:112:29: warning: unused parameter ‘flag’ [-Wunused-parameter]
+[7.715s]   112 |         void setStatus(_u32 flag){}
+[7.715s]       |                        ~~~~~^~~~
+[7.839s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:49:
+[7.839s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h: In member function ‘virtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)’:
+[7.839s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48: warning: unused parameter ‘errCode’ [-Wunused-parameter]
+[7.839s]    90 |         virtual void   onChannelError(u_result errCode) {}
+[7.839s]       |                                       ~~~~~~~~~^~~~~~~
+[8.045s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:50:
+[8.045s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)’:
+[8.046s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:52: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[8.046s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[8.046s]       |                                                ~~~~^~~~~~~
+[8.046s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:66: warning: unused parameter ‘customCode’ [-Wunused-parameter]
+[8.046s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[8.046s]       |                                                             ~~~~~^~~~~~~~~~
+[8.047s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:90: warning: unused parameter ‘data’ [-Wunused-parameter]
+[8.047s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[8.047s]       |                                                                              ~~~~~~~~~~~~^~~~
+[8.047s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:103: warning: unused parameter ‘size’ [-Wunused-parameter]
+[8.047s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, size_t size) {}
+[8.047s]       |                                                                                                ~~~~~~~^~~~
+[8.048s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h: In member function ‘virtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)’:
+[8.048s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:42: warning: unused parameter ‘errMsg’ [-Wunused-parameter]
+[8.048s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[8.048s]       |                                      ~~~~^~~~~~
+[8.048s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:54: warning: unused parameter ‘ansType’ [-Wunused-parameter]
+[8.048s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[8.048s]       |                                                  ~~~~^~~~~~~
+[8.049s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:75: warning: unused parameter ‘payload’ [-Wunused-parameter]
+[8.049s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[8.049s]       |                                                               ~~~~~~~~~~~~^~~~~~~
+[8.049s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:91: warning: unused parameter ‘size’ [-Wunused-parameter]
+[8.049s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, size_t size) {}
+[8.049s]       |                                                                                    ~~~~~~~^~~~
+[8.106s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:51:
+[8.106s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h: In member function ‘virtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)’:
+[8.106s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48: warning: unused parameter ‘errCode’ [-Wunused-parameter]
+[8.106s]    90 |         virtual void   onChannelError(u_result errCode) {}
+[8.106s]       |                                       ~~~~~~~~~^~~~~~~
+[8.231s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In member function ‘virtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)’:
+[8.231s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:511:32: warning: unused parameter ‘timeoutInMs’ [-Wunused-parameter]
+[8.231s]   511 |         sl_result reset(sl_u32 timeoutInMs = DEFAULT_TIMEOUT)
+[8.231s]       |                         ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[8.238s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In member function ‘virtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)’:
+[8.238s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:586:69: warning: unused parameter ‘options’ [-Wunused-parameter]
+[8.238s]   586 |         sl_result startScan(bool force, bool useTypicalScan, sl_u32 options = 0, LidarScanMode* outUsedScanMode = nullptr)
+[8.238s]       |                                                              ~~~~~~~^~~~~~~~~~~
+[8.254s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In member function ‘virtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)’:
+[8.254s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:763:31: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[8.254s]   763 |         sl_result stop(sl_u32 timeout = DEFAULT_TIMEOUT)
+[8.254s]       |                        ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+[8.271s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In member function ‘virtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)’:
+[8.271s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:880:110: warning: unused parameter ‘nodes’ [-Wunused-parameter]
+[8.271s]   880 |         sl_result getFrequency(const LidarScanMode& scanMode, const sl_lidar_response_measurement_node_hq_t* nodes, size_t count, float& frequency)
+[8.271s]       |                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+[8.284s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In member function ‘virtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)’:
+[8.284s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1023:66: warning: unused parameter ‘timeoutInMs’ [-Wunused-parameter]
+[8.284s]  1023 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, sl_u32 timeoutInMs)
+[8.284s]       |                                                           ~~~~~~~^~~~~~~~~~~
+[8.294s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In member function ‘u_result sl::SlamtecLidarDriver::getScanModeCount(sl_u16&, sl_u32)’:
+[8.294s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1199:61: warning: unused parameter ‘timeoutInMs’ [-Wunused-parameter]
+[8.294s]  1199 |         u_result getScanModeCount(sl_u16& modeCount, sl_u32 timeoutInMs = DEFAULT_TIMEOUT)
+[8.294s]       |                                                      ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[8.569s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In instantiation of ‘void sl::RawSampleNodeHolder<T>::pushNode(_u64, const T*) [with T = sl_lidar_response_measurement_node_hq_t; _u64 = long unsigned int]’:
+[8.569s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1648:42:   required from here
+[8.569s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:202:28: warning: unused parameter ‘timestamp_uS’ [-Wunused-parameter]
+[8.569s]   202 |         void pushNode(_u64 timestamp_uS, const T* node)
+[8.569s]       |                       ~~~~~^~~~~~~~~~~~
+[9.134s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: At global scope:
+[9.134s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:83:17: warning: ‘void sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)’ defined but not used [-Wunused-function]
+[9.134s]    83 |     static void convert(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+[9.134s]       |                 ^~~~~~~
+[9.134s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:75:17: warning: ‘void sl::convert(const sl_lidar_response_measurement_node_t&, sl_lidar_response_measurement_node_hq_t&)’ defined but not used [-Wunused-function]
+[9.134s]    75 |     static void convert(const sl_lidar_response_measurement_node_t& from, sl_lidar_response_measurement_node_hq_t& to)
+[9.134s]       |                 ^~~~~~~
+[9.134s] /home/hello-robot/ament_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:70:17: warning: ‘void sl::printDeprecationWarn(const char*, const char*)’ defined but not used [-Wunused-function]
+[9.134s]    70 |     static void printDeprecationWarn(const char* fn, const char* replacement)
+[9.134s]       |                 ^~~~~~~~~~~~~~~~~~~~
+[16.038s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41,
+[16.038s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,
+[16.038s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36,
+[16.038s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/src/sllidar_node.cpp:38:
+[16.039s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+[16.039s]    66 |     sl_u8 data[0];
+[16.039s]       |                ^
+[16.039s] In file included from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54,
+[16.039s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36,
+[16.039s]                  from /home/hello-robot/ament_ws/src/sllidar_ros2/src/sllidar_node.cpp:38:
+[16.039s] /home/hello-robot/ament_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+[16.039s]   324 |     sl_u8  payload[0];
+[16.039s]       |                    ^
+[31.093s] [ 95%] Linking CXX executable sllidar_node
+[31.594s] [ 95%] Built target sllidar_node
+[35.717s] [100%] Linking CXX executable sllidar_client
+[35.897s] [100%] Built target sllidar_client
+[35.909s] Invoked command in '/home/hello-robot/ament_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/sllidar_ros2 -- -j16 -l16
+[36.017s] Invoking command in '/home/hello-robot/ament_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/sllidar_ros2
+[36.027s] -- Install configuration: "Release"
+[36.027s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch
+[36.027s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[36.028s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[36.028s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[36.028s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[36.028s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[36.028s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[36.028s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[36.028s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[36.028s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[36.028s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[36.028s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[36.028s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[36.028s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[36.029s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[36.029s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[36.029s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[36.029s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[36.029s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[36.029s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[36.029s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[36.029s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[36.029s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[36.030s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[36.030s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[36.030s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/rviz
+[36.030s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[36.030s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[36.030s] -- Set runtime path of "/home/hello-robot/ament_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node" to ""
+[36.030s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[36.031s] -- Set runtime path of "/home/hello-robot/ament_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client" to ""
+[36.031s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[36.031s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[36.032s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[36.032s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[36.032s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[36.032s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[36.032s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[36.032s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[36.032s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[36.033s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[36.033s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[36.033s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[36.033s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.033s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.033s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[36.033s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[36.033s] -- Installing: /home/hello-robot/ament_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[36.036s] Invoked command in '/home/hello-robot/ament_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/sllidar_ros2

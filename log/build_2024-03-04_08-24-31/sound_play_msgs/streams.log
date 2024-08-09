@@ -1,0 +1,222 @@
+[0.358s] Invoking command in '/home/hello-robot/ament_ws/build/sound_play_msgs': CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:/home/hello-robot/ament_ws/install/tf2_web_republisher:/home/hello-robot/ament_ws/install/stretch_web_teleop:/home/hello-robot/ament_ws/install/stretch_teleop_interface_msgs:/home/hello-robot/ament_ws/install/stretch_rtabmap:/home/hello-robot/ament_ws/install/stretch_nav2:/home/hello-robot/ament_ws/install/stretch_description:/home/hello-robot/ament_ws/install/speech_recognition_msgs:/home/hello-robot/ament_ws/install/sound_play_msgs:/home/hello-robot/ament_ws/install/audio_common:/home/hello-robot/ament_ws/install/sound_play:/home/hello-robot/ament_ws/install/sllidar_ros2:/home/hello-robot/ament_ws/install/rosbridge_test_msgs:/home/hello-robot/ament_ws/install/rosbridge_suite:/home/hello-robot/ament_ws/install/rosbridge_server:/home/hello-robot/ament_ws/install/rosbridge_msgs:/home/hello-robot/ament_ws/install/rosapi:/home/hello-robot/ament_ws/install/rosbridge_library:/home/hello-robot/ament_ws/install/rosapi_msgs:/home/hello-robot/ament_ws/install/ros2_numpy:/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:/home/hello-robot/ament_ws/install/audio_play:/home/hello-robot/ament_ws/install/audio_capture:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs/lib:/home/hello-robot/ament_ws/install/tf2_web_republisher/lib:/home/hello-robot/ament_ws/install/stretch_teleop_interface_msgs/lib:/home/hello-robot/ament_ws/install/speech_recognition_msgs/lib:/home/hello-robot/ament_ws/install/sound_play_msgs/lib:/home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib:/home/hello-robot/ament_ws/install/rosbridge_msgs/lib:/home/hello-robot/ament_ws/install/rosapi_msgs/lib:/home/hello-robot/ament_ws/install/realsense2_camera/lib:/home/hello-robot/ament_ws/install/realsense2_camera_msgs/lib:/home/hello-robot/ament_ws/install/audio_play/lib:/home/hello-robot/ament_ws/install/audio_capture/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/hello-robot/ament_ws/src/audio_common/sound_play_msgs -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/sound_play_msgs
+[0.608s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.608s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.608s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.609s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.609s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.780s] -- Found audio_common_msgs: 0.3.12 (/home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake)
+[0.780s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[1.321s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.945s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.945s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.945s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.945s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.945s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.945s] -- Configuring done
+[1.945s] -- Generating done
+[1.946s] -- Build files have been written to: /home/hello-robot/ament_ws/build/sound_play_msgs
+[1.946s] Invoked command in '/home/hello-robot/ament_ws/build/sound_play_msgs' returned '0': CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:/home/hello-robot/ament_ws/install/tf2_web_republisher:/home/hello-robot/ament_ws/install/stretch_web_teleop:/home/hello-robot/ament_ws/install/stretch_teleop_interface_msgs:/home/hello-robot/ament_ws/install/stretch_rtabmap:/home/hello-robot/ament_ws/install/stretch_nav2:/home/hello-robot/ament_ws/install/stretch_description:/home/hello-robot/ament_ws/install/speech_recognition_msgs:/home/hello-robot/ament_ws/install/sound_play_msgs:/home/hello-robot/ament_ws/install/audio_common:/home/hello-robot/ament_ws/install/sound_play:/home/hello-robot/ament_ws/install/sllidar_ros2:/home/hello-robot/ament_ws/install/rosbridge_test_msgs:/home/hello-robot/ament_ws/install/rosbridge_suite:/home/hello-robot/ament_ws/install/rosbridge_server:/home/hello-robot/ament_ws/install/rosbridge_msgs:/home/hello-robot/ament_ws/install/rosapi:/home/hello-robot/ament_ws/install/rosbridge_library:/home/hello-robot/ament_ws/install/rosapi_msgs:/home/hello-robot/ament_ws/install/ros2_numpy:/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:/home/hello-robot/ament_ws/install/audio_play:/home/hello-robot/ament_ws/install/audio_capture:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs/lib:/home/hello-robot/ament_ws/install/tf2_web_republisher/lib:/home/hello-robot/ament_ws/install/stretch_teleop_interface_msgs/lib:/home/hello-robot/ament_ws/install/speech_recognition_msgs/lib:/home/hello-robot/ament_ws/install/sound_play_msgs/lib:/home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib:/home/hello-robot/ament_ws/install/rosbridge_msgs/lib:/home/hello-robot/ament_ws/install/rosapi_msgs/lib:/home/hello-robot/ament_ws/install/realsense2_camera/lib:/home/hello-robot/ament_ws/install/realsense2_camera_msgs/lib:/home/hello-robot/ament_ws/install/audio_play/lib:/home/hello-robot/ament_ws/install/audio_capture/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/hello-robot/ament_ws/src/audio_common/sound_play_msgs -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/sound_play_msgs
+[1.947s] Invoking command in '/home/hello-robot/ament_ws/build/sound_play_msgs': CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:/home/hello-robot/ament_ws/install/tf2_web_republisher:/home/hello-robot/ament_ws/install/stretch_web_teleop:/home/hello-robot/ament_ws/install/stretch_teleop_interface_msgs:/home/hello-robot/ament_ws/install/stretch_rtabmap:/home/hello-robot/ament_ws/install/stretch_nav2:/home/hello-robot/ament_ws/install/stretch_description:/home/hello-robot/ament_ws/install/speech_recognition_msgs:/home/hello-robot/ament_ws/install/sound_play_msgs:/home/hello-robot/ament_ws/install/audio_common:/home/hello-robot/ament_ws/install/sound_play:/home/hello-robot/ament_ws/install/sllidar_ros2:/home/hello-robot/ament_ws/install/rosbridge_test_msgs:/home/hello-robot/ament_ws/install/rosbridge_suite:/home/hello-robot/ament_ws/install/rosbridge_server:/home/hello-robot/ament_ws/install/rosbridge_msgs:/home/hello-robot/ament_ws/install/rosapi:/home/hello-robot/ament_ws/install/rosbridge_library:/home/hello-robot/ament_ws/install/rosapi_msgs:/home/hello-robot/ament_ws/install/ros2_numpy:/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:/home/hello-robot/ament_ws/install/audio_play:/home/hello-robot/ament_ws/install/audio_capture:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs/lib:/home/hello-robot/ament_ws/install/tf2_web_republisher/lib:/home/hello-robot/ament_ws/install/stretch_teleop_interface_msgs/lib:/home/hello-robot/ament_ws/install/speech_recognition_msgs/lib:/home/hello-robot/ament_ws/install/sound_play_msgs/lib:/home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib:/home/hello-robot/ament_ws/install/rosbridge_msgs/lib:/home/hello-robot/ament_ws/install/rosapi_msgs/lib:/home/hello-robot/ament_ws/install/realsense2_camera/lib:/home/hello-robot/ament_ws/install/realsense2_camera_msgs/lib:/home/hello-robot/ament_ws/install/audio_play/lib:/home/hello-robot/ament_ws/install/audio_capture/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hello-robot/ament_ws/build/sound_play_msgs -- -j16 -l16
+[2.177s] Consolidate compiler generated dependencies of target sound_play_msgs__rosidl_generator_c
+[2.177s] [  2%] Built target sound_play_msgs__cpp
+[2.177s] [ 12%] Built target sound_play_msgs__rosidl_generator_c
+[2.177s] Consolidate compiler generated dependencies of target sound_play_msgs__rosidl_typesupport_cpp
+[2.177s] Consolidate compiler generated dependencies of target sound_play_msgs__rosidl_typesupport_introspection_cpp
+[2.177s] Consolidate compiler generated dependencies of target sound_play_msgs__rosidl_typesupport_fastrtps_cpp
+[2.177s] [ 12%] Built target ament_cmake_python_copy_sound_play_msgs
+[2.177s] [ 23%] Built target sound_play_msgs__rosidl_typesupport_cpp
+[2.177s] Consolidate compiler generated dependencies of target sound_play_msgs__rosidl_typesupport_c
+[2.177s] Consolidate compiler generated dependencies of target sound_play_msgs__rosidl_typesupport_introspection_c
+[2.177s] Consolidate compiler generated dependencies of target sound_play_msgs__rosidl_typesupport_fastrtps_c
+[2.177s] [ 35%] Built target sound_play_msgs__rosidl_typesupport_fastrtps_cpp
+[2.178s] [ 43%] Built target sound_play_msgs__rosidl_typesupport_introspection_cpp
+[2.178s] [ 64%] Built target sound_play_msgs__rosidl_typesupport_introspection_c
+[2.178s] [ 64%] Built target sound_play_msgs__rosidl_typesupport_c
+[2.178s] [ 74%] Built target sound_play_msgs__rosidl_typesupport_fastrtps_c
+[2.179s] [ 74%] Built target sound_play_msgs
+[2.179s] [ 76%] Built target sound_play_msgs__py
+[2.179s] Consolidate compiler generated dependencies of target sound_play_msgs__rosidl_generator_py
+[2.179s] [ 84%] Built target sound_play_msgs__rosidl_generator_py
+[2.180s] Consolidate compiler generated dependencies of target sound_play_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.180s] Consolidate compiler generated dependencies of target sound_play_msgs__rosidl_typesupport_introspection_c__pyext
+[2.180s] Consolidate compiler generated dependencies of target sound_play_msgs__rosidl_typesupport_c__pyext
+[2.180s] [100%] Built target sound_play_msgs__rosidl_typesupport_c__pyext
+[2.180s] [100%] Built target sound_play_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.180s] [100%] Built target sound_play_msgs__rosidl_typesupport_introspection_c__pyext
+[2.323s] /home/hello-robot/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:30: RuntimeWarning: 
+[2.323s] ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x
+[2.323s] 
+[2.323s] Your build configuration is incomplete and previously worked by accident!
+[2.323s] setuptools_scm requires setuptools>=61
+[2.323s] 
+[2.323s] Suggested workaround if applicable:
+[2.323s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[2.324s]    and using a pyproject.toml to declare build dependencies
+[2.324s]    which are reliably pre-installed before running the build tools
+[2.324s] 
+[2.324s]   warnings.warn(
+[2.324s] running egg_info
+[2.324s] writing sound_play_msgs.egg-info/PKG-INFO
+[2.324s] writing dependency_links to sound_play_msgs.egg-info/dependency_links.txt
+[2.324s] writing top-level names to sound_play_msgs.egg-info/top_level.txt
+[2.415s] [03/04/24 08:24:43] ERROR    listing git files failed - pretending     git.py:24
+[2.415s]                              there aren't any                                   
+[2.563s] reading manifest file 'sound_play_msgs.egg-info/SOURCES.txt'
+[2.563s] writing manifest file 'sound_play_msgs.egg-info/SOURCES.txt'
+[2.563s] [100%] Built target ament_cmake_python_build_sound_play_msgs_egg
+[2.564s] Invoked command in '/home/hello-robot/ament_ws/build/sound_play_msgs' returned '0': CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:/home/hello-robot/ament_ws/install/tf2_web_republisher:/home/hello-robot/ament_ws/install/stretch_web_teleop:/home/hello-robot/ament_ws/install/stretch_teleop_interface_msgs:/home/hello-robot/ament_ws/install/stretch_rtabmap:/home/hello-robot/ament_ws/install/stretch_nav2:/home/hello-robot/ament_ws/install/stretch_description:/home/hello-robot/ament_ws/install/speech_recognition_msgs:/home/hello-robot/ament_ws/install/sound_play_msgs:/home/hello-robot/ament_ws/install/audio_common:/home/hello-robot/ament_ws/install/sound_play:/home/hello-robot/ament_ws/install/sllidar_ros2:/home/hello-robot/ament_ws/install/rosbridge_test_msgs:/home/hello-robot/ament_ws/install/rosbridge_suite:/home/hello-robot/ament_ws/install/rosbridge_server:/home/hello-robot/ament_ws/install/rosbridge_msgs:/home/hello-robot/ament_ws/install/rosapi:/home/hello-robot/ament_ws/install/rosbridge_library:/home/hello-robot/ament_ws/install/rosapi_msgs:/home/hello-robot/ament_ws/install/ros2_numpy:/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:/home/hello-robot/ament_ws/install/audio_play:/home/hello-robot/ament_ws/install/audio_capture:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs/lib:/home/hello-robot/ament_ws/install/tf2_web_republisher/lib:/home/hello-robot/ament_ws/install/stretch_teleop_interface_msgs/lib:/home/hello-robot/ament_ws/install/speech_recognition_msgs/lib:/home/hello-robot/ament_ws/install/sound_play_msgs/lib:/home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib:/home/hello-robot/ament_ws/install/rosbridge_msgs/lib:/home/hello-robot/ament_ws/install/rosapi_msgs/lib:/home/hello-robot/ament_ws/install/realsense2_camera/lib:/home/hello-robot/ament_ws/install/realsense2_camera_msgs/lib:/home/hello-robot/ament_ws/install/audio_play/lib:/home/hello-robot/ament_ws/install/audio_capture/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hello-robot/ament_ws/build/sound_play_msgs -- -j16 -l16
+[2.723s] Invoking command in '/home/hello-robot/ament_ws/build/sound_play_msgs': CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:/home/hello-robot/ament_ws/install/tf2_web_republisher:/home/hello-robot/ament_ws/install/stretch_web_teleop:/home/hello-robot/ament_ws/install/stretch_teleop_interface_msgs:/home/hello-robot/ament_ws/install/stretch_rtabmap:/home/hello-robot/ament_ws/install/stretch_nav2:/home/hello-robot/ament_ws/install/stretch_description:/home/hello-robot/ament_ws/install/speech_recognition_msgs:/home/hello-robot/ament_ws/install/sound_play_msgs:/home/hello-robot/ament_ws/install/audio_common:/home/hello-robot/ament_ws/install/sound_play:/home/hello-robot/ament_ws/install/sllidar_ros2:/home/hello-robot/ament_ws/install/rosbridge_test_msgs:/home/hello-robot/ament_ws/install/rosbridge_suite:/home/hello-robot/ament_ws/install/rosbridge_server:/home/hello-robot/ament_ws/install/rosbridge_msgs:/home/hello-robot/ament_ws/install/rosapi:/home/hello-robot/ament_ws/install/rosbridge_library:/home/hello-robot/ament_ws/install/rosapi_msgs:/home/hello-robot/ament_ws/install/ros2_numpy:/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:/home/hello-robot/ament_ws/install/audio_play:/home/hello-robot/ament_ws/install/audio_capture:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs/lib:/home/hello-robot/ament_ws/install/tf2_web_republisher/lib:/home/hello-robot/ament_ws/install/stretch_teleop_interface_msgs/lib:/home/hello-robot/ament_ws/install/speech_recognition_msgs/lib:/home/hello-robot/ament_ws/install/sound_play_msgs/lib:/home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib:/home/hello-robot/ament_ws/install/rosbridge_msgs/lib:/home/hello-robot/ament_ws/install/rosapi_msgs/lib:/home/hello-robot/ament_ws/install/realsense2_camera/lib:/home/hello-robot/ament_ws/install/realsense2_camera_msgs/lib:/home/hello-robot/ament_ws/install/audio_play/lib:/home/hello-robot/ament_ws/install/audio_capture/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hello-robot/ament_ws/build/sound_play_msgs
+[2.731s] -- Install configuration: "Release"
+[2.731s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/ament_index/resource_index/rosidl_interfaces/sound_play_msgs
+[2.731s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs
+[2.732s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg
+[2.732s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.732s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/sound_request.h
+[2.732s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail
+[2.732s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail/sound_request__type_support.h
+[2.732s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail/sound_request__functions.c
+[2.732s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail/sound_request__functions.h
+[2.732s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail/sound_request__struct.h
+[2.732s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action
+[2.732s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/sound_request.h
+[2.732s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail
+[2.732s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail/sound_request__type_support.h
+[2.732s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail/sound_request__functions.c
+[2.732s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail/sound_request__functions.h
+[2.732s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail/sound_request__struct.h
+[2.732s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/environment/library_path.sh
+[2.732s] -- Installing: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/environment/library_path.dsv
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/lib/libsound_play_msgs__rosidl_generator_c.so
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail/sound_request__rosidl_typesupport_fastrtps_c.h
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail/sound_request__rosidl_typesupport_fastrtps_c.h
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/lib/libsound_play_msgs__rosidl_typesupport_fastrtps_c.so
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail/sound_request__rosidl_typesupport_introspection_c.h
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail/sound_request__type_support.c
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail/sound_request__rosidl_typesupport_introspection_c.h
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail/sound_request__type_support.c
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/lib/libsound_play_msgs__rosidl_typesupport_introspection_c.so
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/lib/libsound_play_msgs__rosidl_typesupport_c.so
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/sound_request.hpp
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail/sound_request__traits.hpp
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail/sound_request__struct.hpp
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail/sound_request__builder.hpp
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/sound_request.hpp
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail/sound_request__traits.hpp
+[2.733s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail/sound_request__struct.hpp
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail/sound_request__builder.hpp
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail/dds_fastrtps
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail/sound_request__rosidl_typesupport_fastrtps_cpp.hpp
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail/dds_fastrtps
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail/sound_request__rosidl_typesupport_fastrtps_cpp.hpp
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/lib/libsound_play_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail/sound_request__type_support.cpp
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/msg/detail/sound_request__rosidl_typesupport_introspection_cpp.hpp
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail/sound_request__type_support.cpp
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/include/sound_play_msgs/sound_play_msgs/action/detail/sound_request__rosidl_typesupport_introspection_cpp.hpp
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/lib/libsound_play_msgs__rosidl_typesupport_introspection_cpp.so
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/lib/libsound_play_msgs__rosidl_typesupport_cpp.so
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/environment/pythonpath.sh
+[2.734s] -- Installing: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/environment/pythonpath.dsv
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs-0.3.12-py3.10.egg-info
+[2.734s] -- Installing: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs-0.3.12-py3.10.egg-info/PKG-INFO
+[2.734s] -- Installing: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs-0.3.12-py3.10.egg-info/dependency_links.txt
+[2.734s] -- Installing: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs-0.3.12-py3.10.egg-info/SOURCES.txt
+[2.734s] -- Installing: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs-0.3.12-py3.10.egg-info/top_level.txt
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/sound_play_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/_sound_play_msgs_s.ep.rosidl_typesupport_c.c
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/msg
+[2.734s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/msg/__init__.py
+[2.735s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/msg/_sound_request.py
+[2.735s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/msg/_sound_request_s.c
+[2.735s] -- Installing: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/__init__.py
+[2.735s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/action
+[2.735s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/action/__init__.py
+[2.735s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/action/_sound_request.py
+[2.735s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/action/_sound_request_s.c
+[2.735s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/sound_play_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.735s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/_sound_play_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.735s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/sound_play_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.735s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/libsound_play_msgs__rosidl_generator_py.so
+[2.735s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/_sound_play_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.767s] Listing '/home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs'...
+[2.767s] Compiling '/home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/__init__.py'...
+[2.767s] Listing '/home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/action'...
+[2.767s] Listing '/home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/msg'...
+[2.771s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/sound_play_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.771s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/sound_play_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.771s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages/sound_play_msgs/sound_play_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.771s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/lib/libsound_play_msgs__rosidl_generator_py.so
+[2.771s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/msg/SoundRequest.idl
+[2.772s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/action/SoundRequest.idl
+[2.772s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/msg/SoundRequest.msg
+[2.772s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/action/SoundRequest.action
+[2.772s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/ament_index/resource_index/package_run_dependencies/sound_play_msgs
+[2.772s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/ament_index/resource_index/parent_prefix_path/sound_play_msgs
+[2.772s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/environment/ament_prefix_path.sh
+[2.772s] -- Installing: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/environment/ament_prefix_path.dsv
+[2.772s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/environment/path.sh
+[2.772s] -- Installing: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/environment/path.dsv
+[2.772s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/local_setup.bash
+[2.772s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/local_setup.sh
+[2.773s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/local_setup.zsh
+[2.773s] -- Installing: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/local_setup.dsv
+[2.773s] -- Installing: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/package.dsv
+[2.773s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/ament_index/resource_index/packages/sound_play_msgs
+[2.773s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/export_sound_play_msgs__rosidl_generator_cExport.cmake
+[2.773s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/export_sound_play_msgs__rosidl_generator_cExport-release.cmake
+[2.773s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/export_sound_play_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.773s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/export_sound_play_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[2.773s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/sound_play_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.773s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/sound_play_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[2.773s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/sound_play_msgs__rosidl_typesupport_cExport.cmake
+[2.773s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/sound_play_msgs__rosidl_typesupport_cExport-release.cmake
+[2.773s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/export_sound_play_msgs__rosidl_generator_cppExport.cmake
+[2.773s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/export_sound_play_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.773s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/export_sound_play_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[2.773s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/sound_play_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.773s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/sound_play_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[2.773s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/sound_play_msgs__rosidl_typesupport_cppExport.cmake
+[2.773s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/sound_play_msgs__rosidl_typesupport_cppExport-release.cmake
+[2.774s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/export_sound_play_msgs__rosidl_generator_pyExport.cmake
+[2.774s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/export_sound_play_msgs__rosidl_generator_pyExport-release.cmake
+[2.774s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/rosidl_cmake-extras.cmake
+[2.774s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.774s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.774s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.774s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.774s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.774s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.774s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/sound_play_msgsConfig.cmake
+[2.774s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/cmake/sound_play_msgsConfig-version.cmake
+[2.774s] -- Up-to-date: /home/hello-robot/ament_ws/install/sound_play_msgs/share/sound_play_msgs/package.xml
+[2.775s] Invoked command in '/home/hello-robot/ament_ws/build/sound_play_msgs' returned '0': CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:/home/hello-robot/ament_ws/install/tf2_web_republisher:/home/hello-robot/ament_ws/install/stretch_web_teleop:/home/hello-robot/ament_ws/install/stretch_teleop_interface_msgs:/home/hello-robot/ament_ws/install/stretch_rtabmap:/home/hello-robot/ament_ws/install/stretch_nav2:/home/hello-robot/ament_ws/install/stretch_description:/home/hello-robot/ament_ws/install/speech_recognition_msgs:/home/hello-robot/ament_ws/install/sound_play_msgs:/home/hello-robot/ament_ws/install/audio_common:/home/hello-robot/ament_ws/install/sound_play:/home/hello-robot/ament_ws/install/sllidar_ros2:/home/hello-robot/ament_ws/install/rosbridge_test_msgs:/home/hello-robot/ament_ws/install/rosbridge_suite:/home/hello-robot/ament_ws/install/rosbridge_server:/home/hello-robot/ament_ws/install/rosbridge_msgs:/home/hello-robot/ament_ws/install/rosapi:/home/hello-robot/ament_ws/install/rosbridge_library:/home/hello-robot/ament_ws/install/rosapi_msgs:/home/hello-robot/ament_ws/install/ros2_numpy:/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:/home/hello-robot/ament_ws/install/audio_play:/home/hello-robot/ament_ws/install/audio_capture:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs/lib:/home/hello-robot/ament_ws/install/tf2_web_republisher/lib:/home/hello-robot/ament_ws/install/stretch_teleop_interface_msgs/lib:/home/hello-robot/ament_ws/install/speech_recognition_msgs/lib:/home/hello-robot/ament_ws/install/sound_play_msgs/lib:/home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib:/home/hello-robot/ament_ws/install/rosbridge_msgs/lib:/home/hello-robot/ament_ws/install/rosapi_msgs/lib:/home/hello-robot/ament_ws/install/realsense2_camera/lib:/home/hello-robot/ament_ws/install/realsense2_camera_msgs/lib:/home/hello-robot/ament_ws/install/audio_play/lib:/home/hello-robot/ament_ws/install/audio_capture/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hello-robot/ament_ws/build/sound_play_msgs

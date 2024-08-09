@@ -1,0 +1,5 @@
+/home/hello-robot/ament_ws/build/speech_recognition_msgs/rosidl_adapter/speech_recognition_msgs:msg/Grammar.idl
+/home/hello-robot/ament_ws/build/speech_recognition_msgs/rosidl_adapter/speech_recognition_msgs:msg/PhraseRule.idl
+/home/hello-robot/ament_ws/build/speech_recognition_msgs/rosidl_adapter/speech_recognition_msgs:msg/SpeechRecognitionCandidates.idl
+/home/hello-robot/ament_ws/build/speech_recognition_msgs/rosidl_adapter/speech_recognition_msgs:msg/Vocabulary.idl
+/home/hello-robot/ament_ws/build/speech_recognition_msgs/rosidl_adapter/speech_recognition_msgs:srv/SpeechRecognition.idl

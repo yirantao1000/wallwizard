@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from speech_recognition_msgs/srv/SpeechRecognition.srv
+// generated code does not contain a copyright notice
+
+#include "speech_recognition_msgs/msg/Grammar.idl"
+#include "speech_recognition_msgs/msg/SpeechRecognitionCandidates.idl"
+#include "speech_recognition_msgs/msg/Vocabulary.idl"
+
+module speech_recognition_msgs {
+  module srv {
+    struct SpeechRecognition_Request {
+      @verbatim (language="comment", text=
+        "Specify isolated words candidates to be recognized (Enabled on isolated word mode)")
+      speech_recognition_msgs::msg::Vocabulary vocabulary;
+
+      @verbatim (language="comment", text=
+        "Or, specify grammar to be recognized")
+      speech_recognition_msgs::msg::Grammar grammar;
+
+      @verbatim (language="comment", text=
+        "Or, simply specify grammar name which is already registered on the server")
+      string grammar_name;
+
+      float duration;
+
+      boolean quiet;
+
+      float threshold;
+    };
+    struct SpeechRecognition_Response {
+      speech_recognition_msgs::msg::SpeechRecognitionCandidates result;
+    };
+  };
+};

@@ -1,0 +1,975 @@
+[0.699s] Invoking command in '/home/hello-robot/ament_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake /home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/rosapi_msgs
+[4.351s] -- The C compiler identification is GNU 11.4.0
+[4.352s] -- The CXX compiler identification is GNU 11.4.0
+[4.352s] -- Detecting C compiler ABI info
+[4.352s] -- Detecting C compiler ABI info - done
+[4.352s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.352s] -- Detecting C compile features
+[4.352s] -- Detecting C compile features - done
+[4.353s] -- Detecting CXX compiler ABI info
+[4.353s] -- Detecting CXX compiler ABI info - done
+[4.353s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.353s] -- Detecting CXX compile features
+[4.353s] -- Detecting CXX compile features - done
+[4.353s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.353s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.354s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[4.354s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.354s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.354s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.354s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.354s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.354s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.354s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.355s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.355s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.356s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.356s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.356s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.356s] -- Found PythonExtra: .so  
+[4.357s] -- Configuring done
+[4.360s] -- Generating done
+[4.360s] -- Build files have been written to: /home/hello-robot/ament_ws/build/rosapi_msgs
+[4.388s] Invoked command in '/home/hello-robot/ament_ws/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake /home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/rosapi_msgs
+[4.388s] Invoking command in '/home/hello-robot/ament_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/rosapi_msgs -- -j16 -l16
+[4.530s] [  1%] Generating C code for ROS interfaces
+[4.538s] [  1%] Generating C++ code for ROS interfaces
+[4.627s] [  1%] Built target ament_cmake_python_copy_rosapi_msgs
+[6.615s] /home/hello-robot/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:30: RuntimeWarning: 
+[6.615s] ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x
+[6.615s] 
+[6.615s] Your build configuration is incomplete and previously worked by accident!
+[6.615s] setuptools_scm requires setuptools>=61
+[6.615s] 
+[6.615s] Suggested workaround if applicable:
+[6.615s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[6.615s]    and using a pyproject.toml to declare build dependencies
+[6.615s]    which are reliably pre-installed before running the build tools
+[6.615s] 
+[6.615s]   warnings.warn(
+[6.711s] running egg_info
+[6.712s] creating rosapi_msgs.egg-info
+[6.713s] writing rosapi_msgs.egg-info/PKG-INFO
+[6.713s] writing dependency_links to rosapi_msgs.egg-info/dependency_links.txt
+[6.713s] writing top-level names to rosapi_msgs.egg-info/top_level.txt
+[6.714s] writing manifest file 'rosapi_msgs.egg-info/SOURCES.txt'
+[7.095s] [03/04/24 08:23:28] ERROR    listing git files failed - pretending     git.py:24
+[7.095s]                              there aren't any                                   
+[8.051s] reading manifest file 'rosapi_msgs.egg-info/SOURCES.txt'
+[8.052s] writing manifest file 'rosapi_msgs.egg-info/SOURCES.txt'
+[8.520s] [  1%] Built target ament_cmake_python_build_rosapi_msgs_egg
+[14.709s] [  1%] Built target rosapi_msgs__cpp
+[14.709s] [  2%] Generating C++ type support dispatch for ROS interfaces
+[14.709s] [  3%] Generating C++ type support for eProsima Fast-RTPS
+[14.709s] [  4%] Generating C++ introspection for ROS interfaces
+[16.318s] [  4%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/msg/detail/type_def__functions.c.o
+[16.318s] [  5%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/delete_param__functions.c.o
+[16.318s] [  5%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/get_action_servers__functions.c.o
+[16.318s] [  6%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/get_param__functions.c.o
+[16.318s] [  6%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/get_param_names__functions.c.o
+[16.318s] [  6%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/get_time__functions.c.o
+[16.318s] [  7%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/get_ros_version__functions.c.o
+[16.318s] [  8%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/message_details__functions.c.o
+[16.319s] [  8%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/has_param__functions.c.o
+[16.319s] [  8%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/nodes__functions.c.o
+[16.319s] [  8%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/publishers__functions.c.o
+[16.319s] [ 10%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/node_details__functions.c.o
+[16.319s] [  9%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/service_node__functions.c.o
+[16.833s] [ 10%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/service_providers__functions.c.o
+[16.833s] [ 11%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/service_request_details__functions.c.o
+[16.833s] [ 11%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/service_response_details__functions.c.o
+[16.833s] [ 11%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/services__functions.c.o
+[16.834s] [ 12%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/services_for_type__functions.c.o
+[16.834s] [ 12%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/service_type__functions.c.o
+[16.834s] [ 13%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/set_param__functions.c.o
+[16.834s] [ 13%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/subscribers__functions.c.o
+[16.834s] [ 14%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/topics__functions.c.o
+[16.834s] [ 14%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/topics_and_raw_types__functions.c.o
+[16.834s] [ 15%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/topics_for_type__functions.c.o
+[16.836s] [ 15%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/topic_type__functions.c.o
+[17.838s] [ 16%] Linking C shared library librosapi_msgs__rosidl_generator_c.so
+[17.838s] [ 16%] Built target rosapi_msgs__rosidl_generator_c
+[18.152s] [ 17%] Generating C type support for eProsima Fast-RTPS
+[18.152s] [ 18%] Generating C introspection for ROS interfaces
+[18.152s] [ 19%] Generating C type support dispatch for ROS interfaces
+[18.152s] [ 19%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/msg/type_def__type_support.cpp.o
+[18.153s] [ 20%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/delete_param__type_support.cpp.o
+[18.153s] [ 20%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/get_action_servers__type_support.cpp.o
+[18.153s] [ 20%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/get_param__type_support.cpp.o
+[18.153s] [ 21%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/get_param_names__type_support.cpp.o
+[18.184s] [ 21%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/get_ros_version__type_support.cpp.o
+[18.217s] [ 22%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/get_time__type_support.cpp.o
+[18.222s] [ 22%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/nodes__type_support.cpp.o
+[18.232s] [ 23%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/message_details__type_support.cpp.o
+[18.245s] [ 23%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/has_param__type_support.cpp.o
+[18.254s] [ 24%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/node_details__type_support.cpp.o
+[19.277s] [ 24%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/publishers__type_support.cpp.o
+[19.425s] [ 24%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/service_node__type_support.cpp.o
+[19.450s] [ 25%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/service_providers__type_support.cpp.o
+[19.491s] [ 25%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/service_request_details__type_support.cpp.o
+[19.541s] [ 26%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/service_response_details__type_support.cpp.o
+[19.541s] [ 26%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/services__type_support.cpp.o
+[19.977s] [ 27%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/services_for_type__type_support.cpp.o
+[19.977s] [ 27%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/service_type__type_support.cpp.o
+[19.977s] [ 28%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/set_param__type_support.cpp.o
+[19.978s] [ 28%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/subscribers__type_support.cpp.o
+[19.978s] [ 28%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/topics__type_support.cpp.o
+[20.699s] [ 29%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/topics_and_raw_types__type_support.cpp.o
+[20.700s] [ 29%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/topics_for_type__type_support.cpp.o
+[20.717s] [ 30%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/topic_type__type_support.cpp.o
+[21.501s] [ 30%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/msg/detail/type_def__type_support.cpp.o
+[21.501s] [ 31%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/delete_param__type_support.cpp.o
+[21.501s] [ 31%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/get_action_servers__type_support.cpp.o
+[21.501s] [ 32%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/get_param__type_support.cpp.o
+[21.501s] [ 32%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/get_param_names__type_support.cpp.o
+[21.501s] [ 33%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/get_ros_version__type_support.cpp.o
+[21.501s] [ 33%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/get_time__type_support.cpp.o
+[21.501s] [ 34%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/message_details__type_support.cpp.o
+[21.501s] [ 34%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/has_param__type_support.cpp.o
+[21.696s] [ 34%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/msg/detail/dds_fastrtps/type_def__type_support.cpp.o
+[21.765s] [ 35%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/delete_param__type_support.cpp.o
+[22.300s] [ 35%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/nodes__type_support.cpp.o
+[22.300s] [ 35%] Linking CXX shared library librosapi_msgs__rosidl_typesupport_cpp.so
+[24.671s] [ 35%] Built target rosapi_msgs__rosidl_typesupport_cpp
+[24.671s] [ 35%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/get_action_servers__type_support.cpp.o
+[24.671s] [ 36%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/node_details__type_support.cpp.o
+[24.671s] [ 37%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/service_node__type_support.cpp.o
+[24.671s] [ 37%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/publishers__type_support.cpp.o
+[24.673s] [ 38%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/get_param__type_support.cpp.o
+[24.673s] [ 38%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/get_param_names__type_support.cpp.o
+[24.673s] [ 38%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/get_ros_version__type_support.cpp.o
+[24.673s] [ 39%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/get_time__type_support.cpp.o
+[24.673s] [ 39%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/service_providers__type_support.cpp.o
+[24.674s] [ 39%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/msg/type_def__type_support.cpp.o
+[24.674s] [ 39%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/has_param__type_support.cpp.o
+[24.674s] [ 40%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/delete_param__type_support.cpp.o
+[24.674s] [ 40%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/get_action_servers__type_support.cpp.o
+[24.674s] [ 40%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/get_param__type_support.cpp.o
+[24.674s] [ 41%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/message_details__type_support.cpp.o
+[24.674s] [ 42%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/get_param_names__type_support.cpp.o
+[24.674s] [ 43%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/service_request_details__type_support.cpp.o
+[24.674s] [ 43%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/get_ros_version__type_support.cpp.o
+[24.674s] [ 44%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/get_time__type_support.cpp.o
+[24.674s] [ 44%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/nodes__type_support.cpp.o
+[24.674s] [ 44%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/has_param__type_support.cpp.o
+[24.674s] [ 45%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/message_details__type_support.cpp.o
+[24.674s] [ 45%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/service_response_details__type_support.cpp.o
+[24.674s] [ 46%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/node_details__type_support.cpp.o
+[24.721s] [ 46%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/nodes__type_support.cpp.o
+[24.851s] [ 47%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/service_node__type_support.cpp.o
+[24.851s] [ 47%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/publishers__type_support.cpp.o
+[24.851s] [ 47%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/service_providers__type_support.cpp.o
+[24.851s] [ 48%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/node_details__type_support.cpp.o
+[25.245s] [ 48%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/publishers__type_support.cpp.o
+[25.245s] [ 48%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/service_node__type_support.cpp.o
+[25.245s] [ 49%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/service_providers__type_support.cpp.o
+[25.245s] [ 49%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/service_request_details__type_support.cpp.o
+[25.246s] [ 49%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/service_request_details__type_support.cpp.o
+[25.490s] [ 50%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/service_response_details__type_support.cpp.o
+[25.490s] [ 51%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/service_response_details__type_support.cpp.o
+[25.490s] [ 51%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/services__type_support.cpp.o
+[25.490s] [ 51%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/services__type_support.cpp.o
+[25.490s] [ 52%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/services_for_type__type_support.cpp.o
+[25.490s] [ 52%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/service_type__type_support.cpp.o
+[25.553s] [ 53%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/set_param__type_support.cpp.o
+[25.565s] [ 53%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/subscribers__type_support.cpp.o
+[25.641s] [ 53%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/topics__type_support.cpp.o
+[25.673s] [ 54%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/services_for_type__type_support.cpp.o
+[25.695s] [ 54%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/services__type_support.cpp.o
+[25.739s] [ 55%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/topics_and_raw_types__type_support.cpp.o
+[25.753s] [ 55%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/topics_for_type__type_support.cpp.o
+[25.769s] [ 55%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/service_type__type_support.cpp.o
+[25.829s] [ 56%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/topic_type__type_support.cpp.o
+[25.841s] [ 57%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/set_param__type_support.cpp.o
+[25.894s] [ 58%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/services_for_type__type_support.cpp.o
+[25.900s] [ 58%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/service_type__type_support.cpp.o
+[25.957s] [ 58%] Linking CXX shared library librosapi_msgs__rosidl_typesupport_c.so
+[25.965s] [ 58%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/msg/detail/type_def__type_support.c.o
+[26.084s] [ 58%] Built target rosapi_msgs__rosidl_typesupport_c
+[26.171s] [ 59%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/delete_param__type_support.c.o
+[26.206s] [ 59%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/subscribers__type_support.cpp.o
+[26.324s] [ 60%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/get_param__type_support.c.o
+[26.327s] [ 60%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/get_action_servers__type_support.c.o
+[26.348s] [ 60%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/msg/detail/type_def__type_support_c.cpp.o
+[26.370s] [ 61%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/delete_param__type_support_c.cpp.o
+[26.455s] [ 61%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/get_action_servers__type_support_c.cpp.o
+[26.477s] [ 62%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/set_param__type_support.cpp.o
+[26.513s] [ 62%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/subscribers__type_support.cpp.o
+[26.573s] [ 63%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/topics__type_support.cpp.o
+[26.573s] [ 63%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/get_param_names__type_support.c.o
+[26.640s] [ 63%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/topics_and_raw_types__type_support.cpp.o
+[26.755s] [ 64%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/get_ros_version__type_support.c.o
+[26.782s] [ 64%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/topics_for_type__type_support.cpp.o
+[26.791s] [ 65%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/topics__type_support.cpp.o
+[26.821s] [ 65%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/topics_and_raw_types__type_support.cpp.o
+[26.901s] [ 66%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/get_param__type_support_c.cpp.o
+[26.928s] [ 66%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/get_time__type_support.c.o
+[27.111s] [ 66%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/has_param__type_support.c.o
+[27.155s] [ 67%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/topic_type__type_support.cpp.o
+[27.208s] [ 68%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/message_details__type_support.c.o
+[27.245s] [ 68%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/get_param_names__type_support_c.cpp.o
+[27.284s] [ 68%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/get_ros_version__type_support_c.cpp.o
+[27.299s] [ 69%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/get_time__type_support_c.cpp.o
+[27.299s] [ 69%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/nodes__type_support.c.o
+[27.307s] [ 70%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/topics_for_type__type_support.cpp.o
+[27.361s] [ 71%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/node_details__type_support.c.o
+[27.441s] [ 71%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/topic_type__type_support.cpp.o
+[27.505s] [ 71%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/publishers__type_support.c.o
+[28.264s] [ 72%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/service_node__type_support.c.o
+[28.265s] [ 72%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/has_param__type_support_c.cpp.o
+[28.265s] [ 72%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/service_providers__type_support.c.o
+[28.265s] [ 73%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/message_details__type_support_c.cpp.o
+[28.265s] [ 74%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/service_request_details__type_support.c.o
+[28.265s] [ 74%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/service_response_details__type_support.c.o
+[28.265s] [ 74%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/services__type_support.c.o
+[28.265s] [ 74%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/nodes__type_support_c.cpp.o
+[28.265s] [ 75%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/services_for_type__type_support.c.o
+[28.265s] [ 76%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/node_details__type_support_c.cpp.o
+[28.265s] [ 77%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/set_param__type_support.c.o
+[28.265s] [ 77%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/service_type__type_support.c.o
+[28.265s] [ 77%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/subscribers__type_support.c.o
+[28.265s] [ 78%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/topics__type_support.c.o
+[28.266s] [ 78%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/topics_and_raw_types__type_support.c.o
+[28.266s] [ 79%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/topics_for_type__type_support.c.o
+[28.266s] [ 79%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/topic_type__type_support.c.o
+[28.266s] [ 79%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/publishers__type_support_c.cpp.o
+[28.617s] [ 80%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/service_node__type_support_c.cpp.o
+[28.617s] [ 80%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/service_request_details__type_support_c.cpp.o
+[28.617s] [ 80%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/service_providers__type_support_c.cpp.o
+[28.617s] [ 80%] Linking C shared library librosapi_msgs__rosidl_typesupport_introspection_c.so
+[28.617s] [ 80%] Linking CXX shared library librosapi_msgs__rosidl_typesupport_fastrtps_cpp.so
+[28.617s] [ 81%] Linking CXX shared library librosapi_msgs__rosidl_typesupport_introspection_cpp.so
+[28.618s] [ 81%] Built target rosapi_msgs__rosidl_typesupport_introspection_c
+[28.618s] [ 82%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/services_for_type__type_support_c.cpp.o
+[28.618s] [ 82%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/service_type__type_support_c.cpp.o
+[28.618s] [ 83%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/set_param__type_support_c.cpp.o
+[28.675s] [ 83%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/subscribers__type_support_c.cpp.o
+[28.747s] [ 83%] Built target rosapi_msgs__rosidl_typesupport_fastrtps_cpp
+[28.765s] [ 83%] Built target rosapi_msgs__rosidl_typesupport_introspection_cpp
+[28.792s] [ 83%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/topics_for_type__type_support_c.cpp.o
+[28.802s] [ 83%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/services__type_support_c.cpp.o
+[28.803s] [ 83%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/topics_and_raw_types__type_support_c.cpp.o
+[28.814s] [ 84%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/topics__type_support_c.cpp.o
+[28.851s] [ 85%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/service_response_details__type_support_c.cpp.o
+[28.972s] [ 86%] Building CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/topic_type__type_support_c.cpp.o
+[29.874s] [ 86%] Linking CXX shared library librosapi_msgs__rosidl_typesupport_fastrtps_c.so
+[30.047s] [ 86%] Built target rosapi_msgs__rosidl_typesupport_fastrtps_c
+[30.079s] [ 86%] Built target rosapi_msgs
+[30.113s] [ 86%] Generating Python code for ROS interfaces
+[35.032s] [ 86%] Built target rosapi_msgs__py
+[35.032s] [ 87%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_get_time_s.c.o
+[35.032s] [ 89%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_get_param_names_s.c.o
+[35.032s] [ 89%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_get_action_servers_s.c.o
+[35.032s] [ 89%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/msg/_type_def_s.c.o
+[35.032s] [ 89%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_get_param_s.c.o
+[35.032s] [ 89%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_delete_param_s.c.o
+[35.032s] [ 89%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_get_ros_version_s.c.o
+[35.032s] [ 90%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_service_response_details_s.c.o
+[35.075s] [ 90%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_services_s.c.o
+[35.080s] [ 91%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_services_for_type_s.c.o
+[35.097s] [ 91%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_service_type_s.c.o
+[35.105s] [ 91%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_set_param_s.c.o
+[35.107s] [ 92%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_subscribers_s.c.o
+[35.240s] [ 92%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_topics_s.c.o
+[35.258s] [ 93%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_topics_and_raw_types_s.c.o
+[35.267s] [ 93%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_topics_for_type_s.c.o
+[35.288s] [ 94%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_topic_type_s.c.o
+[35.310s] [ 94%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_service_request_details_s.c.o
+[35.319s] [ 95%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_service_providers_s.c.o
+[35.327s] [ 95%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_service_node_s.c.o
+[35.486s] [ 96%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_node_details_s.c.o
+[35.486s] [ 96%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_publishers_s.c.o
+[35.494s] [ 96%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_nodes_s.c.o
+[35.510s] [ 97%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_message_details_s.c.o
+[35.541s] [ 97%] Building C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_has_param_s.c.o
+[35.730s] [ 97%] Linking C shared library rosidl_generator_py/rosapi_msgs/librosapi_msgs__rosidl_generator_py.so
+[35.996s] [ 97%] Built target rosapi_msgs__rosidl_generator_py
+[35.997s] [ 98%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rosapi_msgs/_rosapi_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[35.997s] [100%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rosapi_msgs/_rosapi_msgs_s.ep.rosidl_typesupport_c.c.o
+[35.997s] [100%] Building C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rosapi_msgs/_rosapi_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[36.660s] [100%] Linking C shared library rosidl_generator_py/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[36.660s] [100%] Built target rosapi_msgs__rosidl_typesupport_fastrtps_c__pyext
+[36.675s] [100%] Linking C shared library rosidl_generator_py/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[36.710s] [100%] Built target rosapi_msgs__rosidl_typesupport_introspection_c__pyext
+[36.728s] [100%] Linking C shared library rosidl_generator_py/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[36.760s] [100%] Built target rosapi_msgs__rosidl_typesupport_c__pyext
+[36.773s] Invoked command in '/home/hello-robot/ament_ws/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/rosapi_msgs -- -j16 -l16
+[37.267s] Invoking command in '/home/hello-robot/ament_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/rosapi_msgs
+[37.276s] -- Install configuration: "Release"
+[37.276s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/ament_index/resource_index/rosidl_interfaces/rosapi_msgs
+[37.276s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs
+[37.276s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg
+[37.276s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/rosidl_generator_c__visibility_control.h
+[37.276s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/type_def.h
+[37.276s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail
+[37.276s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__functions.c
+[37.276s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__type_support.h
+[37.277s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__functions.h
+[37.277s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__struct.h
+[37.277s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv
+[37.277s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_providers.h
+[37.277s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/topics_and_raw_types.h
+[37.277s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_request_details.h
+[37.277s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_action_servers.h
+[37.277s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/nodes.h
+[37.277s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_param.h
+[37.277s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_time.h
+[37.277s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/delete_param.h
+[37.278s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/topics_for_type.h
+[37.278s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/services.h
+[37.278s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/has_param.h
+[37.278s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/publishers.h
+[37.278s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_response_details.h
+[37.278s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/set_param.h
+[37.278s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_node.h
+[37.278s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/message_details.h
+[37.278s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/topic_type.h
+[37.278s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_param_names.h
+[37.278s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_type.h
+[37.278s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/services_for_type.h
+[37.278s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/node_details.h
+[37.278s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail
+[37.279s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__functions.c
+[37.279s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__struct.h
+[37.279s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__struct.h
+[37.279s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__type_support.h
+[37.279s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__struct.h
+[37.279s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__type_support.h
+[37.279s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__struct.h
+[37.279s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__struct.h
+[37.279s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__functions.h
+[37.279s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__functions.c
+[37.279s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__type_support.h
+[37.279s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__type_support.h
+[37.279s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__functions.h
+[37.280s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__functions.c
+[37.280s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__type_support.h
+[37.280s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__functions.h
+[37.280s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__functions.h
+[37.280s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__functions.h
+[37.280s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__functions.c
+[37.280s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__functions.c
+[37.280s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__type_support.h
+[37.280s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__type_support.h
+[37.280s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__struct.h
+[37.280s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__struct.h
+[37.281s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__type_support.h
+[37.281s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__struct.h
+[37.281s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__type_support.h
+[37.281s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__functions.h
+[37.281s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__functions.h
+[37.281s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__struct.h
+[37.281s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__functions.c
+[37.281s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__functions.c
+[37.282s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__struct.h
+[37.282s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__functions.c
+[37.282s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__struct.h
+[37.282s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__functions.h
+[37.282s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__functions.c
+[37.282s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__functions.c
+[37.282s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__functions.c
+[37.282s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__struct.h
+[37.283s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__type_support.h
+[37.283s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__functions.c
+[37.283s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__type_support.h
+[37.283s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__type_support.h
+[37.283s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__type_support.h
+[37.283s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__functions.h
+[37.283s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__type_support.h
+[37.283s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__functions.h
+[37.284s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__functions.c
+[37.284s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__struct.h
+[37.284s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__functions.h
+[37.284s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__functions.c
+[37.284s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__functions.h
+[37.284s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__functions.c
+[37.284s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__struct.h
+[37.285s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__type_support.h
+[37.285s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__functions.c
+[37.285s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__functions.c
+[37.285s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__functions.h
+[37.285s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__functions.c
+[37.285s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__type_support.h
+[37.285s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__functions.h
+[37.285s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__functions.h
+[37.286s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__type_support.h
+[37.286s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__type_support.h
+[37.286s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__type_support.h
+[37.286s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__functions.c
+[37.286s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__functions.h
+[37.286s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__struct.h
+[37.286s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__functions.h
+[37.286s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__functions.h
+[37.287s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__functions.h
+[37.287s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__type_support.h
+[37.287s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__type_support.h
+[37.287s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__functions.h
+[37.287s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__functions.c
+[37.287s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__struct.h
+[37.287s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__struct.h
+[37.287s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__struct.h
+[37.287s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__struct.h
+[37.287s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__struct.h
+[37.287s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__struct.h
+[37.287s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__functions.h
+[37.287s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__type_support.h
+[37.288s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__functions.c
+[37.288s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__type_support.h
+[37.288s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__functions.h
+[37.288s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__struct.h
+[37.288s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__functions.h
+[37.288s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__type_support.h
+[37.288s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__struct.h
+[37.289s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__struct.h
+[37.289s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__functions.h
+[37.289s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__functions.c
+[37.289s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__functions.c
+[37.289s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__functions.c
+[37.289s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/subscribers.h
+[37.289s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_ros_version.h
+[37.289s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/topics.h
+[37.289s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/environment/library_path.sh
+[37.290s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/environment/library_path.dsv
+[37.290s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_generator_c.so
+[37.290s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_generator_c.so" to ""
+[37.290s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs
+[37.290s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg
+[37.290s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[37.290s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail
+[37.290s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__rosidl_typesupport_fastrtps_c.h
+[37.290s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv
+[37.290s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail
+[37.291s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__rosidl_typesupport_fastrtps_c.h
+[37.291s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__rosidl_typesupport_fastrtps_c.h
+[37.291s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__rosidl_typesupport_fastrtps_c.h
+[37.291s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__rosidl_typesupport_fastrtps_c.h
+[37.291s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__rosidl_typesupport_fastrtps_c.h
+[37.291s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__rosidl_typesupport_fastrtps_c.h
+[37.291s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__rosidl_typesupport_fastrtps_c.h
+[37.291s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__rosidl_typesupport_fastrtps_c.h
+[37.291s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__rosidl_typesupport_fastrtps_c.h
+[37.292s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__rosidl_typesupport_fastrtps_c.h
+[37.292s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__rosidl_typesupport_fastrtps_c.h
+[37.292s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__rosidl_typesupport_fastrtps_c.h
+[37.292s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__rosidl_typesupport_fastrtps_c.h
+[37.292s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__rosidl_typesupport_fastrtps_c.h
+[37.292s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__rosidl_typesupport_fastrtps_c.h
+[37.292s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__rosidl_typesupport_fastrtps_c.h
+[37.292s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__rosidl_typesupport_fastrtps_c.h
+[37.293s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__rosidl_typesupport_fastrtps_c.h
+[37.293s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__rosidl_typesupport_fastrtps_c.h
+[37.293s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__rosidl_typesupport_fastrtps_c.h
+[37.293s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__rosidl_typesupport_fastrtps_c.h
+[37.293s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__rosidl_typesupport_fastrtps_c.h
+[37.293s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__rosidl_typesupport_fastrtps_c.h
+[37.293s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__rosidl_typesupport_fastrtps_c.h
+[37.293s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_fastrtps_c.so
+[37.294s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[37.294s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs
+[37.294s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg
+[37.294s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/type_def.hpp
+[37.294s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail
+[37.294s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__struct.hpp
+[37.294s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__builder.hpp
+[37.294s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__traits.hpp
+[37.295s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv
+[37.295s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/node_details.hpp
+[37.295s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/subscribers.hpp
+[37.295s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_response_details.hpp
+[37.295s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_time.hpp
+[37.295s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/message_details.hpp
+[37.295s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/publishers.hpp
+[37.295s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_param_names.hpp
+[37.295s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/topic_type.hpp
+[37.296s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_param.hpp
+[37.296s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/services.hpp
+[37.296s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/has_param.hpp
+[37.296s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_request_details.hpp
+[37.296s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_providers.hpp
+[37.296s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_type.hpp
+[37.297s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/topics_and_raw_types.hpp
+[37.297s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/set_param.hpp
+[37.297s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/delete_param.hpp
+[37.297s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_action_servers.hpp
+[37.297s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_node.hpp
+[37.297s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/services_for_type.hpp
+[37.297s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/nodes.hpp
+[37.297s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/topics_for_type.hpp
+[37.297s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail
+[37.298s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__struct.hpp
+[37.298s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__builder.hpp
+[37.298s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__struct.hpp
+[37.298s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__struct.hpp
+[37.298s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__traits.hpp
+[37.298s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__struct.hpp
+[37.298s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__builder.hpp
+[37.298s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__builder.hpp
+[37.298s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__traits.hpp
+[37.299s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__traits.hpp
+[37.299s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__struct.hpp
+[37.299s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__traits.hpp
+[37.299s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__builder.hpp
+[37.299s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__builder.hpp
+[37.299s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__traits.hpp
+[37.299s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__builder.hpp
+[37.299s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__builder.hpp
+[37.300s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__struct.hpp
+[37.300s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__builder.hpp
+[37.300s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__traits.hpp
+[37.300s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__traits.hpp
+[37.300s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__builder.hpp
+[37.300s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__struct.hpp
+[37.300s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__struct.hpp
+[37.300s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__struct.hpp
+[37.300s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__traits.hpp
+[37.300s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__traits.hpp
+[37.301s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__builder.hpp
+[37.301s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__builder.hpp
+[37.301s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__traits.hpp
+[37.301s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__builder.hpp
+[37.301s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__struct.hpp
+[37.301s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__traits.hpp
+[37.301s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__builder.hpp
+[37.301s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__traits.hpp
+[37.301s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__builder.hpp
+[37.302s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__struct.hpp
+[37.302s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__traits.hpp
+[37.302s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__struct.hpp
+[37.302s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__traits.hpp
+[37.302s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__struct.hpp
+[37.302s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__struct.hpp
+[37.302s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__struct.hpp
+[37.303s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__traits.hpp
+[37.303s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__traits.hpp
+[37.303s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__struct.hpp
+[37.303s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__traits.hpp
+[37.303s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__struct.hpp
+[37.303s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__builder.hpp
+[37.303s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__struct.hpp
+[37.303s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__struct.hpp
+[37.303s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__builder.hpp
+[37.304s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__traits.hpp
+[37.304s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__struct.hpp
+[37.304s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__traits.hpp
+[37.304s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__traits.hpp
+[37.304s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__struct.hpp
+[37.304s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__struct.hpp
+[37.304s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__traits.hpp
+[37.304s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__builder.hpp
+[37.305s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__builder.hpp
+[37.305s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__traits.hpp
+[37.305s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__struct.hpp
+[37.305s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__builder.hpp
+[37.305s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__builder.hpp
+[37.305s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__builder.hpp
+[37.305s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__builder.hpp
+[37.305s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__builder.hpp
+[37.305s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__traits.hpp
+[37.305s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__struct.hpp
+[37.305s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__builder.hpp
+[37.305s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__traits.hpp
+[37.306s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/topics.hpp
+[37.306s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_ros_version.hpp
+[37.306s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs
+[37.306s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg
+[37.306s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail
+[37.306s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__rosidl_typesupport_fastrtps_cpp.hpp
+[37.306s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/dds_fastrtps
+[37.306s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[37.307s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv
+[37.307s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail
+[37.307s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__rosidl_typesupport_fastrtps_cpp.hpp
+[37.307s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__rosidl_typesupport_fastrtps_cpp.hpp
+[37.307s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__rosidl_typesupport_fastrtps_cpp.hpp
+[37.307s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__rosidl_typesupport_fastrtps_cpp.hpp
+[37.307s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/dds_fastrtps
+[37.307s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__rosidl_typesupport_fastrtps_cpp.hpp
+[37.307s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__rosidl_typesupport_fastrtps_cpp.hpp
+[37.308s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__rosidl_typesupport_fastrtps_cpp.hpp
+[37.308s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__rosidl_typesupport_fastrtps_cpp.hpp
+[37.308s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__rosidl_typesupport_fastrtps_cpp.hpp
+[37.308s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__rosidl_typesupport_fastrtps_cpp.hpp
+[37.308s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__rosidl_typesupport_fastrtps_cpp.hpp
+[37.308s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__rosidl_typesupport_fastrtps_cpp.hpp
+[37.308s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__rosidl_typesupport_fastrtps_cpp.hpp
+[37.308s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__rosidl_typesupport_fastrtps_cpp.hpp
+[37.308s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__rosidl_typesupport_fastrtps_cpp.hpp
+[37.308s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__rosidl_typesupport_fastrtps_cpp.hpp
+[37.308s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__rosidl_typesupport_fastrtps_cpp.hpp
+[37.309s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__rosidl_typesupport_fastrtps_cpp.hpp
+[37.309s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__rosidl_typesupport_fastrtps_cpp.hpp
+[37.309s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__rosidl_typesupport_fastrtps_cpp.hpp
+[37.309s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__rosidl_typesupport_fastrtps_cpp.hpp
+[37.309s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__rosidl_typesupport_fastrtps_cpp.hpp
+[37.309s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__rosidl_typesupport_fastrtps_cpp.hpp
+[37.309s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__rosidl_typesupport_fastrtps_cpp.hpp
+[37.309s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_fastrtps_cpp.so
+[37.309s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[37.310s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs
+[37.310s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg
+[37.310s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[37.310s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail
+[37.310s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__type_support.c
+[37.310s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__rosidl_typesupport_introspection_c.h
+[37.310s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv
+[37.310s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail
+[37.311s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__rosidl_typesupport_introspection_c.h
+[37.311s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__rosidl_typesupport_introspection_c.h
+[37.311s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__rosidl_typesupport_introspection_c.h
+[37.311s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__type_support.c
+[37.311s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__rosidl_typesupport_introspection_c.h
+[37.311s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__type_support.c
+[37.311s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__rosidl_typesupport_introspection_c.h
+[37.311s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__type_support.c
+[37.311s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__type_support.c
+[37.312s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__rosidl_typesupport_introspection_c.h
+[37.312s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__rosidl_typesupport_introspection_c.h
+[37.312s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__type_support.c
+[37.312s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__rosidl_typesupport_introspection_c.h
+[37.312s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__type_support.c
+[37.312s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__rosidl_typesupport_introspection_c.h
+[37.312s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__type_support.c
+[37.312s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__rosidl_typesupport_introspection_c.h
+[37.312s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__type_support.c
+[37.312s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__rosidl_typesupport_introspection_c.h
+[37.312s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__type_support.c
+[37.313s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__rosidl_typesupport_introspection_c.h
+[37.313s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__type_support.c
+[37.313s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__type_support.c
+[37.313s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__rosidl_typesupport_introspection_c.h
+[37.313s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__rosidl_typesupport_introspection_c.h
+[37.313s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__rosidl_typesupport_introspection_c.h
+[37.313s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__type_support.c
+[37.313s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__rosidl_typesupport_introspection_c.h
+[37.313s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__rosidl_typesupport_introspection_c.h
+[37.314s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__type_support.c
+[37.314s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__type_support.c
+[37.314s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__rosidl_typesupport_introspection_c.h
+[37.314s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__type_support.c
+[37.314s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__rosidl_typesupport_introspection_c.h
+[37.314s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__rosidl_typesupport_introspection_c.h
+[37.314s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__rosidl_typesupport_introspection_c.h
+[37.314s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__type_support.c
+[37.314s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__type_support.c
+[37.315s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__rosidl_typesupport_introspection_c.h
+[37.315s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__type_support.c
+[37.315s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__type_support.c
+[37.315s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__type_support.c
+[37.315s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__rosidl_typesupport_introspection_c.h
+[37.315s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__rosidl_typesupport_introspection_c.h
+[37.315s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__type_support.c
+[37.315s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__type_support.c
+[37.315s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__type_support.c
+[37.316s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__type_support.c
+[37.316s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_introspection_c.so
+[37.316s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_introspection_c.so" to ""
+[37.316s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_c.so
+[37.316s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_c.so" to ""
+[37.316s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs
+[37.316s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg
+[37.316s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail
+[37.316s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__rosidl_typesupport_introspection_cpp.hpp
+[37.317s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__type_support.cpp
+[37.317s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv
+[37.317s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail
+[37.317s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__type_support.cpp
+[37.317s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__rosidl_typesupport_introspection_cpp.hpp
+[37.317s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__type_support.cpp
+[37.317s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__rosidl_typesupport_introspection_cpp.hpp
+[37.317s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__rosidl_typesupport_introspection_cpp.hpp
+[37.318s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__rosidl_typesupport_introspection_cpp.hpp
+[37.318s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__type_support.cpp
+[37.318s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__type_support.cpp
+[37.318s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__type_support.cpp
+[37.318s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__rosidl_typesupport_introspection_cpp.hpp
+[37.318s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__type_support.cpp
+[37.318s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__type_support.cpp
+[37.318s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__rosidl_typesupport_introspection_cpp.hpp
+[37.318s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__rosidl_typesupport_introspection_cpp.hpp
+[37.318s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__type_support.cpp
+[37.319s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__rosidl_typesupport_introspection_cpp.hpp
+[37.319s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__rosidl_typesupport_introspection_cpp.hpp
+[37.319s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__type_support.cpp
+[37.319s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__rosidl_typesupport_introspection_cpp.hpp
+[37.319s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__rosidl_typesupport_introspection_cpp.hpp
+[37.319s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__rosidl_typesupport_introspection_cpp.hpp
+[37.319s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__rosidl_typesupport_introspection_cpp.hpp
+[37.319s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__rosidl_typesupport_introspection_cpp.hpp
+[37.319s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__type_support.cpp
+[37.319s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__rosidl_typesupport_introspection_cpp.hpp
+[37.319s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__type_support.cpp
+[37.319s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__type_support.cpp
+[37.319s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__type_support.cpp
+[37.320s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__rosidl_typesupport_introspection_cpp.hpp
+[37.320s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__rosidl_typesupport_introspection_cpp.hpp
+[37.320s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__type_support.cpp
+[37.320s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__type_support.cpp
+[37.320s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__type_support.cpp
+[37.320s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__rosidl_typesupport_introspection_cpp.hpp
+[37.320s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__type_support.cpp
+[37.320s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__type_support.cpp
+[37.320s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__type_support.cpp
+[37.321s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__type_support.cpp
+[37.321s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__type_support.cpp
+[37.321s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__rosidl_typesupport_introspection_cpp.hpp
+[37.321s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__rosidl_typesupport_introspection_cpp.hpp
+[37.321s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__rosidl_typesupport_introspection_cpp.hpp
+[37.321s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__rosidl_typesupport_introspection_cpp.hpp
+[37.321s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__type_support.cpp
+[37.321s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__type_support.cpp
+[37.321s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__type_support.cpp
+[37.321s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__rosidl_typesupport_introspection_cpp.hpp
+[37.322s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__rosidl_typesupport_introspection_cpp.hpp
+[37.322s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_introspection_cpp.so
+[37.322s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[37.322s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_cpp.so
+[37.322s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_cpp.so" to ""
+[37.322s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/environment/pythonpath.sh
+[37.322s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/environment/pythonpath.dsv
+[37.322s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs-1.3.2-py3.10.egg-info
+[37.322s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs-1.3.2-py3.10.egg-info/PKG-INFO
+[37.322s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs-1.3.2-py3.10.egg-info/dependency_links.txt
+[37.322s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs-1.3.2-py3.10.egg-info/SOURCES.txt
+[37.322s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs-1.3.2-py3.10.egg-info/top_level.txt
+[37.322s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs
+[37.323s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/_rosapi_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[37.323s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/msg
+[37.323s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/msg/__init__.py
+[37.323s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/msg/_type_def_s.c
+[37.323s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/msg/_type_def.py
+[37.323s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/__init__.py
+[37.323s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[37.323s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/_rosapi_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[37.324s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/librosapi_msgs__rosidl_generator_py.so
+[37.324s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[37.324s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv
+[37.324s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_param_names.py
+[37.324s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_response_details.py
+[37.324s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_request_details_s.c
+[37.324s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_has_param_s.c
+[37.324s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topics.py
+[37.325s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_response_details_s.c
+[37.325s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_param.py
+[37.325s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_nodes_s.c
+[37.325s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/__init__.py
+[37.325s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topic_type_s.c
+[37.325s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_publishers.py
+[37.325s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_services.py
+[37.325s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_message_details.py
+[37.326s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_node_details.py
+[37.326s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topics_and_raw_types.py
+[37.326s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_type_s.c
+[37.326s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_type.py
+[37.326s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_subscribers.py
+[37.326s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_request_details.py
+[37.326s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_node_s.c
+[37.326s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_ros_version.py
+[37.326s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_delete_param_s.c
+[37.327s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_delete_param.py
+[37.327s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_ros_version_s.c
+[37.327s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_time.py
+[37.327s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_node.py
+[37.327s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_set_param.py
+[37.327s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_time_s.c
+[37.327s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_param_s.c
+[37.327s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_publishers_s.c
+[37.327s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topics_s.c
+[37.328s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_action_servers.py
+[37.328s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_services_s.c
+[37.328s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_set_param_s.c
+[37.328s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topics_for_type_s.c
+[37.328s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_services_for_type_s.c
+[37.328s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_providers.py
+[37.328s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_nodes.py
+[37.328s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topics_and_raw_types_s.c
+[37.328s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topics_for_type.py
+[37.328s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topic_type.py
+[37.328s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_param_names_s.c
+[37.328s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_services_for_type.py
+[37.328s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_action_servers_s.c
+[37.329s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_providers_s.c
+[37.329s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_message_details_s.c
+[37.329s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_node_details_s.c
+[37.329s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_subscribers_s.c
+[37.329s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_has_param.py
+[37.329s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/_rosapi_msgs_s.ep.rosidl_typesupport_c.c
+[37.329s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[37.411s] Listing '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs'...
+[37.411s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/__init__.py'...
+[37.411s] Listing '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/msg'...
+[37.411s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/msg/__init__.py'...
+[37.411s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/msg/_type_def.py'...
+[37.411s] Listing '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv'...
+[37.411s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/__init__.py'...
+[37.411s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_delete_param.py'...
+[37.411s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_action_servers.py'...
+[37.412s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_param.py'...
+[37.412s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_param_names.py'...
+[37.412s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_ros_version.py'...
+[37.412s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_time.py'...
+[37.412s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_has_param.py'...
+[37.412s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_message_details.py'...
+[37.412s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_node_details.py'...
+[37.412s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_nodes.py'...
+[37.412s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_publishers.py'...
+[37.412s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_node.py'...
+[37.412s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_providers.py'...
+[37.412s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_request_details.py'...
+[37.412s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_response_details.py'...
+[37.412s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_type.py'...
+[37.412s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_services.py'...
+[37.413s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_services_for_type.py'...
+[37.413s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_set_param.py'...
+[37.413s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_subscribers.py'...
+[37.413s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topic_type.py'...
+[37.413s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topics.py'...
+[37.413s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topics_and_raw_types.py'...
+[37.413s] Compiling '/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topics_for_type.py'...
+[37.416s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[37.416s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[37.416s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[37.417s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[37.417s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[37.417s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[37.417s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_generator_py.so
+[37.418s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_generator_py.so" to ""
+[37.418s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/msg/TypeDef.idl
+[37.418s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/DeleteParam.idl
+[37.418s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetActionServers.idl
+[37.418s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParam.idl
+[37.419s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParamNames.idl
+[37.419s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetROSVersion.idl
+[37.419s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetTime.idl
+[37.419s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/HasParam.idl
+[37.419s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/MessageDetails.idl
+[37.419s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Nodes.idl
+[37.419s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/NodeDetails.idl
+[37.420s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Publishers.idl
+[37.420s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceNode.idl
+[37.420s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceProviders.idl
+[37.420s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceRequestDetails.idl
+[37.420s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceResponseDetails.idl
+[37.420s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Services.idl
+[37.420s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServicesForType.idl
+[37.420s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceType.idl
+[37.420s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/SetParam.idl
+[37.420s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Subscribers.idl
+[37.421s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Topics.idl
+[37.421s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsAndRawTypes.idl
+[37.421s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsForType.idl
+[37.421s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicType.idl
+[37.421s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/msg/TypeDef.msg
+[37.421s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/DeleteParam.srv
+[37.421s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/DeleteParam_Request.msg
+[37.421s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/DeleteParam_Response.msg
+[37.421s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetActionServers.srv
+[37.421s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetActionServers_Request.msg
+[37.422s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetActionServers_Response.msg
+[37.422s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParam.srv
+[37.422s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParam_Request.msg
+[37.422s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParam_Response.msg
+[37.422s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParamNames.srv
+[37.422s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParamNames_Request.msg
+[37.422s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParamNames_Response.msg
+[37.422s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetROSVersion.srv
+[37.423s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetROSVersion_Request.msg
+[37.423s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetROSVersion_Response.msg
+[37.423s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetTime.srv
+[37.423s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetTime_Request.msg
+[37.423s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetTime_Response.msg
+[37.423s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/HasParam.srv
+[37.423s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/HasParam_Request.msg
+[37.423s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/HasParam_Response.msg
+[37.424s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/MessageDetails.srv
+[37.424s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/MessageDetails_Request.msg
+[37.424s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/MessageDetails_Response.msg
+[37.424s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Nodes.srv
+[37.424s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Nodes_Request.msg
+[37.424s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Nodes_Response.msg
+[37.424s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/NodeDetails.srv
+[37.425s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/NodeDetails_Request.msg
+[37.425s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/NodeDetails_Response.msg
+[37.425s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Publishers.srv
+[37.425s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Publishers_Request.msg
+[37.425s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Publishers_Response.msg
+[37.425s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceNode.srv
+[37.425s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceNode_Request.msg
+[37.425s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceNode_Response.msg
+[37.426s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceProviders.srv
+[37.426s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceProviders_Request.msg
+[37.426s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceProviders_Response.msg
+[37.426s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceRequestDetails.srv
+[37.426s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceRequestDetails_Request.msg
+[37.426s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceRequestDetails_Response.msg
+[37.426s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceResponseDetails.srv
+[37.426s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceResponseDetails_Request.msg
+[37.427s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceResponseDetails_Response.msg
+[37.427s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Services.srv
+[37.427s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Services_Request.msg
+[37.427s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Services_Response.msg
+[37.427s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServicesForType.srv
+[37.427s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServicesForType_Request.msg
+[37.427s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServicesForType_Response.msg
+[37.428s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceType.srv
+[37.428s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceType_Request.msg
+[37.428s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceType_Response.msg
+[37.428s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/SetParam.srv
+[37.428s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/SetParam_Request.msg
+[37.428s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/SetParam_Response.msg
+[37.429s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Subscribers.srv
+[37.429s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Subscribers_Request.msg
+[37.429s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Subscribers_Response.msg
+[37.429s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Topics.srv
+[37.429s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Topics_Request.msg
+[37.429s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Topics_Response.msg
+[37.429s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsAndRawTypes.srv
+[37.430s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsAndRawTypes_Request.msg
+[37.430s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsAndRawTypes_Response.msg
+[37.430s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsForType.srv
+[37.430s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsForType_Request.msg
+[37.430s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsForType_Response.msg
+[37.430s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicType.srv
+[37.430s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicType_Request.msg
+[37.431s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicType_Response.msg
+[37.431s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/ament_index/resource_index/package_run_dependencies/rosapi_msgs
+[37.431s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/ament_index/resource_index/parent_prefix_path/rosapi_msgs
+[37.431s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/environment/ament_prefix_path.sh
+[37.431s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/environment/ament_prefix_path.dsv
+[37.431s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/environment/path.sh
+[37.431s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/environment/path.dsv
+[37.432s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/local_setup.bash
+[37.432s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/local_setup.sh
+[37.432s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/local_setup.zsh
+[37.432s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/local_setup.dsv
+[37.432s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/package.dsv
+[37.432s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/ament_index/resource_index/packages/rosapi_msgs
+[37.432s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/export_rosapi_msgs__rosidl_generator_cExport.cmake
+[37.433s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/export_rosapi_msgs__rosidl_generator_cExport-release.cmake
+[37.433s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/export_rosapi_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[37.433s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/export_rosapi_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[37.433s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/export_rosapi_msgs__rosidl_generator_cppExport.cmake
+[37.433s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/export_rosapi_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[37.433s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/export_rosapi_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[37.433s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_introspection_cExport.cmake
+[37.434s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[37.434s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_cExport.cmake
+[37.434s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_cExport-release.cmake
+[37.434s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[37.434s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[37.434s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_cppExport.cmake
+[37.435s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_cppExport-release.cmake
+[37.435s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/export_rosapi_msgs__rosidl_generator_pyExport.cmake
+[37.435s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/export_rosapi_msgs__rosidl_generator_pyExport-release.cmake
+[37.435s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosidl_cmake-extras.cmake
+[37.435s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.435s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[37.435s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[37.436s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[37.436s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[37.436s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[37.436s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgsConfig.cmake
+[37.436s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgsConfig-version.cmake
+[37.436s] -- Installing: /home/hello-robot/ament_ws/install/rosapi_msgs/share/rosapi_msgs/package.xml
+[37.439s] Invoked command in '/home/hello-robot/ament_ws/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/rosapi_msgs

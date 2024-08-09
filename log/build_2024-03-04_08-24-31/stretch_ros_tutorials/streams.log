@@ -1,0 +1,39 @@
+[4.848s] Invoking command in '/home/hello-robot/ament_ws/src/stretch_tutorials': PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_ros_tutorials/prefix_override:/home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/stretch_ros_tutorials build --build-base /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build install --record /home/hello-robot/ament_ws/build/stretch_ros_tutorials/install.log --single-version-externally-managed
+[5.435s] /home/hello-robot/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:30: RuntimeWarning: 
+[5.435s] ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x
+[5.435s] 
+[5.435s] Your build configuration is incomplete and previously worked by accident!
+[5.435s] setuptools_scm requires setuptools>=61
+[5.435s] 
+[5.435s] Suggested workaround if applicable:
+[5.435s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[5.436s]    and using a pyproject.toml to declare build dependencies
+[5.436s]    which are reliably pre-installed before running the build tools
+[5.436s] 
+[5.436s]   warnings.warn(
+[5.437s] running egg_info
+[5.437s] writing ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/PKG-INFO
+[5.437s] writing dependency_links to ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/dependency_links.txt
+[5.437s] writing entry points to ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/entry_points.txt
+[5.437s] writing requirements to ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/requires.txt
+[5.437s] writing top-level names to ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/top_level.txt
+[6.270s] writing manifest file '../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/SOURCES.txt'
+[6.270s] running build
+[6.270s] running build_py
+[6.270s] running install
+[6.271s] running install_lib
+[6.271s] running install_data
+[6.271s] running install_egg_info
+[6.271s] removing '/home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials-0.0.0-py3.10.egg-info' (and everything under it)
+[6.271s] Copying ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials-0.0.0-py3.10.egg-info
+[6.271s] running install_scripts
+[6.271s] Installing avoider script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[6.271s] Installing marker script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[6.271s] Installing move script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[6.272s] Installing multipoint_command script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[6.272s] Installing scan_filter script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[6.272s] Installing stow_command script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[6.272s] Installing tf_broadcaster script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[6.272s] Installing tf_listener script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[6.272s] writing list of installed files to '/home/hello-robot/ament_ws/build/stretch_ros_tutorials/install.log'
+[6.274s] Invoked command in '/home/hello-robot/ament_ws/src/stretch_tutorials' returned '0': PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_ros_tutorials/prefix_override:/home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/stretch_ros_tutorials build --build-base /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build install --record /home/hello-robot/ament_ws/build/stretch_ros_tutorials/install.log --single-version-externally-managed

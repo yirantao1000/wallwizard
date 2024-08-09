@@ -1,0 +1,13 @@
+setup.py
+speech_recognition_msgs/__init__.py
+speech_recognition_msgs.egg-info/PKG-INFO
+speech_recognition_msgs.egg-info/SOURCES.txt
+speech_recognition_msgs.egg-info/dependency_links.txt
+speech_recognition_msgs.egg-info/top_level.txt
+speech_recognition_msgs/msg/__init__.py
+speech_recognition_msgs/msg/_grammar.py
+speech_recognition_msgs/msg/_phrase_rule.py
+speech_recognition_msgs/msg/_speech_recognition_candidates.py
+speech_recognition_msgs/msg/_vocabulary.py
+speech_recognition_msgs/srv/__init__.py
+speech_recognition_msgs/srv/_speech_recognition.py

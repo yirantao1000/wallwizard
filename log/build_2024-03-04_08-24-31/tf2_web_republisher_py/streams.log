@@ -1,0 +1,32 @@
+[2.374s] Invoking command in '/home/hello-robot/ament_ws/src/tf2_web_republisher_py/tf2_web_republisher_py': PYTHONPATH=/home/hello-robot/ament_ws/build/tf2_web_republisher_py/prefix_override:/home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tf2_web_republisher_py build --build-base /home/hello-robot/ament_ws/build/tf2_web_republisher_py/build install --record /home/hello-robot/ament_ws/build/tf2_web_republisher_py/install.log --install-scripts $base/lib/tf2_web_republisher_py --single-version-externally-managed
+[3.084s] /home/hello-robot/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:30: RuntimeWarning: 
+[3.084s] ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x
+[3.084s] 
+[3.084s] Your build configuration is incomplete and previously worked by accident!
+[3.084s] setuptools_scm requires setuptools>=61
+[3.084s] 
+[3.084s] Suggested workaround if applicable:
+[3.085s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[3.085s]    and using a pyproject.toml to declare build dependencies
+[3.085s]    which are reliably pre-installed before running the build tools
+[3.085s] 
+[3.085s]   warnings.warn(
+[3.085s] running egg_info
+[3.085s] writing ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/PKG-INFO
+[3.086s] writing dependency_links to ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/dependency_links.txt
+[3.086s] writing entry points to ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/entry_points.txt
+[3.086s] writing requirements to ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/requires.txt
+[3.086s] writing top-level names to ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/top_level.txt
+[3.086s] writing manifest file '../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/SOURCES.txt'
+[3.086s] running build
+[3.086s] running build_py
+[3.086s] running install
+[3.087s] running install_lib
+[3.087s] running install_data
+[3.087s] running install_egg_info
+[3.087s] removing '/home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages/tf2_web_republisher_py-0.0.0-py3.10.egg-info' (and everything under it)
+[3.087s] Copying ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info to /home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages/tf2_web_republisher_py-0.0.0-py3.10.egg-info
+[3.088s] running install_scripts
+[3.088s] Installing tf2_web_republisher script to /home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/tf2_web_republisher_py
+[3.088s] writing list of installed files to '/home/hello-robot/ament_ws/build/tf2_web_republisher_py/install.log'
+[3.228s] Invoked command in '/home/hello-robot/ament_ws/src/tf2_web_republisher_py/tf2_web_republisher_py' returned '0': PYTHONPATH=/home/hello-robot/ament_ws/build/tf2_web_republisher_py/prefix_override:/home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tf2_web_republisher_py build --build-base /home/hello-robot/ament_ws/build/tf2_web_republisher_py/build install --record /home/hello-robot/ament_ws/build/tf2_web_republisher_py/install.log --install-scripts $base/lib/tf2_web_republisher_py --single-version-externally-managed

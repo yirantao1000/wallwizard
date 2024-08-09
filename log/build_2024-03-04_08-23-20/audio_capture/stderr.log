@@ -1,0 +1,4 @@
+/home/hello-robot/ament_ws/src/audio_common/audio_capture/src/audio_capture_node.cpp: In static member function ‘static gboolean audio_capture::AudioCaptureNode::onMessage(GstBus*, GstMessage*, gpointer)’:
+/home/hello-robot/ament_ws/src/audio_common/audio_capture/src/audio_capture_node.cpp:230:42: warning: unused parameter ‘bus’ [-Wunused-parameter]
+  230 |       static gboolean onMessage (GstBus *bus, GstMessage *message, gpointer userData)
+      |                                  ~~~~~~~~^~~

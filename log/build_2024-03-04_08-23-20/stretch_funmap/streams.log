@@ -1,0 +1,113 @@
+[14.247s] Invoking command in '/home/hello-robot/ament_ws/src/stretch_ros2/stretch_funmap': PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_funmap/prefix_override:/home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/stretch_funmap build --build-base /home/hello-robot/ament_ws/build/stretch_funmap/build install --record /home/hello-robot/ament_ws/build/stretch_funmap/install.log --single-version-externally-managed
+[20.260s] /home/hello-robot/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:30: RuntimeWarning: 
+[20.260s] ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x
+[20.260s] 
+[20.260s] Your build configuration is incomplete and previously worked by accident!
+[20.260s] setuptools_scm requires setuptools>=61
+[20.260s] 
+[20.261s] Suggested workaround if applicable:
+[20.261s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[20.261s]    and using a pyproject.toml to declare build dependencies
+[20.261s]    which are reliably pre-installed before running the build tools
+[20.261s] 
+[20.261s]   warnings.warn(
+[20.261s] running egg_info
+[20.261s] creating ../../../build/stretch_funmap/stretch_funmap.egg-info
+[20.261s] writing ../../../build/stretch_funmap/stretch_funmap.egg-info/PKG-INFO
+[20.261s] writing dependency_links to ../../../build/stretch_funmap/stretch_funmap.egg-info/dependency_links.txt
+[20.261s] writing entry points to ../../../build/stretch_funmap/stretch_funmap.egg-info/entry_points.txt
+[20.262s] writing requirements to ../../../build/stretch_funmap/stretch_funmap.egg-info/requires.txt
+[20.262s] writing top-level names to ../../../build/stretch_funmap/stretch_funmap.egg-info/top_level.txt
+[20.262s] writing manifest file '../../../build/stretch_funmap/stretch_funmap.egg-info/SOURCES.txt'
+[24.237s] adding license file 'LICENSE.md'
+[24.237s] writing manifest file '../../../build/stretch_funmap/stretch_funmap.egg-info/SOURCES.txt'
+[24.237s] running build
+[24.237s] running build_py
+[24.237s] creating /home/hello-robot/ament_ws/build/stretch_funmap/build
+[24.237s] creating /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10
+[24.238s] creating /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap
+[24.238s] copying stretch_funmap/__init__.py -> /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap
+[24.238s] copying stretch_funmap/numba_height_image.py -> /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap
+[24.238s] copying stretch_funmap/numba_create_plane_image.py -> /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap
+[24.238s] copying stretch_funmap/mapping.py -> /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap
+[24.238s] copying stretch_funmap/merge_maps.py -> /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap
+[24.238s] copying stretch_funmap/max_height_image.py -> /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap
+[24.238s] copying stretch_funmap/navigation_planning.py -> /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap
+[24.238s] copying stretch_funmap/ros_max_height_image.py -> /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap
+[24.238s] copying stretch_funmap/segment_max_height_image.py -> /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap
+[24.238s] copying stretch_funmap/numba_manipulation_planning.py -> /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap
+[24.238s] copying stretch_funmap/manipulation_planning.py -> /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap
+[24.238s] copying stretch_funmap/navigate.py -> /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap
+[24.238s] copying stretch_funmap/numba_compare_images.py -> /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap
+[24.238s] copying stretch_funmap/numba_sample_ridge.py -> /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap
+[24.238s] copying stretch_funmap/numba_check_line_path.py -> /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap
+[24.238s] copying stretch_funmap/funmap.py -> /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap
+[24.238s] running build_ext
+[24.238s] building 'stretch_funmap.cython_min_cost_path' extension
+[24.239s] INFO: C compiler: x86_64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC
+[24.239s] 
+[24.239s] creating /home/hello-robot/ament_ws/build/stretch_funmap/build/temp.linux-x86_64-3.10
+[24.239s] creating /home/hello-robot/ament_ws/build/stretch_funmap/build/temp.linux-x86_64-3.10/stretch_funmap
+[24.239s] INFO: compile options: '-I/home/hello-robot/ament_ws/install/stretch_funmap/include -I/usr/include/python3.10 -c'
+[24.239s] INFO: x86_64-linux-gnu-gcc: stretch_funmap/cython_min_cost_path.c
+[24.239s] In file included from /usr/include/python3.10/numpy/ndarraytypes.h:1969,
+[24.239s]                  from /usr/include/python3.10/numpy/ndarrayobject.h:12,
+[24.239s]                  from /usr/include/python3.10/numpy/arrayobject.h:4,
+[24.239s]                  from stretch_funmap/cython_min_cost_path.c:700:
+[24.239s] /usr/include/python3.10/numpy/npy_1_7_deprecated_api.h:17:2: warning: #warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+[24.239s]    17 | #warning "Using deprecated NumPy API, disable it with " \
+[24.239s]       |  ^~~~~~~
+[31.438s] INFO: x86_64-linux-gnu-gcc -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -g -fwrapv -O2 -Wl,-Bsymbolic-functions -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 /home/hello-robot/ament_ws/build/stretch_funmap/build/temp.linux-x86_64-3.10/stretch_funmap/cython_min_cost_path.o -o /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/cython_min_cost_path.cpython-310-x86_64-linux-gnu.so
+[31.498s] running install
+[31.498s] running install_lib
+[31.500s] creating /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[31.500s] copying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/__init__.py -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[31.511s] copying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/numba_height_image.py -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[31.512s] copying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/numba_create_plane_image.py -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[31.512s] copying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/mapping.py -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[31.512s] copying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/cython_min_cost_path.cpython-310-x86_64-linux-gnu.so -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[31.512s] copying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/merge_maps.py -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[31.512s] copying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/max_height_image.py -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[31.512s] copying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/navigation_planning.py -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[31.512s] copying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/ros_max_height_image.py -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[31.512s] copying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/segment_max_height_image.py -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[31.512s] copying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/numba_manipulation_planning.py -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[31.512s] copying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/manipulation_planning.py -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[31.513s] copying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/navigate.py -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[31.513s] copying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/numba_compare_images.py -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[31.513s] copying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/numba_sample_ridge.py -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[31.513s] copying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/numba_check_line_path.py -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[31.513s] copying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/funmap.py -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[31.513s] byte-compiling /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/__init__.py to __init__.cpython-310.pyc
+[31.513s] byte-compiling /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/numba_height_image.py to numba_height_image.cpython-310.pyc
+[31.513s] byte-compiling /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/numba_create_plane_image.py to numba_create_plane_image.cpython-310.pyc
+[31.514s] byte-compiling /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/mapping.py to mapping.cpython-310.pyc
+[31.518s] byte-compiling /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/merge_maps.py to merge_maps.cpython-310.pyc
+[31.524s] byte-compiling /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/max_height_image.py to max_height_image.cpython-310.pyc
+[31.528s] byte-compiling /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/navigation_planning.py to navigation_planning.cpython-310.pyc
+[31.535s] byte-compiling /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/ros_max_height_image.py to ros_max_height_image.cpython-310.pyc
+[31.540s] byte-compiling /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/segment_max_height_image.py to segment_max_height_image.cpython-310.pyc
+[31.551s] byte-compiling /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/numba_manipulation_planning.py to numba_manipulation_planning.cpython-310.pyc
+[31.553s] byte-compiling /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/manipulation_planning.py to manipulation_planning.cpython-310.pyc
+[31.566s] byte-compiling /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/navigate.py to navigate.cpython-310.pyc
+[31.575s] byte-compiling /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/numba_compare_images.py to numba_compare_images.cpython-310.pyc
+[31.577s] byte-compiling /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/numba_sample_ridge.py to numba_sample_ridge.cpython-310.pyc
+[31.579s] byte-compiling /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/numba_check_line_path.py to numba_check_line_path.cpython-310.pyc
+[31.580s] byte-compiling /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/funmap.py to funmap.cpython-310.pyc
+[31.594s] running install_data
+[31.595s] creating /home/hello-robot/ament_ws/install/stretch_funmap/share/ament_index
+[31.595s] creating /home/hello-robot/ament_ws/install/stretch_funmap/share/ament_index/resource_index
+[31.596s] creating /home/hello-robot/ament_ws/install/stretch_funmap/share/ament_index/resource_index/packages
+[31.596s] copying resource/stretch_funmap -> /home/hello-robot/ament_ws/install/stretch_funmap/share/ament_index/resource_index/packages
+[31.596s] copying package.xml -> /home/hello-robot/ament_ws/install/stretch_funmap/share/stretch_funmap
+[31.596s] creating /home/hello-robot/ament_ws/install/stretch_funmap/share/stretch_funmap/launch
+[31.597s] copying launch/funmap.launch.py -> /home/hello-robot/ament_ws/install/stretch_funmap/share/stretch_funmap/launch
+[31.597s] copying launch/mapping.launch.py -> /home/hello-robot/ament_ws/install/stretch_funmap/share/stretch_funmap/launch
+[31.598s] creating /home/hello-robot/ament_ws/install/stretch_funmap/share/stretch_funmap/rviz
+[31.598s] copying rviz/stretch_mapping.rviz -> /home/hello-robot/ament_ws/install/stretch_funmap/share/stretch_funmap/rviz
+[31.599s] running install_egg_info
+[31.601s] Copying ../../../build/stretch_funmap/stretch_funmap.egg-info to /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap-0.0.0-py3.10.egg-info
+[31.602s] running install_scripts
+[31.608s] Installing funmap script to /home/hello-robot/ament_ws/install/stretch_funmap/lib/stretch_funmap
+[31.610s] writing list of installed files to '/home/hello-robot/ament_ws/build/stretch_funmap/install.log'
+[32.321s] Invoked command in '/home/hello-robot/ament_ws/src/stretch_ros2/stretch_funmap' returned '0': PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_funmap/prefix_override:/home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/stretch_funmap build --build-base /home/hello-robot/ament_ws/build/stretch_funmap/build install --record /home/hello-robot/ament_ws/build/stretch_funmap/install.log --single-version-externally-managed

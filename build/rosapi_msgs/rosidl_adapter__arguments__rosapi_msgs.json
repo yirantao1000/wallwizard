@@ -1,0 +1,30 @@
+{
+  "package_name": "rosapi_msgs",
+  "non_idl_tuples": [
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:msg/TypeDef.msg",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/DeleteParam.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/GetActionServers.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/GetParam.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/GetParamNames.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/GetROSVersion.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/GetTime.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/HasParam.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/MessageDetails.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/Nodes.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/NodeDetails.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/Publishers.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceNode.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceProviders.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceRequestDetails.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceResponseDetails.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/Services.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/ServicesForType.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceType.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/SetParam.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/Subscribers.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/Topics.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/TopicsAndRawTypes.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/TopicsForType.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/TopicType.srv"
+  ]
+}

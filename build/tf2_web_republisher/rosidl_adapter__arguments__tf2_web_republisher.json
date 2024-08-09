@@ -1,0 +1,8 @@
+{
+  "package_name": "tf2_web_republisher",
+  "non_idl_tuples": [
+    "/home/hello-robot/ament_ws/src/tf2_web_republisher_py/tf2_web_republisher:msg/TFArray.msg",
+    "/home/hello-robot/ament_ws/src/tf2_web_republisher_py/tf2_web_republisher:srv/RepublishTFs.srv",
+    "/home/hello-robot/ament_ws/src/tf2_web_republisher_py/tf2_web_republisher:action/TFSubscription.action"
+  ]
+}

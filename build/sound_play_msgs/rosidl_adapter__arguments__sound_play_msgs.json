@@ -1,0 +1,7 @@
+{
+  "package_name": "sound_play_msgs",
+  "non_idl_tuples": [
+    "/home/hello-robot/ament_ws/src/audio_common/sound_play_msgs:msg/SoundRequest.msg",
+    "/home/hello-robot/ament_ws/src/audio_common/sound_play_msgs:action/SoundRequest.action"
+  ]
+}

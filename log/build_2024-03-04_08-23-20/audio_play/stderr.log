@@ -1,0 +1,11 @@
+/home/hello-robot/ament_ws/src/audio_common/audio_play/src/audio_play_node.cpp: In static member function ‘static void audio_play::AudioPlayNode::cb_newpad(GstElement*, GstPad*, gpointer)’:
+/home/hello-robot/ament_ws/src/audio_common/audio_play/src/audio_play_node.cpp:158:41: warning: unused parameter ‘decodebin’ [-Wunused-parameter]
+  158 |      static void cb_newpad (GstElement *decodebin, GstPad *pad,
+      |                             ~~~~~~~~~~~~^~~~~~~~~
+/home/hello-robot/ament_ws/src/audio_common/audio_play/src/audio_play_node.cpp: In constructor ‘audio_play::AudioPlayNode::AudioPlayNode(const rclcpp::NodeOptions&)’:
+/home/hello-robot/ament_ws/src/audio_common/audio_play/src/audio_play_node.cpp:125:29: warning: ‘audiopad’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  125 |             gst_object_unref(audiopad);
+      |             ~~~~~~~~~~~~~~~~^~~~~~~~~~
+/home/hello-robot/ament_ws/src/audio_common/audio_play/src/audio_play_node.cpp:58:21: warning: ‘do_timestamp’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   58 |         g_object_set(G_OBJECT(_source), "do-timestamp", (do_timestamp) ? TRUE : FALSE, NULL);
+      |         ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

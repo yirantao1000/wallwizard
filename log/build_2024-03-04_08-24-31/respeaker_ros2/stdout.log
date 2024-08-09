@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/respeaker_ros2/respeaker_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../build/respeaker_ros2/respeaker_ros2.egg-info/dependency_links.txt
+writing entry points to ../../build/respeaker_ros2/respeaker_ros2.egg-info/entry_points.txt
+writing requirements to ../../build/respeaker_ros2/respeaker_ros2.egg-info/requires.txt
+writing top-level names to ../../build/respeaker_ros2/respeaker_ros2.egg-info/top_level.txt
+adding license file 'LICENSE.md'
+writing manifest file '../../build/respeaker_ros2/respeaker_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/respeaker_ros2/respeaker_ros2.egg-info to /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2-0.1.0-py3.10.egg-info
+running install_scripts
+Installing respeaker_node script to /home/hello-robot/ament_ws/install/respeaker_ros2/lib/respeaker_ros2
+Installing speech_to_text script to /home/hello-robot/ament_ws/install/respeaker_ros2/lib/respeaker_ros2
+writing list of installed files to '/home/hello-robot/ament_ws/build/respeaker_ros2/install.log'

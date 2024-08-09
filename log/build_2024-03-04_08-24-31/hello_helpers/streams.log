@@ -1,0 +1,33 @@
+[5.351s] Invoking command in '/home/hello-robot/ament_ws/src/stretch_ros2/hello_helpers': PYTHONPATH=/home/hello-robot/ament_ws/build/hello_helpers/prefix_override:/home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hello_helpers build --build-base /home/hello-robot/ament_ws/build/hello_helpers/build install --record /home/hello-robot/ament_ws/build/hello_helpers/install.log --single-version-externally-managed
+[6.037s] /home/hello-robot/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:30: RuntimeWarning: 
+[6.037s] ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x
+[6.037s] 
+[6.037s] Your build configuration is incomplete and previously worked by accident!
+[6.037s] setuptools_scm requires setuptools>=61
+[6.037s] 
+[6.037s] Suggested workaround if applicable:
+[6.037s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[6.037s]    and using a pyproject.toml to declare build dependencies
+[6.038s]    which are reliably pre-installed before running the build tools
+[6.038s] 
+[6.038s]   warnings.warn(
+[6.039s] running egg_info
+[6.039s] writing ../../../build/hello_helpers/hello_helpers.egg-info/PKG-INFO
+[6.039s] writing dependency_links to ../../../build/hello_helpers/hello_helpers.egg-info/dependency_links.txt
+[6.040s] writing entry points to ../../../build/hello_helpers/hello_helpers.egg-info/entry_points.txt
+[6.040s] writing requirements to ../../../build/hello_helpers/hello_helpers.egg-info/requires.txt
+[6.040s] writing top-level names to ../../../build/hello_helpers/hello_helpers.egg-info/top_level.txt
+[7.281s] adding license file 'LICENSE.md'
+[7.282s] writing manifest file '../../../build/hello_helpers/hello_helpers.egg-info/SOURCES.txt'
+[7.282s] running build
+[7.282s] running build_py
+[7.282s] running install
+[7.282s] running install_lib
+[7.282s] running install_data
+[7.282s] running install_egg_info
+[7.282s] removing '/home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages/hello_helpers-0.2.0-py3.10.egg-info' (and everything under it)
+[7.282s] Copying ../../../build/hello_helpers/hello_helpers.egg-info to /home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages/hello_helpers-0.2.0-py3.10.egg-info
+[7.282s] running install_scripts
+[7.282s] Installing configure_wrist script to /home/hello-robot/ament_ws/install/hello_helpers/lib/hello_helpers
+[7.282s] writing list of installed files to '/home/hello-robot/ament_ws/build/hello_helpers/install.log'
+[7.889s] Invoked command in '/home/hello-robot/ament_ws/src/stretch_ros2/hello_helpers' returned '0': PYTHONPATH=/home/hello-robot/ament_ws/build/hello_helpers/prefix_override:/home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hello_helpers build --build-base /home/hello-robot/ament_ws/build/hello_helpers/build install --record /home/hello-robot/ament_ws/build/hello_helpers/install.log --single-version-externally-managed

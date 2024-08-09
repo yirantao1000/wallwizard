@@ -1,0 +1,206 @@
+[0.676s] Invoking command in '/home/hello-robot/ament_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake /home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_msgs -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/rosbridge_msgs
+[4.159s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.160s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[4.160s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.160s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.160s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.160s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.160s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.160s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.160s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.160s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.161s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.161s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.161s] -- Configuring done
+[4.161s] -- Generating done
+[4.161s] -- Build files have been written to: /home/hello-robot/ament_ws/build/rosbridge_msgs
+[4.173s] Invoked command in '/home/hello-robot/ament_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake /home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_msgs -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/rosbridge_msgs
+[4.174s] Invoking command in '/home/hello-robot/ament_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/rosbridge_msgs -- -j16 -l16
+[4.224s] Consolidate compiler generated dependencies of target rosbridge_msgs__rosidl_generator_c
+[4.243s] [  2%] Built target rosbridge_msgs__cpp
+[4.277s] [ 12%] Built target rosbridge_msgs__rosidl_generator_c
+[4.294s] Consolidate compiler generated dependencies of target rosbridge_msgs__rosidl_typesupport_cpp
+[4.299s] Consolidate compiler generated dependencies of target rosbridge_msgs__rosidl_typesupport_introspection_cpp
+[4.315s] Consolidate compiler generated dependencies of target rosbridge_msgs__rosidl_typesupport_introspection_c
+[4.333s] Consolidate compiler generated dependencies of target rosbridge_msgs__rosidl_typesupport_fastrtps_cpp
+[4.335s] [ 12%] Built target ament_cmake_python_copy_rosbridge_msgs
+[4.344s] [ 23%] Built target rosbridge_msgs__rosidl_typesupport_cpp
+[4.386s] [ 33%] Built target rosbridge_msgs__rosidl_typesupport_introspection_c
+[4.392s] [ 43%] Built target rosbridge_msgs__rosidl_typesupport_introspection_cpp
+[4.398s] [ 53%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_cpp
+[4.415s] Consolidate compiler generated dependencies of target rosbridge_msgs__rosidl_typesupport_c
+[4.417s] Consolidate compiler generated dependencies of target rosbridge_msgs__rosidl_typesupport_fastrtps_c
+[4.453s] [ 64%] Built target rosbridge_msgs__rosidl_typesupport_c
+[4.482s] [ 74%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_c
+[4.526s] [ 74%] Built target rosbridge_msgs
+[4.586s] [ 76%] Built target rosbridge_msgs__py
+[4.604s] Consolidate compiler generated dependencies of target rosbridge_msgs__rosidl_generator_py
+[4.628s] [ 84%] Built target rosbridge_msgs__rosidl_generator_py
+[4.648s] Consolidate compiler generated dependencies of target rosbridge_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.684s] Consolidate compiler generated dependencies of target rosbridge_msgs__rosidl_typesupport_c__pyext
+[4.689s] Consolidate compiler generated dependencies of target rosbridge_msgs__rosidl_typesupport_introspection_c__pyext
+[4.697s] [ 89%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.718s] [ 94%] Built target rosbridge_msgs__rosidl_typesupport_c__pyext
+[4.729s] [100%] Built target rosbridge_msgs__rosidl_typesupport_introspection_c__pyext
+[5.359s] /home/hello-robot/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:30: RuntimeWarning: 
+[5.359s] ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x
+[5.359s] 
+[5.359s] Your build configuration is incomplete and previously worked by accident!
+[5.359s] setuptools_scm requires setuptools>=61
+[5.359s] 
+[5.359s] Suggested workaround if applicable:
+[5.359s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[5.359s]    and using a pyproject.toml to declare build dependencies
+[5.359s]    which are reliably pre-installed before running the build tools
+[5.359s] 
+[5.360s]   warnings.warn(
+[5.360s] running egg_info
+[5.360s] writing rosbridge_msgs.egg-info/PKG-INFO
+[5.360s] writing dependency_links to rosbridge_msgs.egg-info/dependency_links.txt
+[5.360s] writing top-level names to rosbridge_msgs.egg-info/top_level.txt
+[5.407s] [03/04/24 08:24:37] ERROR    listing git files failed - pretending     git.py:24
+[5.408s]                              there aren't any                                   
+[5.951s] reading manifest file 'rosbridge_msgs.egg-info/SOURCES.txt'
+[5.951s] writing manifest file 'rosbridge_msgs.egg-info/SOURCES.txt'
+[5.951s] [100%] Built target ament_cmake_python_build_rosbridge_msgs_egg
+[6.074s] Invoked command in '/home/hello-robot/ament_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/rosbridge_msgs -- -j16 -l16
+[6.918s] Invoking command in '/home/hello-robot/ament_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/rosbridge_msgs
+[6.977s] -- Install configuration: "Release"
+[6.977s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/ament_index/resource_index/rosidl_interfaces/rosbridge_msgs
+[6.977s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs
+[6.977s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg
+[6.977s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.977s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/connected_client.h
+[6.977s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/connected_clients.h
+[6.977s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail
+[6.977s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__functions.c
+[6.977s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__functions.h
+[6.977s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__type_support.h
+[6.977s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__struct.h
+[6.977s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__functions.h
+[6.978s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__struct.h
+[6.978s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__type_support.h
+[6.978s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__functions.c
+[6.978s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/library_path.sh
+[6.978s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/library_path.dsv
+[6.978s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_generator_c.so
+[6.978s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs
+[6.978s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg
+[6.978s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.978s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail
+[6.978s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_fastrtps_c.h
+[6.978s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_fastrtps_c.h
+[6.979s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_c.so
+[6.979s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs
+[6.979s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg
+[6.979s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/connected_clients.hpp
+[6.979s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/connected_client.hpp
+[6.979s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail
+[6.979s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__builder.hpp
+[6.979s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__struct.hpp
+[6.979s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__builder.hpp
+[6.979s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__struct.hpp
+[6.979s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__traits.hpp
+[6.979s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__traits.hpp
+[6.979s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs
+[6.980s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg
+[6.980s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail
+[6.980s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/dds_fastrtps
+[6.980s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_fastrtps_cpp.hpp
+[6.980s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_fastrtps_cpp.hpp
+[6.980s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.980s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.980s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs
+[6.980s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg
+[6.980s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.980s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail
+[6.980s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_introspection_c.h
+[6.980s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__type_support.c
+[6.981s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_introspection_c.h
+[6.981s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__type_support.c
+[6.981s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_c.so
+[6.981s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_c.so
+[6.981s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs
+[6.981s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg
+[6.981s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail
+[6.981s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_introspection_cpp.hpp
+[6.981s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__type_support.cpp
+[6.981s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_introspection_cpp.hpp
+[6.981s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__type_support.cpp
+[6.981s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_cpp.so
+[6.982s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_cpp.so
+[6.982s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/pythonpath.sh
+[6.982s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/pythonpath.dsv
+[6.982s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs-1.3.2-py3.10.egg-info
+[6.982s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs-1.3.2-py3.10.egg-info/PKG-INFO
+[6.982s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs-1.3.2-py3.10.egg-info/dependency_links.txt
+[6.982s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs-1.3.2-py3.10.egg-info/SOURCES.txt
+[6.982s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs-1.3.2-py3.10.egg-info/top_level.txt
+[6.982s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs
+[6.982s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/librosbridge_msgs__rosidl_generator_py.so
+[6.982s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg
+[6.982s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/__init__.py
+[6.982s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/_connected_clients_s.c
+[6.983s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/_connected_client.py
+[6.983s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/_connected_client_s.c
+[6.983s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/_connected_clients.py
+[6.983s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/__init__.py
+[6.983s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_c.c
+[6.983s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.983s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.983s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.983s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.983s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.133s] Listing '/home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs'...
+[7.133s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/__init__.py'...
+[7.133s] Listing '/home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg'...
+[7.133s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.133s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_generator_py.so
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClient.idl
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClients.idl
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClient.msg
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClients.msg
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/ament_index/resource_index/package_run_dependencies/rosbridge_msgs
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/ament_index/resource_index/parent_prefix_path/rosbridge_msgs
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/ament_prefix_path.sh
+[7.134s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/ament_prefix_path.dsv
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/path.sh
+[7.134s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/path.dsv
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.bash
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.sh
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.zsh
+[7.134s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.dsv
+[7.145s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.dsv
+[7.145s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/ament_index/resource_index/packages/rosbridge_msgs
+[7.146s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_generator_cExport.cmake
+[7.146s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_generator_cExport-release.cmake
+[7.146s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.147s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[7.147s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_generator_cppExport.cmake
+[7.147s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.147s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[7.147s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.147s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[7.148s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cExport.cmake
+[7.148s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cExport-release.cmake
+[7.148s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.148s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[7.148s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cppExport.cmake
+[7.148s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cppExport-release.cmake
+[7.148s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_generator_pyExport.cmake
+[7.148s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_generator_pyExport-release.cmake
+[7.149s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake-extras.cmake
+[7.149s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.149s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.149s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.149s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.149s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.149s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.149s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgsConfig.cmake
+[7.149s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgsConfig-version.cmake
+[7.149s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.xml
+[7.153s] Invoked command in '/home/hello-robot/ament_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/rosbridge_msgs

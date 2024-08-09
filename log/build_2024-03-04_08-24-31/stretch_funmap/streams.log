@@ -1,0 +1,48 @@
+[6.536s] Invoking command in '/home/hello-robot/ament_ws/src/stretch_ros2/stretch_funmap': PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_funmap/prefix_override:/home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/stretch_funmap build --build-base /home/hello-robot/ament_ws/build/stretch_funmap/build install --record /home/hello-robot/ament_ws/build/stretch_funmap/install.log --single-version-externally-managed
+[8.473s] /home/hello-robot/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:30: RuntimeWarning: 
+[8.474s] ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x
+[8.474s] 
+[8.474s] Your build configuration is incomplete and previously worked by accident!
+[8.475s] setuptools_scm requires setuptools>=61
+[8.475s] 
+[8.475s] Suggested workaround if applicable:
+[8.475s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[8.475s]    and using a pyproject.toml to declare build dependencies
+[8.475s]    which are reliably pre-installed before running the build tools
+[8.475s] 
+[8.476s]   warnings.warn(
+[8.476s] running egg_info
+[8.476s] writing ../../../build/stretch_funmap/stretch_funmap.egg-info/PKG-INFO
+[8.476s] writing dependency_links to ../../../build/stretch_funmap/stretch_funmap.egg-info/dependency_links.txt
+[8.476s] writing entry points to ../../../build/stretch_funmap/stretch_funmap.egg-info/entry_points.txt
+[8.477s] writing requirements to ../../../build/stretch_funmap/stretch_funmap.egg-info/requires.txt
+[8.477s] writing top-level names to ../../../build/stretch_funmap/stretch_funmap.egg-info/top_level.txt
+[8.751s] adding license file 'LICENSE.md'
+[8.752s] writing manifest file '../../../build/stretch_funmap/stretch_funmap.egg-info/SOURCES.txt'
+[8.752s] running build
+[8.752s] running build_py
+[8.752s] running build_ext
+[8.752s] building 'stretch_funmap.cython_min_cost_path' extension
+[8.753s] INFO: C compiler: x86_64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC
+[8.753s] 
+[8.753s] INFO: compile options: '-I/home/hello-robot/ament_ws/install/stretch_funmap/include -I/usr/include/python3.10 -c'
+[8.753s] INFO: x86_64-linux-gnu-gcc: stretch_funmap/cython_min_cost_path.c
+[8.771s] In file included from /usr/include/python3.10/numpy/ndarraytypes.h:1969,
+[8.771s]                  from /usr/include/python3.10/numpy/ndarrayobject.h:12,
+[8.771s]                  from /usr/include/python3.10/numpy/arrayobject.h:4,
+[8.771s]                  from stretch_funmap/cython_min_cost_path.c:700:
+[8.771s] /usr/include/python3.10/numpy/npy_1_7_deprecated_api.h:17:2: warning: #warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+[8.771s]    17 | #warning "Using deprecated NumPy API, disable it with " \
+[8.771s]       |  ^~~~~~~
+[10.987s] INFO: x86_64-linux-gnu-gcc -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -g -fwrapv -O2 -Wl,-Bsymbolic-functions -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 /home/hello-robot/ament_ws/build/stretch_funmap/build/temp.linux-x86_64-3.10/stretch_funmap/cython_min_cost_path.o -o /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/cython_min_cost_path.cpython-310-x86_64-linux-gnu.so
+[11.145s] running install
+[11.146s] running install_lib
+[11.146s] copying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/cython_min_cost_path.cpython-310-x86_64-linux-gnu.so -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[11.146s] running install_data
+[11.146s] running install_egg_info
+[11.146s] removing '/home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap-0.0.0-py3.10.egg-info' (and everything under it)
+[11.146s] Copying ../../../build/stretch_funmap/stretch_funmap.egg-info to /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap-0.0.0-py3.10.egg-info
+[11.146s] running install_scripts
+[11.146s] Installing funmap script to /home/hello-robot/ament_ws/install/stretch_funmap/lib/stretch_funmap
+[11.146s] writing list of installed files to '/home/hello-robot/ament_ws/build/stretch_funmap/install.log'
+[11.285s] Invoked command in '/home/hello-robot/ament_ws/src/stretch_ros2/stretch_funmap' returned '0': PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_funmap/prefix_override:/home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/stretch_funmap build --build-base /home/hello-robot/ament_ws/build/stretch_funmap/build install --record /home/hello-robot/ament_ws/build/stretch_funmap/install.log --single-version-externally-managed

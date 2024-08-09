@@ -1,0 +1,42 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hello-robot/ament_ws/build/stretch_rtabmap
+-- Install configuration: "Release"
+-- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/launch
+-- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/launch/visual_odometry.launch.py
+-- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/launch/visual_mapping.launch.py
+-- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/launch/visual_navigation.launch.py
+-- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/rviz
+-- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/rviz/rtabmap_nav.rviz
+-- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/rviz/rtabmap.rviz
+-- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/ament_index/resource_index/package_run_dependencies/stretch_rtabmap
+-- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/ament_index/resource_index/parent_prefix_path/stretch_rtabmap
+-- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/environment/ament_prefix_path.sh
+-- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/environment/path.sh
+-- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/environment/path.dsv
+-- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/local_setup.bash
+-- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/local_setup.sh
+-- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/local_setup.zsh
+-- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/local_setup.dsv
+-- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/package.dsv
+-- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/ament_index/resource_index/packages/stretch_rtabmap
+-- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/cmake/stretch_rtabmapConfig.cmake
+-- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/cmake/stretch_rtabmapConfig-version.cmake
+-- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/package.xml

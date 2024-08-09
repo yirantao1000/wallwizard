@@ -1,0 +1,53 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+-- Found ament_cmake_pytest: 1.3.8 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hello-robot/ament_ws/build/ros2_numpy
+Built target ament_cmake_python_copy_ros2_numpy
+running egg_info
+writing ros2_numpy.egg-info/PKG-INFO
+writing dependency_links to ros2_numpy.egg-info/dependency_links.txt
+writing top-level names to ros2_numpy.egg-info/top_level.txt
+reading manifest file 'ros2_numpy.egg-info/SOURCES.txt'
+writing manifest file 'ros2_numpy.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_ros2_numpy_egg
+-- Install configuration: "Release"
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/environment/pythonpath.sh
+-- Installing: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/environment/pythonpath.dsv
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy-2.0.9-py3.10.egg-info
+-- Installing: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy-2.0.9-py3.10.egg-info/PKG-INFO
+-- Installing: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy-2.0.9-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy-2.0.9-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy-2.0.9-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy/point_cloud2.py
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy/__init__.py
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy/geometry.py
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy/registry.py
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy/occupancy_grid.py
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy/image.py
+Listing '/home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy'...
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ament_index/resource_index/package_run_dependencies/ros2_numpy
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ament_index/resource_index/parent_prefix_path/ros2_numpy
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/environment/ament_prefix_path.sh
+-- Installing: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/environment/path.sh
+-- Installing: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/environment/path.dsv
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/local_setup.bash
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/local_setup.sh
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/local_setup.zsh
+-- Installing: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/local_setup.dsv
+-- Installing: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/package.dsv
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ament_index/resource_index/packages/ros2_numpy
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/cmake/ros2_numpyConfig.cmake
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/cmake/ros2_numpyConfig-version.cmake
+-- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/package.xml

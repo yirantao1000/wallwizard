@@ -1,0 +1,12 @@
+msg/Grammar.idl
+msg/Grammar.msg
+msg/PhraseRule.idl
+msg/PhraseRule.msg
+msg/SpeechRecognitionCandidates.idl
+msg/SpeechRecognitionCandidates.msg
+msg/Vocabulary.idl
+msg/Vocabulary.msg
+srv/SpeechRecognition.idl
+srv/SpeechRecognition.srv
+srv/SpeechRecognition_Request.msg
+srv/SpeechRecognition_Response.msg

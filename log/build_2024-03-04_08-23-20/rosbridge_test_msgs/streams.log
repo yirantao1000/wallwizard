@@ -1,0 +1,838 @@
+[0.886s] Invoking command in '/home/hello-robot/ament_ws/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake /home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/rosbridge_test_msgs
+[4.175s] -- The C compiler identification is GNU 11.4.0
+[4.175s] -- The CXX compiler identification is GNU 11.4.0
+[4.175s] -- Detecting C compiler ABI info
+[4.175s] -- Detecting C compiler ABI info - done
+[4.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.176s] -- Detecting C compile features
+[4.176s] -- Detecting C compile features - done
+[4.177s] -- Detecting CXX compiler ABI info
+[4.177s] -- Detecting CXX compiler ABI info - done
+[4.177s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.177s] -- Detecting CXX compile features
+[4.177s] -- Detecting CXX compile features - done
+[4.177s] -- Found ament_cmake_core: 1.3.8 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[4.177s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.178s] -- Found ament_cmake_python: 1.3.8 (/opt/ros/humble/share/ament_cmake_python/cmake)
+[4.178s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[4.178s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.178s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.178s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.178s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.178s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.178s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.178s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.179s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.179s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.179s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.179s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.179s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.179s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.179s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.179s] -- Found PythonExtra: .so  
+[4.179s] -- Configuring done
+[4.179s] -- Generating done
+[4.179s] -- Build files have been written to: /home/hello-robot/ament_ws/build/rosbridge_test_msgs
+[4.197s] Invoked command in '/home/hello-robot/ament_ws/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake /home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/rosbridge_test_msgs
+[4.197s] Invoking command in '/home/hello-robot/ament_ws/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/rosbridge_test_msgs -- -j16 -l16
+[4.248s] [  0%] Generating C code for ROS interfaces
+[4.305s] [  0%] Generating C++ code for ROS interfaces
+[4.387s] [  0%] Built target ament_cmake_python_copy_rosbridge_test_msgs
+[6.160s] /home/hello-robot/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:30: RuntimeWarning: 
+[6.160s] ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x
+[6.160s] 
+[6.160s] Your build configuration is incomplete and previously worked by accident!
+[6.160s] setuptools_scm requires setuptools>=61
+[6.160s] 
+[6.161s] Suggested workaround if applicable:
+[6.161s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[6.161s]    and using a pyproject.toml to declare build dependencies
+[6.161s]    which are reliably pre-installed before running the build tools
+[6.161s] 
+[6.161s]   warnings.warn(
+[6.286s] running egg_info
+[6.288s] creating rosbridge_test_msgs.egg-info
+[6.309s] writing rosbridge_test_msgs.egg-info/PKG-INFO
+[6.310s] writing dependency_links to rosbridge_test_msgs.egg-info/dependency_links.txt
+[6.311s] writing top-level names to rosbridge_test_msgs.egg-info/top_level.txt
+[6.312s] writing manifest file 'rosbridge_test_msgs.egg-info/SOURCES.txt'
+[6.781s] [03/04/24 08:23:28] ERROR    listing git files failed - pretending     git.py:24
+[6.781s]                              there aren't any                                   
+[7.756s] reading manifest file 'rosbridge_test_msgs.egg-info/SOURCES.txt'
+[7.757s] writing manifest file 'rosbridge_test_msgs.egg-info/SOURCES.txt'
+[8.289s] [  0%] Built target ament_cmake_python_build_rosbridge_test_msgs_egg
+[14.142s] [  0%] Built target rosbridge_test_msgs__cpp
+[14.142s] [  1%] Generating C++ type support dispatch for ROS interfaces
+[14.142s] [  2%] Generating C++ type support for eProsima Fast-RTPS
+[14.142s] [  3%] Generating C++ introspection for ROS interfaces
+[14.142s] [  4%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_char__functions.c.o
+[14.142s] [  4%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/num__functions.c.o
+[14.142s] [  5%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_duration_array__functions.c.o
+[14.142s] [  5%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_header_array__functions.c.o
+[14.142s] [  6%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_header__functions.c.o
+[14.142s] [  6%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_header_two__functions.c.o
+[14.142s] [  7%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_time_array__functions.c.o
+[14.142s] [  7%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_u_int8__functions.c.o
+[14.142s] [  8%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__functions.c.o
+[14.142s] [  9%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__functions.c.o
+[14.161s] [  9%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_float32_array__functions.c.o
+[14.161s] [ 10%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/add_two_ints__functions.c.o
+[14.161s] [ 10%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/send_bytes__functions.c.o
+[14.161s] [ 10%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/test_array_request__functions.c.o
+[14.161s] [ 10%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__functions.c.o
+[14.161s] [ 11%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/test_empty__functions.c.o
+[14.161s] [ 11%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/test_nested_service__functions.c.o
+[14.161s] [ 13%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/test_request_and_response__functions.c.o
+[14.161s] [ 13%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__functions.c.o
+[14.161s] [ 14%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/test_request_only__functions.c.o
+[14.161s] [ 14%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/test_response_only__functions.c.o
+[14.161s] [ 15%] Linking C shared library librosbridge_test_msgs__rosidl_generator_c.so
+[14.161s] [ 15%] Built target rosbridge_test_msgs__rosidl_generator_c
+[14.162s] [ 16%] Generating C type support for eProsima Fast-RTPS
+[14.193s] [ 17%] Generating C type support dispatch for ROS interfaces
+[14.193s] [ 18%] Generating C introspection for ROS interfaces
+[14.662s] [ 18%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/num__type_support.cpp.o
+[14.686s] [ 19%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_char__type_support.cpp.o
+[14.710s] [ 20%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_duration_array__type_support.cpp.o
+[14.710s] [ 20%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_header_array__type_support.cpp.o
+[14.749s] [ 20%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_header__type_support.cpp.o
+[14.838s] [ 21%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_header_two__type_support.cpp.o
+[14.838s] [ 22%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_u_int8__type_support.cpp.o
+[14.838s] [ 22%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_u_int8_fixed_size_array16__type_support.cpp.o
+[14.838s] [ 22%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_time_array__type_support.cpp.o
+[15.196s] [ 23%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_float32_array__type_support.cpp.o
+[15.648s] [ 23%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_float32_bounded_array__type_support.cpp.o
+[15.648s] [ 24%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/add_two_ints__type_support.cpp.o
+[15.648s] [ 25%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/send_bytes__type_support.cpp.o
+[16.124s] [ 25%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/test_array_request__type_support.cpp.o
+[16.125s] [ 26%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/test_empty__type_support.cpp.o
+[16.125s] [ 26%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/test_multiple_request_fields__type_support.cpp.o
+[16.125s] [ 27%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/num__type_support.cpp.o
+[16.125s] [ 28%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/test_multiple_response_fields__type_support.cpp.o
+[16.125s] [ 28%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_char__type_support.cpp.o
+[16.125s] [ 28%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/test_nested_service__type_support.cpp.o
+[16.126s] [ 29%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/test_request_and_response__type_support.cpp.o
+[16.640s] [ 29%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/test_request_only__type_support.cpp.o
+[16.640s] [ 30%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_duration_array__type_support.cpp.o
+[16.640s] [ 30%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/num__type_support.cpp.o
+[16.640s] [ 31%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/test_response_only__type_support.cpp.o
+[16.641s] [ 32%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_char__type_support.cpp.o
+[16.641s] [ 32%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/num__type_support.cpp.o
+[16.710s] [ 32%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_header_array__type_support.cpp.o
+[16.710s] [ 32%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_duration_array__type_support.cpp.o
+[16.826s] [ 33%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_header_array__type_support.cpp.o
+[16.928s] [ 34%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_char__type_support.cpp.o
+[16.931s] [ 34%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_header__type_support.cpp.o
+[16.965s] [ 35%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_header_two__type_support.cpp.o
+[16.996s] [ 35%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_time_array__type_support.cpp.o
+[17.644s] [ 36%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_header__type_support.cpp.o
+[17.644s] [ 37%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_u_int8__type_support.cpp.o
+[17.644s] [ 37%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_header_two__type_support.cpp.o
+[17.644s] [ 37%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_duration_array__type_support.cpp.o
+[17.645s] [ 38%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_time_array__type_support.cpp.o
+[17.645s] [ 39%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_header_array__type_support.cpp.o
+[17.645s] [ 39%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_u_int8_fixed_size_array16__type_support.cpp.o
+[17.645s] [ 40%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_float32_array__type_support.cpp.o
+[17.645s] [ 40%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_header__type_support.cpp.o
+[17.645s] [ 40%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_u_int8__type_support.cpp.o
+[17.958s] [ 40%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_float32_bounded_array__type_support.cpp.o
+[17.958s] [ 40%] Linking CXX shared library librosbridge_test_msgs__rosidl_typesupport_cpp.so
+[17.958s] [ 41%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/add_two_ints__type_support.cpp.o
+[17.958s] [ 41%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/send_bytes__type_support.cpp.o
+[17.958s] [ 42%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/test_array_request__type_support.cpp.o
+[17.999s] [ 42%] Built target rosbridge_test_msgs__rosidl_typesupport_cpp
+[18.029s] [ 42%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/test_empty__type_support.cpp.o
+[18.055s] [ 43%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__type_support.cpp.o
+[18.112s] [ 43%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_float32_array__type_support.cpp.o
+[18.183s] [ 44%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__type_support.cpp.o
+[18.262s] [ 45%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/test_multiple_request_fields__type_support.cpp.o
+[18.407s] [ 46%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_header_two__type_support.cpp.o
+[18.449s] [ 46%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/add_two_ints__type_support.cpp.o
+[18.502s] [ 47%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/test_multiple_response_fields__type_support.cpp.o
+[18.732s] [ 47%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/test_nested_service__type_support.cpp.o
+[18.765s] [ 48%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/send_bytes__type_support.cpp.o
+[18.977s] [ 49%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/test_request_and_response__type_support.cpp.o
+[18.997s] [ 49%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/test_request_only__type_support.cpp.o
+[19.074s] [ 50%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_time_array__type_support.cpp.o
+[19.157s] [ 50%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_u_int8__type_support.cpp.o
+[19.157s] [ 50%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/test_array_request__type_support.cpp.o
+[19.161s] [ 51%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/test_response_only__type_support.cpp.o
+[19.247s] [ 52%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/test_empty__type_support.cpp.o
+[19.296s] [ 53%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_u_int8_fixed_size_array16__type_support.cpp.o
+[19.349s] [ 53%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__type_support.cpp.o
+[19.785s] [ 53%] Linking CXX shared library librosbridge_test_msgs__rosidl_typesupport_c.so
+[19.785s] [ 53%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/num__type_support.c.o
+[19.785s] [ 53%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_float32_array__type_support.cpp.o
+[19.785s] [ 53%] Built target rosbridge_test_msgs__rosidl_typesupport_c
+[19.785s] [ 54%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_char__type_support.c.o
+[19.785s] [ 54%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/num__type_support_c.cpp.o
+[19.785s] [ 55%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_char__type_support_c.cpp.o
+[20.507s] [ 55%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_duration_array__type_support.c.o
+[20.507s] [ 55%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_duration_array__type_support_c.cpp.o
+[20.507s] [ 56%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_header_array__type_support_c.cpp.o
+[20.507s] [ 57%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_header_array__type_support.c.o
+[20.507s] [ 58%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__type_support.cpp.o
+[20.507s] [ 59%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_float32_bounded_array__type_support.cpp.o
+[20.507s] [ 59%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/test_nested_service__type_support.cpp.o
+[20.507s] [ 60%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/test_request_and_response__type_support.cpp.o
+[20.507s] [ 60%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o
+[20.580s] [ 61%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_header__type_support.c.o
+[20.839s] [ 61%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_header_two__type_support.c.o
+[21.308s] [ 62%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_time_array__type_support.c.o
+[21.308s] [ 63%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/send_bytes__type_support.cpp.o
+[21.308s] [ 64%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__type_support.c.o
+[21.308s] [ 63%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_u_int8__type_support.c.o
+[21.308s] [ 64%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/test_array_request__type_support.cpp.o
+[21.391s] [ 65%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/test_empty__type_support.cpp.o
+[21.416s] [ 65%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/test_multiple_request_fields__type_support.cpp.o
+[21.418s] [ 66%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/test_multiple_response_fields__type_support.cpp.o
+[21.420s] [ 66%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_float32_array__type_support.c.o
+[21.468s] [ 67%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__type_support.c.o
+[21.478s] [ 67%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_header__type_support_c.cpp.o
+[21.536s] [ 68%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_header_two__type_support_c.cpp.o
+[22.108s] [ 68%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/test_nested_service__type_support.cpp.o
+[22.108s] [ 68%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/test_request_only__type_support.cpp.o
+[22.109s] [ 68%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/add_two_ints__type_support.c.o
+[22.109s] [ 69%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/send_bytes__type_support.c.o
+[22.109s] [ 69%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/test_array_request__type_support.c.o
+[22.109s] [ 70%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/test_empty__type_support.c.o
+[24.478s] [ 71%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/test_response_only__type_support.cpp.o
+[24.478s] [ 71%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__type_support.c.o
+[24.478s] [ 72%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/test_request_and_response__type_support.cpp.o
+[24.478s] [ 72%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/test_request_only__type_support.cpp.o
+[24.478s] [ 73%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/test_response_only__type_support.cpp.o
+[24.478s] [ 74%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__type_support.c.o
+[24.478s] [ 74%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/test_nested_service__type_support.c.o
+[24.478s] [ 74%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_time_array__type_support_c.cpp.o
+[24.478s] [ 75%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/test_request_and_response__type_support.c.o
+[24.479s] [ 75%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/test_request_only__type_support.c.o
+[24.479s] [ 76%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/test_response_only__type_support.c.o
+[24.479s] [ 77%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_u_int8__type_support_c.cpp.o
+[24.479s] [ 77%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__type_support_c.cpp.o
+[24.479s] [ 78%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_float32_array__type_support_c.cpp.o
+[24.479s] [ 78%] Linking C shared library librosbridge_test_msgs__rosidl_typesupport_introspection_c.so
+[24.479s] [ 79%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__type_support_c.cpp.o
+[24.479s] [ 79%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/add_two_ints__type_support_c.cpp.o
+[24.479s] [ 80%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/send_bytes__type_support_c.cpp.o
+[24.479s] [ 80%] Built target rosbridge_test_msgs__rosidl_typesupport_introspection_c
+[24.479s] [ 80%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/test_array_request__type_support_c.cpp.o
+[24.480s] [ 81%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/test_empty__type_support_c.cpp.o
+[24.480s] [ 81%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__type_support_c.cpp.o
+[24.480s] [ 82%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__type_support_c.cpp.o
+[24.480s] [ 82%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/test_nested_service__type_support_c.cpp.o
+[24.480s] [ 83%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/test_request_and_response__type_support_c.cpp.o
+[24.480s] [ 84%] Linking CXX shared library librosbridge_test_msgs__rosidl_typesupport_introspection_cpp.so
+[24.480s] [ 84%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/test_request_only__type_support_c.cpp.o
+[24.480s] [ 85%] Building CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/test_response_only__type_support_c.cpp.o
+[24.659s] [ 85%] Built target rosbridge_test_msgs__rosidl_typesupport_introspection_cpp
+[24.682s] [ 85%] Linking CXX shared library librosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.so
+[25.298s] [ 85%] Built target rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp
+[25.725s] [ 85%] Linking CXX shared library librosbridge_test_msgs__rosidl_typesupport_fastrtps_c.so
+[26.165s] [ 85%] Built target rosbridge_test_msgs__rosidl_typesupport_fastrtps_c
+[26.316s] [ 85%] Built target rosbridge_test_msgs
+[26.421s] [ 86%] Generating Python code for ROS interfaces
+[31.683s] [ 86%] Built target rosbridge_test_msgs__py
+[31.683s] [ 87%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_num_s.c.o
+[31.683s] [ 87%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_char_s.c.o
+[31.683s] [ 87%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_duration_array_s.c.o
+[31.683s] [ 88%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_header_array_s.c.o
+[31.683s] [ 89%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_header_two_s.c.o
+[31.683s] [ 89%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_header_s.c.o
+[31.683s] [ 89%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_time_array_s.c.o
+[31.811s] [ 90%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_test_multiple_request_fields_s.c.o
+[31.834s] [ 90%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_test_empty_s.c.o
+[31.850s] [ 91%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_test_nested_service_s.c.o
+[31.895s] [ 92%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_test_request_and_response_s.c.o
+[31.912s] [ 92%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_test_request_only_s.c.o
+[31.952s] [ 93%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_test_response_only_s.c.o
+[31.956s] [ 93%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_test_multiple_response_fields_s.c.o
+[32.140s] [ 94%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_test_array_request_s.c.o
+[32.168s] [ 94%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_send_bytes_s.c.o
+[32.172s] [ 95%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_add_two_ints_s.c.o
+[32.216s] [ 95%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_float32_bounded_array_s.c.o
+[32.229s] [ 96%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_float32_array_s.c.o
+[32.256s] [ 96%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_u_int8_fixed_size_array16_s.c.o
+[32.349s] [ 97%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_u_int8_s.c.o
+[32.861s] [ 97%] Linking C shared library rosidl_generator_py/rosbridge_test_msgs/librosbridge_test_msgs__rosidl_generator_py.so
+[32.861s] [ 97%] Built target rosbridge_test_msgs__rosidl_generator_py
+[32.861s] [ 98%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rosbridge_test_msgs/_rosbridge_test_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[32.861s] [ 99%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rosbridge_test_msgs/_rosbridge_test_msgs_s.ep.rosidl_typesupport_c.c.o
+[32.868s] [100%] Building C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rosbridge_test_msgs/_rosbridge_test_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[33.644s] [100%] Linking C shared library rosidl_generator_py/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[33.644s] [100%] Linking C shared library rosidl_generator_py/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[33.685s] [100%] Linking C shared library rosidl_generator_py/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[33.712s] [100%] Built target rosbridge_test_msgs__rosidl_typesupport_fastrtps_c__pyext
+[33.712s] [100%] Built target rosbridge_test_msgs__rosidl_typesupport_c__pyext
+[33.747s] [100%] Built target rosbridge_test_msgs__rosidl_typesupport_introspection_c__pyext
+[33.766s] Invoked command in '/home/hello-robot/ament_ws/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/rosbridge_test_msgs -- -j16 -l16
+[34.457s] Invoking command in '/home/hello-robot/ament_ws/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/rosbridge_test_msgs
+[34.470s] -- Install configuration: "Release"
+[34.470s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/ament_index/resource_index/rosidl_interfaces/rosbridge_test_msgs
+[34.471s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs
+[34.471s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg
+[34.471s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/num.h
+[34.471s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/rosidl_generator_c__visibility_control.h
+[34.471s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_header_two.h
+[34.471s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_u_int8_fixed_size_array16.h
+[34.471s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_time_array.h
+[34.471s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_char.h
+[34.471s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_header_array.h
+[34.471s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_u_int8.h
+[34.472s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_float32_array.h
+[34.472s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_header.h
+[34.472s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_duration_array.h
+[34.472s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_float32_bounded_array.h
+[34.472s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail
+[34.472s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__functions.h
+[34.472s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__type_support.h
+[34.472s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__struct.h
+[34.472s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__functions.h
+[34.473s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__functions.c
+[34.473s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__type_support.h
+[34.473s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__type_support.h
+[34.473s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__struct.h
+[34.473s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__type_support.h
+[34.473s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__functions.c
+[34.473s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__functions.h
+[34.473s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__struct.h
+[34.474s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__type_support.h
+[34.474s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__functions.c
+[34.474s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__functions.h
+[34.474s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__struct.h
+[34.474s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__functions.c
+[34.474s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__functions.c
+[34.474s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__struct.h
+[34.474s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__struct.h
+[34.474s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__type_support.h
+[34.474s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__functions.c
+[34.475s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__functions.h
+[34.475s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__type_support.h
+[34.475s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__functions.c
+[34.475s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__functions.c
+[34.475s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__type_support.h
+[34.475s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__functions.c
+[34.475s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__type_support.h
+[34.475s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__functions.h
+[34.475s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__type_support.h
+[34.475s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__struct.h
+[34.476s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__type_support.h
+[34.476s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__struct.h
+[34.476s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__functions.h
+[34.476s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__struct.h
+[34.476s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__functions.c
+[34.476s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__functions.h
+[34.476s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__struct.h
+[34.476s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__functions.c
+[34.476s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__functions.h
+[34.476s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__functions.h
+[34.477s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__functions.h
+[34.477s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__struct.h
+[34.477s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv
+[34.477s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_empty.h
+[34.477s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_multiple_request_fields.h
+[34.477s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_array_request.h
+[34.477s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_response_only.h
+[34.477s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/add_two_ints.h
+[34.477s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_request_only.h
+[34.478s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/send_bytes.h
+[34.478s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_multiple_response_fields.h
+[34.478s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail
+[34.478s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__functions.h
+[34.478s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__struct.h
+[34.478s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__functions.h
+[34.478s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__struct.h
+[34.478s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__type_support.h
+[34.479s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__type_support.h
+[34.479s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__type_support.h
+[34.479s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__functions.h
+[34.479s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__struct.h
+[34.479s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__functions.c
+[34.479s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__type_support.h
+[34.479s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__functions.c
+[34.479s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__type_support.h
+[34.480s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__struct.h
+[34.480s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__functions.c
+[34.480s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__functions.c
+[34.480s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__struct.h
+[34.480s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__type_support.h
+[34.480s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__functions.h
+[34.480s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__functions.h
+[34.480s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__functions.c
+[34.480s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__functions.h
+[34.480s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__functions.c
+[34.481s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__functions.c
+[34.481s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__struct.h
+[34.481s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__struct.h
+[34.481s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__struct.h
+[34.481s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__type_support.h
+[34.481s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__functions.c
+[34.481s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__functions.h
+[34.481s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__functions.c
+[34.481s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__type_support.h
+[34.482s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__functions.c
+[34.482s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__functions.h
+[34.482s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__functions.h
+[34.482s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__struct.h
+[34.482s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__functions.h
+[34.482s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__type_support.h
+[34.482s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__struct.h
+[34.482s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__type_support.h
+[34.482s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_request_and_response.h
+[34.482s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_nested_service.h
+[34.483s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/environment/library_path.sh
+[34.483s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/environment/library_path.dsv
+[34.483s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_generator_c.so
+[34.483s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_generator_c.so" to ""
+[34.483s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs
+[34.484s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg
+[34.484s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[34.484s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail
+[34.484s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__rosidl_typesupport_fastrtps_c.h
+[34.484s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__rosidl_typesupport_fastrtps_c.h
+[34.484s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__rosidl_typesupport_fastrtps_c.h
+[34.484s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__rosidl_typesupport_fastrtps_c.h
+[34.484s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__rosidl_typesupport_fastrtps_c.h
+[34.484s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__rosidl_typesupport_fastrtps_c.h
+[34.485s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__rosidl_typesupport_fastrtps_c.h
+[34.485s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__rosidl_typesupport_fastrtps_c.h
+[34.485s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__rosidl_typesupport_fastrtps_c.h
+[34.485s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[34.485s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__rosidl_typesupport_fastrtps_c.h
+[34.485s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv
+[34.485s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail
+[34.485s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__rosidl_typesupport_fastrtps_c.h
+[34.485s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__rosidl_typesupport_fastrtps_c.h
+[34.486s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__rosidl_typesupport_fastrtps_c.h
+[34.486s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__rosidl_typesupport_fastrtps_c.h
+[34.486s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__rosidl_typesupport_fastrtps_c.h
+[34.486s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__rosidl_typesupport_fastrtps_c.h
+[34.486s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__rosidl_typesupport_fastrtps_c.h
+[34.486s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__rosidl_typesupport_fastrtps_c.h
+[34.486s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[34.486s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__rosidl_typesupport_fastrtps_c.h
+[34.486s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_fastrtps_c.so
+[34.486s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[34.487s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs
+[34.487s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg
+[34.487s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_u_int8_fixed_size_array16.hpp
+[34.487s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_char.hpp
+[34.487s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_header_two.hpp
+[34.487s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_float32_array.hpp
+[34.487s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_time_array.hpp
+[34.488s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_float32_bounded_array.hpp
+[34.488s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_u_int8.hpp
+[34.488s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail
+[34.488s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__builder.hpp
+[34.488s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__builder.hpp
+[34.488s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__builder.hpp
+[34.489s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__traits.hpp
+[34.489s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__traits.hpp
+[34.489s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__struct.hpp
+[34.489s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__builder.hpp
+[34.489s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__builder.hpp
+[34.489s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__struct.hpp
+[34.489s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__traits.hpp
+[34.489s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__traits.hpp
+[34.489s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__struct.hpp
+[34.489s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__traits.hpp
+[34.489s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__struct.hpp
+[34.489s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__traits.hpp
+[34.490s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__struct.hpp
+[34.490s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__struct.hpp
+[34.490s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__builder.hpp
+[34.490s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__builder.hpp
+[34.490s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__builder.hpp
+[34.490s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__struct.hpp
+[34.490s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__struct.hpp
+[34.490s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__builder.hpp
+[34.490s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__traits.hpp
+[34.490s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__struct.hpp
+[34.491s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__builder.hpp
+[34.491s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__struct.hpp
+[34.491s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__struct.hpp
+[34.491s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__builder.hpp
+[34.491s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__traits.hpp
+[34.491s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__traits.hpp
+[34.491s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__traits.hpp
+[34.491s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__traits.hpp
+[34.492s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/num.hpp
+[34.492s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_header.hpp
+[34.492s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_duration_array.hpp
+[34.492s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_header_array.hpp
+[34.492s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv
+[34.492s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_array_request.hpp
+[34.492s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_empty.hpp
+[34.492s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/send_bytes.hpp
+[34.492s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_multiple_response_fields.hpp
+[34.493s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_nested_service.hpp
+[34.493s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_request_only.hpp
+[34.493s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_response_only.hpp
+[34.493s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/add_two_ints.hpp
+[34.493s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_multiple_request_fields.hpp
+[34.493s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail
+[34.493s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__struct.hpp
+[34.493s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__struct.hpp
+[34.493s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__builder.hpp
+[34.493s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__builder.hpp
+[34.494s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__builder.hpp
+[34.494s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__builder.hpp
+[34.494s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__builder.hpp
+[34.494s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__builder.hpp
+[34.494s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__struct.hpp
+[34.494s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__builder.hpp
+[34.494s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__struct.hpp
+[34.494s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__struct.hpp
+[34.494s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__builder.hpp
+[34.494s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__traits.hpp
+[34.494s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__traits.hpp
+[34.494s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__struct.hpp
+[34.495s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__traits.hpp
+[34.495s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__traits.hpp
+[34.495s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__builder.hpp
+[34.495s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__traits.hpp
+[34.495s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__builder.hpp
+[34.495s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__traits.hpp
+[34.495s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__traits.hpp
+[34.495s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__traits.hpp
+[34.496s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__traits.hpp
+[34.496s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__traits.hpp
+[34.496s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__struct.hpp
+[34.496s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__struct.hpp
+[34.496s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__struct.hpp
+[34.496s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__struct.hpp
+[34.496s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_request_and_response.hpp
+[34.497s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs
+[34.497s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg
+[34.497s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail
+[34.497s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__rosidl_typesupport_fastrtps_cpp.hpp
+[34.497s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[34.497s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/dds_fastrtps
+[34.497s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__rosidl_typesupport_fastrtps_cpp.hpp
+[34.497s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__rosidl_typesupport_fastrtps_cpp.hpp
+[34.497s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__rosidl_typesupport_fastrtps_cpp.hpp
+[34.497s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__rosidl_typesupport_fastrtps_cpp.hpp
+[34.498s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__rosidl_typesupport_fastrtps_cpp.hpp
+[34.498s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__rosidl_typesupport_fastrtps_cpp.hpp
+[34.498s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__rosidl_typesupport_fastrtps_cpp.hpp
+[34.498s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__rosidl_typesupport_fastrtps_cpp.hpp
+[34.498s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__rosidl_typesupport_fastrtps_cpp.hpp
+[34.498s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[34.498s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv
+[34.498s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail
+[34.498s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__rosidl_typesupport_fastrtps_cpp.hpp
+[34.499s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__rosidl_typesupport_fastrtps_cpp.hpp
+[34.499s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/dds_fastrtps
+[34.499s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__rosidl_typesupport_fastrtps_cpp.hpp
+[34.499s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__rosidl_typesupport_fastrtps_cpp.hpp
+[34.499s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__rosidl_typesupport_fastrtps_cpp.hpp
+[34.499s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__rosidl_typesupport_fastrtps_cpp.hpp
+[34.499s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__rosidl_typesupport_fastrtps_cpp.hpp
+[34.499s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__rosidl_typesupport_fastrtps_cpp.hpp
+[34.499s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__rosidl_typesupport_fastrtps_cpp.hpp
+[34.499s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[34.500s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.so
+[34.500s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[34.500s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs
+[34.501s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg
+[34.501s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[34.501s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail
+[34.501s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__type_support.c
+[34.501s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__type_support.c
+[34.501s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__rosidl_typesupport_introspection_c.h
+[34.501s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__type_support.c
+[34.501s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__type_support.c
+[34.501s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__rosidl_typesupport_introspection_c.h
+[34.501s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__type_support.c
+[34.502s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__type_support.c
+[34.502s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__type_support.c
+[34.502s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__rosidl_typesupport_introspection_c.h
+[34.502s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__rosidl_typesupport_introspection_c.h
+[34.502s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__type_support.c
+[34.502s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__rosidl_typesupport_introspection_c.h
+[34.502s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__type_support.c
+[34.502s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__type_support.c
+[34.502s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__rosidl_typesupport_introspection_c.h
+[34.503s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__rosidl_typesupport_introspection_c.h
+[34.503s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__rosidl_typesupport_introspection_c.h
+[34.503s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__rosidl_typesupport_introspection_c.h
+[34.503s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__rosidl_typesupport_introspection_c.h
+[34.503s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__type_support.c
+[34.503s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__rosidl_typesupport_introspection_c.h
+[34.503s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv
+[34.503s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail
+[34.503s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__type_support.c
+[34.504s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__type_support.c
+[34.504s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__type_support.c
+[34.504s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__rosidl_typesupport_introspection_c.h
+[34.504s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[34.504s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__type_support.c
+[34.505s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__type_support.c
+[34.505s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__type_support.c
+[34.505s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__rosidl_typesupport_introspection_c.h
+[34.505s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__type_support.c
+[34.506s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__rosidl_typesupport_introspection_c.h
+[34.506s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__rosidl_typesupport_introspection_c.h
+[34.506s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__rosidl_typesupport_introspection_c.h
+[34.506s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__type_support.c
+[34.506s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__rosidl_typesupport_introspection_c.h
+[34.506s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__rosidl_typesupport_introspection_c.h
+[34.507s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__rosidl_typesupport_introspection_c.h
+[34.507s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__rosidl_typesupport_introspection_c.h
+[34.507s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__type_support.c
+[34.507s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__type_support.c
+[34.507s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_introspection_c.so
+[34.507s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_introspection_c.so" to ""
+[34.508s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_c.so
+[34.508s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_c.so" to ""
+[34.508s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs
+[34.508s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg
+[34.508s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail
+[34.509s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__rosidl_typesupport_introspection_cpp.hpp
+[34.509s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__rosidl_typesupport_introspection_cpp.hpp
+[34.509s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[34.509s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__type_support.cpp
+[34.509s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__rosidl_typesupport_introspection_cpp.hpp
+[34.509s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__type_support.cpp
+[34.509s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__rosidl_typesupport_introspection_cpp.hpp
+[34.509s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__rosidl_typesupport_introspection_cpp.hpp
+[34.510s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__type_support.cpp
+[34.510s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__rosidl_typesupport_introspection_cpp.hpp
+[34.510s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__type_support.cpp
+[34.510s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__type_support.cpp
+[34.510s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__type_support.cpp
+[34.510s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__rosidl_typesupport_introspection_cpp.hpp
+[34.510s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__rosidl_typesupport_introspection_cpp.hpp
+[34.510s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__type_support.cpp
+[34.510s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__rosidl_typesupport_introspection_cpp.hpp
+[34.510s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__rosidl_typesupport_introspection_cpp.hpp
+[34.510s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__type_support.cpp
+[34.511s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__type_support.cpp
+[34.511s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__type_support.cpp
+[34.511s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__type_support.cpp
+[34.511s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv
+[34.511s] -- Up-to-date: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail
+[34.511s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__type_support.cpp
+[34.511s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__rosidl_typesupport_introspection_cpp.hpp
+[34.511s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__type_support.cpp
+[34.512s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[34.512s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__rosidl_typesupport_introspection_cpp.hpp
+[34.512s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__rosidl_typesupport_introspection_cpp.hpp
+[34.512s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__type_support.cpp
+[34.512s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__rosidl_typesupport_introspection_cpp.hpp
+[34.512s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__type_support.cpp
+[34.513s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__rosidl_typesupport_introspection_cpp.hpp
+[34.513s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__rosidl_typesupport_introspection_cpp.hpp
+[34.513s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__type_support.cpp
+[34.513s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__rosidl_typesupport_introspection_cpp.hpp
+[34.513s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__type_support.cpp
+[34.513s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__type_support.cpp
+[34.513s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__rosidl_typesupport_introspection_cpp.hpp
+[34.513s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__type_support.cpp
+[34.513s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__rosidl_typesupport_introspection_cpp.hpp
+[34.514s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__type_support.cpp
+[34.514s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__type_support.cpp
+[34.514s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_introspection_cpp.so
+[34.514s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[34.514s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_cpp.so
+[34.515s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_cpp.so" to ""
+[34.515s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/environment/pythonpath.sh
+[34.515s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/environment/pythonpath.dsv
+[34.515s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs-1.3.2-py3.10.egg-info
+[34.515s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs-1.3.2-py3.10.egg-info/PKG-INFO
+[34.516s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs-1.3.2-py3.10.egg-info/dependency_links.txt
+[34.516s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs-1.3.2-py3.10.egg-info/SOURCES.txt
+[34.516s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs-1.3.2-py3.10.egg-info/top_level.txt
+[34.516s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs
+[34.516s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/_rosbridge_test_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[34.516s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg
+[34.517s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_u_int8_fixed_size_array16.py
+[34.517s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_u_int8_s.c
+[34.517s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_header_array.py
+[34.517s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_char.py
+[34.517s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_float32_bounded_array_s.c
+[34.517s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/__init__.py
+[34.517s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_duration_array_s.c
+[34.518s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_float32_array_s.c
+[34.518s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_header_two_s.c
+[34.518s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_header.py
+[34.518s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_duration_array.py
+[34.518s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_time_array_s.c
+[34.518s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_char_s.c
+[34.518s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_header_two.py
+[34.518s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_header_s.c
+[34.518s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_num.py
+[34.519s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_num_s.c
+[34.519s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_float32_array.py
+[34.519s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_u_int8.py
+[34.519s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_float32_bounded_array.py
+[34.519s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_header_array_s.c
+[34.519s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_time_array.py
+[34.519s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_u_int8_fixed_size_array16_s.c
+[34.519s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/__init__.py
+[34.519s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/_rosbridge_test_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[34.520s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[34.520s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[34.520s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/librosbridge_test_msgs__rosidl_generator_py.so
+[34.520s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[34.520s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv
+[34.521s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_request_and_response_s.c
+[34.521s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_array_request_s.c
+[34.521s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_multiple_response_fields.py
+[34.521s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/__init__.py
+[34.521s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_request_only.py
+[34.521s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_send_bytes.py
+[34.521s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_response_only.py
+[34.521s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_request_and_response.py
+[34.521s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_send_bytes_s.c
+[34.522s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_request_only_s.c
+[34.522s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_empty_s.c
+[34.522s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_response_only_s.c
+[34.522s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_add_two_ints_s.c
+[34.522s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_array_request.py
+[34.522s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_nested_service.py
+[34.522s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_multiple_response_fields_s.c
+[34.522s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_add_two_ints.py
+[34.522s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_multiple_request_fields.py
+[34.523s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_multiple_request_fields_s.c
+[34.523s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_empty.py
+[34.523s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_nested_service_s.c
+[34.523s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/_rosbridge_test_msgs_s.ep.rosidl_typesupport_c.c
+[34.626s] Listing '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs'...
+[34.626s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/__init__.py'...
+[34.626s] Listing '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg'...
+[34.626s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/__init__.py'...
+[34.626s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_num.py'...
+[34.626s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_char.py'...
+[34.626s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_duration_array.py'...
+[34.626s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_float32_array.py'...
+[34.626s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_float32_bounded_array.py'...
+[34.626s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_header.py'...
+[34.626s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_header_array.py'...
+[34.627s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_header_two.py'...
+[34.627s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_time_array.py'...
+[34.627s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_u_int8.py'...
+[34.627s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_u_int8_fixed_size_array16.py'...
+[34.627s] Listing '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv'...
+[34.627s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/__init__.py'...
+[34.627s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_add_two_ints.py'...
+[34.627s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_send_bytes.py'...
+[34.627s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_array_request.py'...
+[34.627s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_empty.py'...
+[34.627s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_multiple_request_fields.py'...
+[34.627s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_multiple_response_fields.py'...
+[34.627s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_nested_service.py'...
+[34.627s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_request_and_response.py'...
+[34.627s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_request_only.py'...
+[34.627s] Compiling '/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_response_only.py'...
+[34.635s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[34.635s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[34.635s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[34.636s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[34.636s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[34.637s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[34.637s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_generator_py.so
+[34.637s] -- Set runtime path of "/home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_generator_py.so" to ""
+[34.637s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/Num.idl
+[34.638s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestChar.idl
+[34.638s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestDurationArray.idl
+[34.638s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestHeaderArray.idl
+[34.638s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestHeader.idl
+[34.639s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestHeaderTwo.idl
+[34.639s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestTimeArray.idl
+[34.639s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestUInt8.idl
+[34.639s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestUInt8FixedSizeArray16.idl
+[34.639s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestFloat32Array.idl
+[34.639s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestFloat32BoundedArray.idl
+[34.639s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/AddTwoInts.idl
+[34.640s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/SendBytes.idl
+[34.640s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestArrayRequest.idl
+[34.640s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestEmpty.idl
+[34.640s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestMultipleRequestFields.idl
+[34.640s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestMultipleResponseFields.idl
+[34.640s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestNestedService.idl
+[34.640s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestRequestAndResponse.idl
+[34.641s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestRequestOnly.idl
+[34.641s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestResponseOnly.idl
+[34.641s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/Num.msg
+[34.641s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestChar.msg
+[34.641s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestDurationArray.msg
+[34.641s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestHeaderArray.msg
+[34.641s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestHeader.msg
+[34.642s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestHeaderTwo.msg
+[34.642s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestTimeArray.msg
+[34.642s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestUInt8.msg
+[34.642s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestUInt8FixedSizeArray16.msg
+[34.642s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestFloat32Array.msg
+[34.642s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestFloat32BoundedArray.msg
+[34.642s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/AddTwoInts.srv
+[34.642s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/AddTwoInts_Request.msg
+[34.643s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/AddTwoInts_Response.msg
+[34.643s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/SendBytes.srv
+[34.643s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/SendBytes_Request.msg
+[34.643s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/SendBytes_Response.msg
+[34.643s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestArrayRequest.srv
+[34.643s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestArrayRequest_Request.msg
+[34.643s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestArrayRequest_Response.msg
+[34.644s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestEmpty.srv
+[34.644s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestEmpty_Request.msg
+[34.644s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestEmpty_Response.msg
+[34.644s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestMultipleRequestFields.srv
+[34.644s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestMultipleRequestFields_Request.msg
+[34.644s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestMultipleRequestFields_Response.msg
+[34.645s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestMultipleResponseFields.srv
+[34.645s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestMultipleResponseFields_Request.msg
+[34.645s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestMultipleResponseFields_Response.msg
+[34.645s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestNestedService.srv
+[34.645s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestNestedService_Request.msg
+[34.645s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestNestedService_Response.msg
+[34.645s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestRequestAndResponse.srv
+[34.646s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestRequestAndResponse_Request.msg
+[34.646s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestRequestAndResponse_Response.msg
+[34.646s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestRequestOnly.srv
+[34.646s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestRequestOnly_Request.msg
+[34.646s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestRequestOnly_Response.msg
+[34.646s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestResponseOnly.srv
+[34.647s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestResponseOnly_Request.msg
+[34.647s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestResponseOnly_Response.msg
+[34.647s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/ament_index/resource_index/package_run_dependencies/rosbridge_test_msgs
+[34.647s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/ament_index/resource_index/parent_prefix_path/rosbridge_test_msgs
+[34.647s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/environment/ament_prefix_path.sh
+[34.647s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/environment/ament_prefix_path.dsv
+[34.648s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/environment/path.sh
+[34.649s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/environment/path.dsv
+[34.649s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/local_setup.bash
+[34.650s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/local_setup.sh
+[34.650s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/local_setup.zsh
+[34.650s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/local_setup.dsv
+[34.650s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.dsv
+[34.650s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/ament_index/resource_index/packages/rosbridge_test_msgs
+[34.650s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/export_rosbridge_test_msgs__rosidl_generator_cExport.cmake
+[34.650s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/export_rosbridge_test_msgs__rosidl_generator_cExport-release.cmake
+[34.650s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/export_rosbridge_test_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[34.650s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/export_rosbridge_test_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[34.651s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/export_rosbridge_test_msgs__rosidl_generator_cppExport.cmake
+[34.651s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/export_rosbridge_test_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[34.651s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/export_rosbridge_test_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[34.651s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgs__rosidl_typesupport_introspection_cExport.cmake
+[34.651s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[34.651s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgs__rosidl_typesupport_cExport.cmake
+[34.652s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgs__rosidl_typesupport_cExport-release.cmake
+[34.652s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[34.652s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[34.653s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgs__rosidl_typesupport_cppExport.cmake
+[34.653s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgs__rosidl_typesupport_cppExport-release.cmake
+[34.653s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/export_rosbridge_test_msgs__rosidl_generator_pyExport.cmake
+[34.654s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/export_rosbridge_test_msgs__rosidl_generator_pyExport-release.cmake
+[34.654s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosidl_cmake-extras.cmake
+[34.654s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.654s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.654s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[34.654s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[34.654s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[34.654s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[34.654s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgsConfig.cmake
+[34.654s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgsConfig-version.cmake
+[34.654s] -- Installing: /home/hello-robot/ament_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.xml
+[34.660s] Invoked command in '/home/hello-robot/ament_ws/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/rosbridge_test_msgs

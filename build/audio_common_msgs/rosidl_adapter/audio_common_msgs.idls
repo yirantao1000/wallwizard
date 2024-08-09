@@ -1,0 +1,3 @@
+/home/hello-robot/ament_ws/build/audio_common_msgs/rosidl_adapter/audio_common_msgs:msg/AudioData.idl
+/home/hello-robot/ament_ws/build/audio_common_msgs/rosidl_adapter/audio_common_msgs:msg/AudioDataStamped.idl
+/home/hello-robot/ament_ws/build/audio_common_msgs/rosidl_adapter/audio_common_msgs:msg/AudioInfo.idl

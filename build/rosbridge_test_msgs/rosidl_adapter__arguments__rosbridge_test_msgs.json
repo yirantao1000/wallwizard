@@ -1,0 +1,26 @@
+{
+  "package_name": "rosbridge_test_msgs",
+  "non_idl_tuples": [
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/Num.msg",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestChar.msg",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestDurationArray.msg",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestHeaderArray.msg",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestHeader.msg",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestHeaderTwo.msg",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestTimeArray.msg",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestUInt8.msg",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestUInt8FixedSizeArray16.msg",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestFloat32Array.msg",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestFloat32BoundedArray.msg",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/AddTwoInts.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/SendBytes.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestArrayRequest.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestEmpty.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestMultipleRequestFields.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestMultipleResponseFields.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestNestedService.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestRequestAndResponse.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestRequestOnly.srv",
+    "/home/hello-robot/ament_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestResponseOnly.srv"
+  ]
+}

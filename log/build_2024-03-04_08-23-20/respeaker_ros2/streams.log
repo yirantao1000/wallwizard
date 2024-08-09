@@ -1,0 +1,75 @@
+[0.940s] Invoking command in '/home/hello-robot/ament_ws/src/respeaker_ros2': CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/sound_play_msgs:/home/hello-robot/ament_ws/install/sound_play:/home/hello-robot/ament_ws/install/audio_play:/home/hello-robot/ament_ws/install/speech_recognition_msgs:/home/hello-robot/ament_ws/install/audio_common_msgs:/home/hello-robot/ament_ws/install/tf2_web_republisher:/home/hello-robot/ament_ws/install/stretch_web_teleop:/home/hello-robot/ament_ws/install/stretch_teleop_interface_msgs:/home/hello-robot/ament_ws/install/stretch_rtabmap:/home/hello-robot/ament_ws/install/stretch_nav2:/home/hello-robot/ament_ws/install/stretch_description:/home/hello-robot/ament_ws/install/audio_common:/home/hello-robot/ament_ws/install/sllidar_ros2:/home/hello-robot/ament_ws/install/rosbridge_test_msgs:/home/hello-robot/ament_ws/install/rosbridge_suite:/home/hello-robot/ament_ws/install/rosbridge_server:/home/hello-robot/ament_ws/install/rosbridge_msgs:/home/hello-robot/ament_ws/install/rosapi:/home/hello-robot/ament_ws/install/rosbridge_library:/home/hello-robot/ament_ws/install/rosapi_msgs:/home/hello-robot/ament_ws/install/ros2_numpy:/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:/home/hello-robot/ament_ws/install/audio_capture LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/sound_play_msgs/lib:/home/hello-robot/ament_ws/install/audio_play/lib:/home/hello-robot/ament_ws/install/speech_recognition_msgs/lib:/home/hello-robot/ament_ws/install/audio_common_msgs/lib:/home/hello-robot/ament_ws/install/tf2_web_republisher/lib:/home/hello-robot/ament_ws/install/stretch_teleop_interface_msgs/lib:/home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib:/home/hello-robot/ament_ws/install/rosbridge_msgs/lib:/home/hello-robot/ament_ws/install/rosapi_msgs/lib:/home/hello-robot/ament_ws/install/realsense2_camera/lib:/home/hello-robot/ament_ws/install/realsense2_camera_msgs/lib:/home/hello-robot/ament_ws/install/audio_capture/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/hello-robot/ament_ws/build/respeaker_ros2/prefix_override:/home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/respeaker_ros2 build --build-base /home/hello-robot/ament_ws/build/respeaker_ros2/build install --record /home/hello-robot/ament_ws/build/respeaker_ros2/install.log --single-version-externally-managed
+[1.151s] /home/hello-robot/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:30: RuntimeWarning: 
+[1.151s] ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x
+[1.151s] 
+[1.151s] Your build configuration is incomplete and previously worked by accident!
+[1.151s] setuptools_scm requires setuptools>=61
+[1.152s] 
+[1.152s] Suggested workaround if applicable:
+[1.152s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[1.152s]    and using a pyproject.toml to declare build dependencies
+[1.152s]    which are reliably pre-installed before running the build tools
+[1.152s] 
+[1.152s]   warnings.warn(
+[1.165s] running egg_info
+[1.166s] creating ../../build/respeaker_ros2/respeaker_ros2.egg-info
+[1.166s] writing ../../build/respeaker_ros2/respeaker_ros2.egg-info/PKG-INFO
+[1.166s] writing dependency_links to ../../build/respeaker_ros2/respeaker_ros2.egg-info/dependency_links.txt
+[1.166s] writing entry points to ../../build/respeaker_ros2/respeaker_ros2.egg-info/entry_points.txt
+[1.166s] writing requirements to ../../build/respeaker_ros2/respeaker_ros2.egg-info/requires.txt
+[1.166s] writing top-level names to ../../build/respeaker_ros2/respeaker_ros2.egg-info/top_level.txt
+[1.166s] writing manifest file '../../build/respeaker_ros2/respeaker_ros2.egg-info/SOURCES.txt'
+[1.208s] adding license file 'LICENSE.md'
+[1.208s] writing manifest file '../../build/respeaker_ros2/respeaker_ros2.egg-info/SOURCES.txt'
+[1.209s] running build
+[1.209s] running build_py
+[1.209s] creating /home/hello-robot/ament_ws/build/respeaker_ros2/build
+[1.209s] creating /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib
+[1.209s] creating /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/test
+[1.209s] copying test/test_copyright.py -> /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/test
+[1.209s] copying test/__init__.py -> /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/test
+[1.209s] copying test/test_installed.py -> /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/test
+[1.209s] copying test/test_pep257.py -> /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/test
+[1.209s] copying test/test_flake8.py -> /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/test
+[1.209s] creating /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/respeaker_ros2
+[1.209s] copying respeaker_ros2/respeaker_node.py -> /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/respeaker_ros2
+[1.210s] copying respeaker_ros2/__init__.py -> /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/respeaker_ros2
+[1.210s] copying respeaker_ros2/speech_to_text.py -> /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/respeaker_ros2
+[1.210s] copying respeaker_ros2/respeaker_gencfg.py -> /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/respeaker_ros2
+[1.210s] running install
+[1.210s] running install_lib
+[1.210s] creating /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test
+[1.210s] copying /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/test/test_copyright.py -> /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test
+[1.210s] copying /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/test/__init__.py -> /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test
+[1.210s] copying /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/test/test_installed.py -> /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test
+[1.210s] copying /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/test/test_pep257.py -> /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test
+[1.211s] copying /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/test/test_flake8.py -> /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test
+[1.211s] creating /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2
+[1.211s] copying /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/respeaker_ros2/respeaker_node.py -> /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2
+[1.211s] copying /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/respeaker_ros2/__init__.py -> /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2
+[1.211s] copying /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/respeaker_ros2/speech_to_text.py -> /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2
+[1.211s] copying /home/hello-robot/ament_ws/build/respeaker_ros2/build/lib/respeaker_ros2/respeaker_gencfg.py -> /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2
+[1.211s] byte-compiling /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test/test_copyright.py to test_copyright.cpython-310.pyc
+[1.211s] byte-compiling /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test/__init__.py to __init__.cpython-310.pyc
+[1.211s] byte-compiling /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test/test_installed.py to test_installed.cpython-310.pyc
+[1.211s] byte-compiling /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test/test_pep257.py to test_pep257.cpython-310.pyc
+[1.211s] byte-compiling /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test/test_flake8.py to test_flake8.cpython-310.pyc
+[1.211s] byte-compiling /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2/respeaker_node.py to respeaker_node.cpython-310.pyc
+[1.214s] byte-compiling /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2/__init__.py to __init__.cpython-310.pyc
+[1.214s] byte-compiling /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2/speech_to_text.py to speech_to_text.cpython-310.pyc
+[1.214s] byte-compiling /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2/respeaker_gencfg.py to respeaker_gencfg.cpython-310.pyc
+[1.214s] running install_data
+[1.215s] creating /home/hello-robot/ament_ws/install/respeaker_ros2/share/ament_index
+[1.215s] creating /home/hello-robot/ament_ws/install/respeaker_ros2/share/ament_index/resource_index
+[1.215s] creating /home/hello-robot/ament_ws/install/respeaker_ros2/share/ament_index/resource_index/packages
+[1.215s] copying resource/respeaker_ros2 -> /home/hello-robot/ament_ws/install/respeaker_ros2/share/ament_index/resource_index/packages
+[1.215s] copying package.xml -> /home/hello-robot/ament_ws/install/respeaker_ros2/share/respeaker_ros2
+[1.215s] creating /home/hello-robot/ament_ws/install/respeaker_ros2/share/respeaker_ros2/launch
+[1.215s] copying launch/respeaker.launch.py -> /home/hello-robot/ament_ws/install/respeaker_ros2/share/respeaker_ros2/launch
+[1.215s] running install_egg_info
+[1.215s] Copying ../../build/respeaker_ros2/respeaker_ros2.egg-info to /home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2-0.1.0-py3.10.egg-info
+[1.216s] running install_scripts
+[1.227s] Installing respeaker_node script to /home/hello-robot/ament_ws/install/respeaker_ros2/lib/respeaker_ros2
+[1.227s] Installing speech_to_text script to /home/hello-robot/ament_ws/install/respeaker_ros2/lib/respeaker_ros2
+[1.227s] writing list of installed files to '/home/hello-robot/ament_ws/build/respeaker_ros2/install.log'
+[1.254s] Invoked command in '/home/hello-robot/ament_ws/src/respeaker_ros2' returned '0': CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/sound_play_msgs:/home/hello-robot/ament_ws/install/sound_play:/home/hello-robot/ament_ws/install/audio_play:/home/hello-robot/ament_ws/install/speech_recognition_msgs:/home/hello-robot/ament_ws/install/audio_common_msgs:/home/hello-robot/ament_ws/install/tf2_web_republisher:/home/hello-robot/ament_ws/install/stretch_web_teleop:/home/hello-robot/ament_ws/install/stretch_teleop_interface_msgs:/home/hello-robot/ament_ws/install/stretch_rtabmap:/home/hello-robot/ament_ws/install/stretch_nav2:/home/hello-robot/ament_ws/install/stretch_description:/home/hello-robot/ament_ws/install/audio_common:/home/hello-robot/ament_ws/install/sllidar_ros2:/home/hello-robot/ament_ws/install/rosbridge_test_msgs:/home/hello-robot/ament_ws/install/rosbridge_suite:/home/hello-robot/ament_ws/install/rosbridge_server:/home/hello-robot/ament_ws/install/rosbridge_msgs:/home/hello-robot/ament_ws/install/rosapi:/home/hello-robot/ament_ws/install/rosbridge_library:/home/hello-robot/ament_ws/install/rosapi_msgs:/home/hello-robot/ament_ws/install/ros2_numpy:/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:/home/hello-robot/ament_ws/install/audio_capture LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/sound_play_msgs/lib:/home/hello-robot/ament_ws/install/audio_play/lib:/home/hello-robot/ament_ws/install/speech_recognition_msgs/lib:/home/hello-robot/ament_ws/install/audio_common_msgs/lib:/home/hello-robot/ament_ws/install/tf2_web_republisher/lib:/home/hello-robot/ament_ws/install/stretch_teleop_interface_msgs/lib:/home/hello-robot/ament_ws/install/rosbridge_test_msgs/lib:/home/hello-robot/ament_ws/install/rosbridge_msgs/lib:/home/hello-robot/ament_ws/install/rosapi_msgs/lib:/home/hello-robot/ament_ws/install/realsense2_camera/lib:/home/hello-robot/ament_ws/install/realsense2_camera_msgs/lib:/home/hello-robot/ament_ws/install/audio_capture/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/hello-robot/ament_ws/build/respeaker_ros2/prefix_override:/home/hello-robot/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/respeaker_ros2 build --build-base /home/hello-robot/ament_ws/build/respeaker_ros2/build install --record /home/hello-robot/ament_ws/build/respeaker_ros2/install.log --single-version-externally-managed

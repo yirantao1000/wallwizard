@@ -1,0 +1,293 @@
+[0.795s] Invoking command in '/home/hello-robot/ament_ws/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake /home/hello-robot/ament_ws/src/audio_common/audio_common_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/audio_common_msgs
+[4.443s] -- The C compiler identification is GNU 11.4.0
+[4.444s] -- The CXX compiler identification is GNU 11.4.0
+[4.444s] -- Detecting C compiler ABI info
+[4.444s] -- Detecting C compiler ABI info - done
+[4.444s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.444s] -- Detecting C compile features
+[4.444s] -- Detecting C compile features - done
+[4.445s] -- Detecting CXX compiler ABI info
+[4.445s] -- Detecting CXX compiler ABI info - done
+[4.445s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.445s] -- Detecting CXX compile features
+[4.445s] -- Detecting CXX compile features - done
+[4.445s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.445s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.445s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.445s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.445s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.445s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.445s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[4.446s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.446s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.446s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.446s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.446s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.446s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.446s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.446s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.446s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.446s] -- Found PythonExtra: .so  
+[4.446s] -- Configuring done
+[4.447s] -- Generating done
+[4.447s] -- Build files have been written to: /home/hello-robot/ament_ws/build/audio_common_msgs
+[4.485s] Invoked command in '/home/hello-robot/ament_ws/build/audio_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake /home/hello-robot/ament_ws/src/audio_common/audio_common_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/audio_common_msgs
+[4.486s] Invoking command in '/home/hello-robot/ament_ws/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/audio_common_msgs -- -j16 -l16
+[4.527s] [  2%] Generating C code for ROS interfaces
+[4.527s] [  4%] Generating C++ code for ROS interfaces
+[4.565s] [  4%] Built target ament_cmake_python_copy_audio_common_msgs
+[5.932s] [  4%] Built target audio_common_msgs__cpp
+[6.027s] [  6%] Generating C++ type support dispatch for ROS interfaces
+[6.051s] [ 10%] Generating C++ introspection for ROS interfaces
+[6.051s] [ 10%] Generating C++ type support for eProsima Fast-RTPS
+[6.374s] /home/hello-robot/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:30: RuntimeWarning: 
+[6.374s] ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x
+[6.374s] 
+[6.374s] Your build configuration is incomplete and previously worked by accident!
+[6.374s] setuptools_scm requires setuptools>=61
+[6.374s] 
+[6.374s] Suggested workaround if applicable:
+[6.374s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[6.375s]    and using a pyproject.toml to declare build dependencies
+[6.375s]    which are reliably pre-installed before running the build tools
+[6.375s] 
+[6.375s]   warnings.warn(
+[6.401s] [ 12%] Building C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data__functions.c.o
+[6.446s] [ 14%] Building C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data_stamped__functions.c.o
+[6.446s] running egg_info
+[6.455s] [ 17%] Building C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_info__functions.c.o
+[6.467s] creating audio_common_msgs.egg-info
+[6.468s] writing audio_common_msgs.egg-info/PKG-INFO
+[6.468s] writing dependency_links to audio_common_msgs.egg-info/dependency_links.txt
+[6.468s] writing top-level names to audio_common_msgs.egg-info/top_level.txt
+[6.469s] writing manifest file 'audio_common_msgs.egg-info/SOURCES.txt'
+[6.933s] [03/04/24 08:23:28] ERROR    listing git files failed - pretending     git.py:24
+[6.933s]                              there aren't any                                   
+[7.053s] [ 19%] Linking C shared library libaudio_common_msgs__rosidl_generator_c.so
+[7.371s] [ 19%] Built target audio_common_msgs__rosidl_generator_c
+[7.457s] [ 21%] Generating C type support for eProsima Fast-RTPS
+[7.484s] [ 23%] Generating C introspection for ROS interfaces
+[7.525s] [ 25%] Generating C type support dispatch for ROS interfaces
+[7.593s] [ 27%] Building CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio_data__type_support.cpp.o
+[7.603s] [ 29%] Building CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio_data_stamped__type_support.cpp.o
+[7.646s] [ 31%] Building CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio_info__type_support.cpp.o
+[7.756s] reading manifest file 'audio_common_msgs.egg-info/SOURCES.txt'
+[7.756s] writing manifest file 'audio_common_msgs.egg-info/SOURCES.txt'
+[8.120s] [ 31%] Built target ament_cmake_python_build_audio_common_msgs_egg
+[8.310s] [ 34%] Building CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio_data__type_support.cpp.o
+[8.324s] [ 36%] Building CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio_data_stamped__type_support.cpp.o
+[8.375s] [ 38%] Building CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio_info__type_support.cpp.o
+[8.655s] [ 40%] Building CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio_data__type_support.cpp.o
+[8.671s] [ 42%] Building CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio_info__type_support.cpp.o
+[8.681s] [ 44%] Building CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio_data_stamped__type_support.cpp.o
+[9.232s] [ 46%] Linking CXX shared library libaudio_common_msgs__rosidl_typesupport_cpp.so
+[9.527s] [ 48%] Building CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio_data__type_support.cpp.o
+[9.537s] [ 48%] Built target audio_common_msgs__rosidl_typesupport_cpp
+[9.586s] [ 51%] Building CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio_data_stamped__type_support.cpp.o
+[9.616s] [ 53%] Building CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio_info__type_support.cpp.o
+[9.784s] [ 55%] Linking CXX shared library libaudio_common_msgs__rosidl_typesupport_c.so
+[9.819s] [ 57%] Building C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio_data_stamped__type_support.c.o
+[9.832s] [ 59%] Building C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio_data__type_support.c.o
+[9.848s] [ 61%] Building C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio_info__type_support.c.o
+[9.907s] [ 63%] Building CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio_data__type_support_c.cpp.o
+[9.951s] [ 68%] Building CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio_data_stamped__type_support_c.cpp.o
+[9.951s] [ 68%] Building CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio_info__type_support_c.cpp.o
+[9.951s] [ 68%] Built target audio_common_msgs__rosidl_typesupport_c
+[10.251s] [ 70%] Linking C shared library libaudio_common_msgs__rosidl_typesupport_introspection_c.so
+[10.487s] [ 70%] Built target audio_common_msgs__rosidl_typesupport_introspection_c
+[10.713s] [ 72%] Linking CXX shared library libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.724s] [ 74%] Linking CXX shared library libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so
+[12.414s] [ 74%] Built target audio_common_msgs__rosidl_typesupport_introspection_cpp
+[12.414s] [ 74%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_cpp
+[12.418s] [ 76%] Linking CXX shared library libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so
+[14.431s] [ 76%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_c
+[14.431s] [ 76%] Built target audio_common_msgs
+[14.431s] [ 78%] Generating Python code for ROS interfaces
+[14.809s] [ 78%] Built target audio_common_msgs__py
+[14.873s] [ 80%] Building C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_data_s.c.o
+[14.873s] [ 82%] Building C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_data_stamped_s.c.o
+[14.873s] [ 85%] Building C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_info_s.c.o
+[15.488s] [ 87%] Linking C shared library rosidl_generator_py/audio_common_msgs/libaudio_common_msgs__rosidl_generator_py.so
+[15.488s] [ 87%] Built target audio_common_msgs__rosidl_generator_py
+[15.940s] [ 89%] Building C object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[15.940s] [ 91%] Building C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[15.940s] [ 93%] Building C object CMakeFiles/audio_common_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_c.c.o
+[16.418s] [ 95%] Linking C shared library rosidl_generator_py/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.419s] [ 95%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_c__pyext
+[16.419s] [ 97%] Linking C shared library rosidl_generator_py/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.419s] [100%] Linking C shared library rosidl_generator_py/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.933s] [100%] Built target audio_common_msgs__rosidl_typesupport_c__pyext
+[16.933s] [100%] Built target audio_common_msgs__rosidl_typesupport_introspection_c__pyext
+[16.936s] Invoked command in '/home/hello-robot/ament_ws/build/audio_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/audio_common_msgs -- -j16 -l16
+[19.244s] Invoking command in '/home/hello-robot/ament_ws/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/audio_common_msgs
+[19.269s] -- Install configuration: "Release"
+[19.269s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/ament_index/resource_index/rosidl_interfaces/audio_common_msgs
+[19.270s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[19.270s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[19.270s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_generator_c__visibility_control.h
+[19.270s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data.h
+[19.270s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data_stamped.h
+[19.270s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_info.h
+[19.270s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[19.270s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.h
+[19.270s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__struct.h
+[19.270s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.h
+[19.270s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__functions.h
+[19.270s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__functions.h
+[19.289s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__functions.c
+[19.290s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.h
+[19.290s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__functions.h
+[19.290s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__struct.h
+[19.290s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__struct.h
+[19.290s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__functions.c
+[19.290s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__functions.c
+[19.291s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/environment/library_path.sh
+[19.291s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/environment/library_path.dsv
+[19.292s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_c.so
+[19.293s] -- Set runtime path of "/home/hello-robot/ament_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_c.so" to ""
+[19.293s] -- Up-to-date: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[19.293s] -- Up-to-date: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[19.293s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.293s] -- Up-to-date: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[19.294s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_fastrtps_c.h
+[19.294s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_fastrtps_c.h
+[19.294s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_fastrtps_c.h
+[19.295s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so
+[19.296s] -- Set runtime path of "/home/hello-robot/ament_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[19.297s] -- Up-to-date: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[19.298s] -- Up-to-date: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[19.298s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.299s] -- Up-to-date: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[19.299s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_introspection_c.h
+[19.299s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.c
+[19.302s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.c
+[19.302s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_introspection_c.h
+[19.303s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_introspection_c.h
+[19.303s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.c
+[19.304s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_c.so
+[19.305s] -- Set runtime path of "/home/hello-robot/ament_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_c.so" to ""
+[19.310s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_c.so
+[19.311s] -- Set runtime path of "/home/hello-robot/ament_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_c.so" to ""
+[19.311s] -- Up-to-date: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[19.312s] -- Up-to-date: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[19.312s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_info.hpp
+[19.312s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data_stamped.hpp
+[19.313s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data.hpp
+[19.313s] -- Up-to-date: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[19.314s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__traits.hpp
+[19.314s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__struct.hpp
+[19.315s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__struct.hpp
+[19.315s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__builder.hpp
+[19.316s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__struct.hpp
+[19.316s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__builder.hpp
+[19.317s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__traits.hpp
+[19.317s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__builder.hpp
+[19.318s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__traits.hpp
+[19.327s] -- Up-to-date: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[19.328s] -- Up-to-date: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[19.328s] -- Up-to-date: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[19.329s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_fastrtps_cpp.hpp
+[19.332s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_fastrtps_cpp.hpp
+[19.333s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/dds_fastrtps
+[19.334s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[19.334s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.335s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so
+[19.336s] -- Set runtime path of "/home/hello-robot/ament_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.336s] -- Up-to-date: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[19.337s] -- Up-to-date: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[19.337s] -- Up-to-date: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[19.337s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_introspection_cpp.hpp
+[19.338s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_introspection_cpp.hpp
+[19.339s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.cpp
+[19.339s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.cpp
+[19.340s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_introspection_cpp.hpp
+[19.341s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.cpp
+[19.341s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so
+[19.342s] -- Set runtime path of "/home/hello-robot/ament_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[19.343s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_cpp.so
+[19.343s] -- Set runtime path of "/home/hello-robot/ament_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_cpp.so" to ""
+[19.345s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/environment/pythonpath.sh
+[19.346s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/environment/pythonpath.dsv
+[19.347s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.3.12-py3.10.egg-info
+[19.347s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.3.12-py3.10.egg-info/PKG-INFO
+[19.348s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.3.12-py3.10.egg-info/dependency_links.txt
+[19.348s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.3.12-py3.10.egg-info/SOURCES.txt
+[19.349s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.3.12-py3.10.egg-info/top_level.txt
+[19.349s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs
+[19.350s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.350s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[19.352s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/libaudio_common_msgs__rosidl_generator_py.so
+[19.353s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.354s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg
+[19.354s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data_stamped_s.c
+[19.354s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_info.py
+[19.355s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/__init__.py
+[19.355s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data_s.c
+[19.356s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data_stamped.py
+[19.357s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_info_s.c
+[19.358s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data.py
+[19.360s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.361s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/__init__.py
+[19.368s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_c.c
+[19.369s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.558s] Listing '/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs'...
+[19.558s] Compiling '/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/__init__.py'...
+[19.558s] Listing '/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg'...
+[19.558s] Compiling '/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/__init__.py'...
+[19.558s] Compiling '/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data.py'...
+[19.558s] Compiling '/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data_stamped.py'...
+[19.558s] Compiling '/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_info.py'...
+[19.637s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.638s] -- Set runtime path of "/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.638s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.638s] -- Set runtime path of "/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.638s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.638s] -- Set runtime path of "/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.638s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_py.so
+[19.638s] -- Set runtime path of "/home/hello-robot/ament_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_py.so" to ""
+[19.638s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.idl
+[19.638s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioDataStamped.idl
+[19.638s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.idl
+[19.638s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.msg
+[19.638s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioDataStamped.msg
+[19.638s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.msg
+[19.638s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/ament_index/resource_index/package_run_dependencies/audio_common_msgs
+[19.638s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/ament_index/resource_index/parent_prefix_path/audio_common_msgs
+[19.638s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/environment/ament_prefix_path.sh
+[19.638s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/environment/ament_prefix_path.dsv
+[19.639s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/environment/path.sh
+[19.639s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/environment/path.dsv
+[19.639s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.bash
+[19.639s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.sh
+[19.639s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.zsh
+[19.639s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.dsv
+[19.639s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/package.dsv
+[19.639s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/ament_index/resource_index/packages/audio_common_msgs
+[19.639s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cExport.cmake
+[19.639s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cExport-release.cmake
+[19.639s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[19.639s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[19.639s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cExport.cmake
+[19.639s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[19.639s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cExport.cmake
+[19.640s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cExport-release.cmake
+[19.640s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cppExport.cmake
+[19.640s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.640s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[19.640s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[19.640s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[19.640s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cppExport.cmake
+[19.640s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cppExport-release.cmake
+[19.640s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_pyExport.cmake
+[19.640s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_pyExport-release.cmake
+[19.640s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake-extras.cmake
+[19.640s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.640s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.640s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[19.640s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[19.640s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.641s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.641s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgsConfig.cmake
+[19.641s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgsConfig-version.cmake
+[19.641s] -- Installing: /home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/package.xml
+[19.648s] Invoked command in '/home/hello-robot/ament_ws/build/audio_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/audio_common_msgs

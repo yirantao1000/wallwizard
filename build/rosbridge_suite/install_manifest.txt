@@ -1,0 +1,15 @@
+/home/hello-robot/ament_ws/install/rosbridge_suite/share/ament_index/resource_index/package_run_dependencies/rosbridge_suite
+/home/hello-robot/ament_ws/install/rosbridge_suite/share/ament_index/resource_index/parent_prefix_path/rosbridge_suite
+/home/hello-robot/ament_ws/install/rosbridge_suite/share/rosbridge_suite/environment/ament_prefix_path.sh
+/home/hello-robot/ament_ws/install/rosbridge_suite/share/rosbridge_suite/environment/ament_prefix_path.dsv
+/home/hello-robot/ament_ws/install/rosbridge_suite/share/rosbridge_suite/environment/path.sh
+/home/hello-robot/ament_ws/install/rosbridge_suite/share/rosbridge_suite/environment/path.dsv
+/home/hello-robot/ament_ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.bash
+/home/hello-robot/ament_ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.sh
+/home/hello-robot/ament_ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.zsh
+/home/hello-robot/ament_ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.dsv
+/home/hello-robot/ament_ws/install/rosbridge_suite/share/rosbridge_suite/package.dsv
+/home/hello-robot/ament_ws/install/rosbridge_suite/share/ament_index/resource_index/packages/rosbridge_suite
+/home/hello-robot/ament_ws/install/rosbridge_suite/share/rosbridge_suite/cmake/rosbridge_suiteConfig.cmake
+/home/hello-robot/ament_ws/install/rosbridge_suite/share/rosbridge_suite/cmake/rosbridge_suiteConfig-version.cmake
+/home/hello-robot/ament_ws/install/rosbridge_suite/share/rosbridge_suite/package.xml

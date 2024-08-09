@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from speech_recognition_msgs/msg/SpeechRecognitionCandidates.msg
+// generated code does not contain a copyright notice
+
+
+module speech_recognition_msgs {
+  module msg {
+    struct SpeechRecognitionCandidates {
+      @verbatim (language="comment", text=
+        "candidate words of speech-to-text API")
+      sequence<string> transcript;
+
+      @verbatim (language="comment", text=
+        "confidence of transcript")
+      sequence<float> confidence;
+    };
+  };
+};

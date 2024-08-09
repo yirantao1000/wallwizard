@@ -1,0 +1,7 @@
+setup.py
+sound_play/__init__.py
+sound_play/libsoundplay.py
+sound_play.egg-info/PKG-INFO
+sound_play.egg-info/SOURCES.txt
+sound_play.egg-info/dependency_links.txt
+sound_play.egg-info/top_level.txt

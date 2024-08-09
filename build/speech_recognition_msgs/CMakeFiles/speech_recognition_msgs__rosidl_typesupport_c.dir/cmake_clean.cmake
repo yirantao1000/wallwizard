@@ -1,0 +1,24 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/speech_recognition_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/speech_recognition_msgs/msg/grammar__type_support.cpp.o"
+  "CMakeFiles/speech_recognition_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/speech_recognition_msgs/msg/grammar__type_support.cpp.o.d"
+  "CMakeFiles/speech_recognition_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/speech_recognition_msgs/msg/phrase_rule__type_support.cpp.o"
+  "CMakeFiles/speech_recognition_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/speech_recognition_msgs/msg/phrase_rule__type_support.cpp.o.d"
+  "CMakeFiles/speech_recognition_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/speech_recognition_msgs/msg/speech_recognition_candidates__type_support.cpp.o"
+  "CMakeFiles/speech_recognition_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/speech_recognition_msgs/msg/speech_recognition_candidates__type_support.cpp.o.d"
+  "CMakeFiles/speech_recognition_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/speech_recognition_msgs/msg/vocabulary__type_support.cpp.o"
+  "CMakeFiles/speech_recognition_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/speech_recognition_msgs/msg/vocabulary__type_support.cpp.o.d"
+  "CMakeFiles/speech_recognition_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/speech_recognition_msgs/srv/speech_recognition__type_support.cpp.o"
+  "CMakeFiles/speech_recognition_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/speech_recognition_msgs/srv/speech_recognition__type_support.cpp.o.d"
+  "libspeech_recognition_msgs__rosidl_typesupport_c.pdb"
+  "libspeech_recognition_msgs__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/speech_recognition_msgs/msg/grammar__type_support.cpp"
+  "rosidl_typesupport_c/speech_recognition_msgs/msg/phrase_rule__type_support.cpp"
+  "rosidl_typesupport_c/speech_recognition_msgs/msg/speech_recognition_candidates__type_support.cpp"
+  "rosidl_typesupport_c/speech_recognition_msgs/msg/vocabulary__type_support.cpp"
+  "rosidl_typesupport_c/speech_recognition_msgs/srv/speech_recognition__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/speech_recognition_msgs__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,1 @@
+action_msgs;audio_common_msgs;builtin_interfaces;festival;launch_xml;rclpy;rosidl_default_runtime;gstreamer1.0;gstreamer1.0-alsa;gstreamer1.0-plugins-base;gstreamer1.0-plugins-ugly;gstreamer1.0-plugins-good;python3-gi
